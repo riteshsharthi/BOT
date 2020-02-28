@@ -1,0 +1,278 @@
+2019-12-15 16:04:32,641   Exception in BOT Start : User matching query does not exist. 
+2019-12-15 16:04:32,642  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 16:05:04,064  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 16:05:07,911  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 16:06:22,012  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 16:06:23,135  Chat history Info from chatbot : {'request_data': 'cv plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 16:21:45,404  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 16:22:15,384  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 16:22:16,438  Chat history Info from chatbot : {'request_data': 'i need cv plant for job', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 16:30:21,636  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 16:30:22,735  Chat history Info from chatbot : {'request_data': 'i need cv plant for job', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 16:31:13,510  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 16:31:14,609  Chat history Info from chatbot : {'request_data': 'i need cv plant for job', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:33:50,346  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:33:51,365  Chat history Info from chatbot : {'request_data': 'i need cv plant for job', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:35:03,821  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:35:04,955  Chat history Info from chatbot : {'request_data': 'i need cv plant for job', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:41:07,351  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:41:08,496  Chat history Info from chatbot : {'request_data': 'i need cv plant for job', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:42:25,863  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 17:42:58,225  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:42:59,405  Chat history Info from chatbot : {'request_data': 'i need cv plant for jobs', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:43:26,421  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:43:27,640  Chat history Info from chatbot : {'request_data': 'i need cv plant for jobs', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:44:28,825  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:44:30,123  Chat history Info from chatbot : {'request_data': 'i need cv plant for jobs', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:46:22,886  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:46:23,061  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:46:25,201  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:46:25,351  Chat history Info from chatbot : {'request_data': '$redirect-Overtime', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:46:27,264  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:46:27,437  Chat history Info from chatbot : {'request_data': '$redirect-Metrology', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:46:57,788  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:46:58,136  Chat history Info from chatbot : {'request_data': 'i need amule product', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:53:06,566  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:53:07,738  Chat history Info from chatbot : {'request_data': 'i need amule product', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:54:48,103  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:54:49,287  Chat history Info from chatbot : {'request_data': 'i need amule product', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:55:35,706  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:55:35,880  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:55:43,055  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:55:43,236  Chat history Info from chatbot : {'request_data': '$redirect-Metrology', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:55:56,984  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:55:57,435  Chat history Info from chatbot : {'request_data': 'i need amule product', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:56:01,609  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:56:01,803  Chat history Info from chatbot : {'request_data': '$redirect-Enterprise', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:56:03,371  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:56:03,544  Chat history Info from chatbot : {'request_data': '$redirect-Consumption', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:56:04,960  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:56:05,104  Chat history Info from chatbot : {'request_data': '$redirect-PV Cons Jobs 002', 'responce_data': ['job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date'], 'task_name': 'PV_002', 'task_type': 'PV_002', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:56:49,394  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:56:49,854  Chat history Info from chatbot : {'request_data': 'dd uu kkk dooo lknhb cv', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:56:53,603  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:56:53,776  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:56:56,328  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:56:56,520  Chat history Info from chatbot : {'request_data': '$redirect-CommonEmployee', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:56:59,196  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:56:59,407  Chat history Info from chatbot : {'request_data': '$redirect-CET Job Issue', 'responce_data': ["for CET job related issues login to putty on DB server user name - saphr ,shell name - web.sh LOG folder will have log files, check today's log for data issues please refer inter table and compare with actual tables"], 'task_name': 'Issue001', 'task_type': 'Issue001', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:57:27,272  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:57:27,715  Chat history Info from chatbot : {'request_data': 'jjjjjj hhhhh iiiiii ffff fhygjguu', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:57:30,858  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:57:31,033  Chat history Info from chatbot : {'request_data': '$redirect-Enterprise', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:57:32,770  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:57:32,957  Chat history Info from chatbot : {'request_data': '$redirect-Consumption', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:57:34,415  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:57:34,631  Chat history Info from chatbot : {'request_data': '$redirect-PV Cons Jobs 002', 'responce_data': ['job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date'], 'task_name': 'PV_002', 'task_type': 'PV_002', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:58:52,558  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 17:59:19,361  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:59:19,665  Chat history Info from chatbot : {'request_data': 'pv job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 17:59:22,095  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 17:59:22,296  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:00:46,723  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:00:52,189  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:00:53,357  Chat history Info from chatbot : {'request_data': 'pv job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:00:54,921  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:00:55,143  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:02:33,946  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:02:35,059  Chat history Info from chatbot : {'request_data': 'pv job ', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:02:37,144  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:02:37,323  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:02:39,549  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:02:39,747  Chat history Info from chatbot : {'request_data': '$redirect-Metrology', 'responce_data': ['Open schedular tasks on AWS server and check sheduled tasks for metrology'], 'task_name': 'Web_004', 'task_type': 'Web_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:29:21,979  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:29:23,065  Chat history Info from chatbot : {'request_data': 'PV plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:31:24,222  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:31:43,224  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:31:44,329  Chat history Info from chatbot : {'request_data': 'PV job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:34:01,409  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:34:02,473  Chat history Info from chatbot : {'request_data': 'PV job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:35:11,952  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:35:27,526  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:35:27,821  Chat history Info from chatbot : {'request_data': 'pv job plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:36:52,149  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:36:52,375  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:36:54,468  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:36:54,571  Chat history Info from chatbot : {'request_data': '$redirect-CommonEmployee', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:36:57,144  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:36:57,333  Chat history Info from chatbot : {'request_data': '$redirect-CET Job Issue', 'responce_data': ["for CET job related issues login to putty on DB server user name - saphr ,shell name - web.sh LOG folder will have log files, check today's log for data issues please refer inter table and compare with actual tables"], 'task_name': 'Issue001', 'task_type': 'Issue001', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:37:02,061  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:37:19,281  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:37:19,606  Chat history Info from chatbot : {'request_data': 'job PV', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:38:05,948  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:39:58,792  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:09,063  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:10,237  Chat history Info from chatbot : {'request_data': 'ot job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:12,553  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:12,710  Chat history Info from chatbot : {'request_data': '$redirect-Enterprise', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:13,753  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:13,964  Chat history Info from chatbot : {'request_data': '$redirect-Consumption', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:22,275  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:22,433  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:27,142  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:37,314  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:37,614  Chat history Info from chatbot : {'request_data': 'over time job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:39,598  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:39,711  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:45,683  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:56,950  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:57,265  Chat history Info from chatbot : {'request_data': 'ot job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:56:59,741  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:56:59,863  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:57:27,339  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 18:57:35,165  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:57:35,502  Chat history Info from chatbot : {'request_data': 'PV plant ', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:57:37,959  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:57:38,058  Chat history Info from chatbot : {'request_data': '$redirect-Enterprise', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:57:39,451  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:57:39,537  Chat history Info from chatbot : {'request_data': '$redirect-Consumption', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:57:45,501  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:57:45,688  Chat history Info from chatbot : {'request_data': '$redirect-PV Cons Jobs 002', 'responce_data': ['job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date'], 'task_name': 'PV_002', 'task_type': 'PV_002', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:57:51,337  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:57:51,654  Chat history Info from chatbot : {'request_data': 'PV palnt', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:57:53,422  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:57:53,607  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:58:31,234  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:58:31,627  Chat history Info from chatbot : {'request_data': 'PV Plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 18:58:34,359  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 18:58:34,581  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:09,468  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:18,859  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:19,195  Chat history Info from chatbot : {'request_data': 'i need pv plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:21,368  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:21,482  Chat history Info from chatbot : {'request_data': '$redirect-Enterprise', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:23,104  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:23,195  Chat history Info from chatbot : {'request_data': '$redirect-Consumption', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:34,932  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:35,018  Chat history Info from chatbot : {'request_data': '$redirect-PV Cons Jobs 001', 'responce_data': ['Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.'], 'task_name': 'PV_001', 'task_type': 'PV_001', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:44,112  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:44,427  Chat history Info from chatbot : {'request_data': 'i need pv plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:46,275  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:46,449  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:47,515  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:47,739  Chat history Info from chatbot : {'request_data': '$redirect-CommonEmployee', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:19:49,639  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:19:49,959  Chat history Info from chatbot : {'request_data': '$redirect-CET Job Issue', 'responce_data': ["for CET job related issues login to putty on DB server user name - saphr ,shell name - web.sh LOG folder will have log files, check today's log for data issues please refer inter table and compare with actual tables"], 'task_name': 'Issue001', 'task_type': 'Issue001', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:20:12,689  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:20:12,881  Chat history Info from chatbot : {'request_data': '$redirect-Overtime', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:20:52,788  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:21:00,646  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:21:00,981  Chat history Info from chatbot : {'request_data': 'i need pv plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:21:02,744  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:21:02,947  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:21:04,273  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:21:04,376  Chat history Info from chatbot : {'request_data': '$redirect-Overtime', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:21:08,866  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:21:09,075  Chat history Info from chatbot : {'request_data': '$redirect-Metrology', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:21:11,443  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:21:11,613  Chat history Info from chatbot : {'request_data': '$redirect-Overtime', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:21:12,685  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:21:12,802  Chat history Info from chatbot : {'request_data': '$redirect-CommonEmployee', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:21:48,031  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:22:04,882  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:22:05,268  Chat history Info from chatbot : {'request_data': 'i need pv plant for job', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:22:10,650  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:22:10,725  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:22:15,904  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:22:16,055  Chat history Info from chatbot : {'request_data': '$redirect-Metrology', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:22:47,607  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:23:24,119  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:23:24,422  Chat history Info from chatbot : {'request_data': 'i need', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:23:26,782  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:23:26,902  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:24:08,859  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:24:08,999  Chat history Info from chatbot : {'request_data': '$redirect-Overtime', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:25:59,496  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:26:11,875  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:26:12,207  Chat history Info from chatbot : {'request_data': 'job plant', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:26:14,998  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:26:15,123  Chat history Info from chatbot : {'request_data': '$redirect-WEB', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:27:33,752  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:27:39,184  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:27:40,349  Chat history Info from chatbot : {'request_data': 'job 3100', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:28:28,016  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:28:28,345  Chat history Info from chatbot : {'request_data': 'job 31', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:30:29,411  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:30:29,754  Chat history Info from chatbot : {'request_data': 'which are ', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:31:55,519  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:31:55,867  Chat history Info from chatbot : {'request_data': 'whch are the trains available frm pune', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:32:28,424  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:32:39,501  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:32:39,830  Chat history Info from chatbot : {'request_data': 'whch are the trains available frm pune', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:35:50,780  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:35:51,112  Chat history Info from chatbot : {'request_data': 'whch are the bus', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:36:07,961  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:36:08,331  Chat history Info from chatbot : {'request_data': 'which is find', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:42:46,445  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:42:53,554  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:42:54,709  Chat history Info from chatbot : {'request_data': 'which are', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:43:14,333  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:43:20,132  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:43:20,433  Chat history Info from chatbot : {'request_data': 'which are', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:44:08,716  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:44:19,027  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:44:19,366  Chat history Info from chatbot : {'request_data': 'which are the job', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:56:26,330  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:56:26,671  Chat history Info from chatbot : {'request_data': 'fshdhajsjpoaco mlakjefoc m;ADKOZkc    AFSDJSZKWEDACM DKALSD 3', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:56:58,353  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:56:58,720  Chat history Info from chatbot : {'request_data': 'fshdhajsjpoaco mlakjefoc m;ADKOZkc AFSDJSZKWEDACM DKALSD3', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:58:55,616  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:58:56,794  Chat history Info from chatbot : {'request_data': 'fshdhajsjpoaco mlakjefoc m;ADKOZkc AFSDJSZKWEDACM DKALSD3', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 20:59:01,100  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 20:59:09,880  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 20:59:10,245  Chat history Info from chatbot : {'request_data': 'fshdhajsjpoaco mlakjefoc m;ADKOZkc AFSDJSZKWEDACM DKALSD3', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 21:00:32,755  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 21:00:33,125  Chat history Info from chatbot : {'request_data': 'jjjjj fffff', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 21:46:29,675  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 21:46:40,504  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 21:46:41,188  Chat history Info from chatbot : {'request_data': 'skdafknv', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 21:46:52,832  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 21:46:53,530  Chat history Info from chatbot : {'request_data': 'daksfjcanns laljdfajcnasxmaks adlksls', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 21:50:34,875  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 21:50:36,175  Chat history Info from chatbot : {'request_data': 'daksfjcanns laljdfajcnasxmaks adlksls', 'responce_data': ['Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.'], 'task_name': 'CV_004', 'task_type': 'CV_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:10:28,311  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:14,785  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:15,401  Chat history Info from chatbot : {'request_data': 'hhiimk', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:20,667  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:21,377  Chat history Info from chatbot : {'request_data': 'kjkl lmmm;', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:23,787  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:23,959  Chat history Info from chatbot : {'request_data': '$redirect-Employee Facing', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:26,026  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:26,179  Chat history Info from chatbot : {'request_data': '$redirect-WCQ', 'responce_data': ['Okey which name is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:28,613  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:28,833  Chat history Info from chatbot : {'request_data': '$redirect-VendorPayment', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:33,908  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:34,107  Chat history Info from chatbot : {'request_data': '$redirect-Sharepoint Access Issue', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:45,571  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:45,770  Chat history Info from chatbot : {'request_data': '$redirect-Sharepoint Access Issue', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:49,805  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 22:17:56,457  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:17:56,701  Chat history Info from chatbot : {'request_data': 'ijijijijijmkmk', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:18:01,647  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:18:01,975  Chat history Info from chatbot : {'request_data': 'njknnlk mmkm', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:18:04,871  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:18:05,062  Chat history Info from chatbot : {'request_data': '$redirect-Employee Facing', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:18:07,733  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:18:07,899  Chat history Info from chatbot : {'request_data': '$redirect-VendorPayment', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:27:38,032  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 22:27:46,857  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:27:48,166  Chat history Info from chatbot : {'request_data': 'sskaDlls kdslkf l ', 'responce_data': ['Okey which application is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:30:34,061  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 22:40:23,958  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 22:40:31,987  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:40:34,065  Chat history Info from chatbot : {'request_data': 'saasskdk ksmkmckmak', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:57:31,966  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 22:57:47,409  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:57:48,671  Chat history Info from chatbot : {'request_data': 'ask sadsdamKKD MMCKSDKAS', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:58:21,668  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:58:22,047  Chat history Info from chatbot : {'request_data': 'GE pv dATA', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:58:25,411  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:58:25,582  Chat history Info from chatbot : {'request_data': '$redirect-Employee Facing', 'responce_data': ['Okey which process is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 22:58:27,391  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 22:58:27,593  Chat history Info from chatbot : {'request_data': '$redirect-CommonEmployee', 'responce_data': ["for CET job related issues login to putty on DB server user name - saphr ,shell name - web.sh LOG folder will have log files, check today's log for data issues please refer inter table and compare with actual tables"], 'task_name': 'Issue001', 'task_type': 'Issue001', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 23:01:46,022  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 23:01:55,391  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 23:01:56,561  Chat history Info from chatbot : {'request_data': 'JKJKKKHHBHB KKJKJKJKJ', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-15 23:12:39,700  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-15 23:12:52,196  Chat Bot Start Restart or Start By User : Admin
+2019-12-15 23:12:53,307  Chat history Info from chatbot : {'request_data': 'SADKK SKDDSCLKSL', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}

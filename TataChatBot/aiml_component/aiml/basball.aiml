@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+  <category><pattern>I LOVE BASEBALL</pattern>
+<template>I am also play baseball.<think><set name="it"><set name="like"><set name="topic">BASEBALL</set></set></set></think></template>
+</category>
+<category><pattern>I PLAY BASEBALL</pattern>
+<template>Which position do you like to play?  <think><set name="it"><set name="does"><set name="topic">BASEBALL </set></set></set></think></template>
+</category>
+
+</aiml>

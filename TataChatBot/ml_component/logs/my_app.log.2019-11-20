@@ -1,0 +1,137 @@
+2019-11-20 21:07:18,991 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:07:18,991 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:07:18,992 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:07:59,342 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:07:59,342 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:07:59,342 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:11:52,478 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:11:52,479 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:11:52,480 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:13:38,473 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:13:38,473 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:13:38,473 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:14:10,348 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:14:10,348 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:14:10,348 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:16:11,949 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:16:11,951 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:16:11,953 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:17:27,166 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:17:27,169 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:17:27,170 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:18:32,087 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:18:32,088 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:18:32,088 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:18:38,355 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:18:38,355 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:18:38,355 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '4umfq4o26svwzd6kjp3dj5eqmm4wz66r'}
+2019-11-20 21:22:10,593 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:22:10,594 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:22:10,594 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:22:19,079 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:22:19,079 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:22:19,079 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:25:00,965 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:25:00,966 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:25:00,966 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:29:19,347 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:29:19,349 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:29:19,351 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:29:28,848 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:29:28,848 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:29:28,849 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:29:47,284 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:29:47,284 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:29:47,284 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:36:41,741 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:36:42,679 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:36:43,705 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:37:58,391 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:37:58,391 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:37:58,391 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:40:08,669 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:40:08,670 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:40:08,671 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:40:36,806 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:40:38,024 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:40:57,917 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:41:40,535 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:41:42,583 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:41:43,034 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:45:10,052 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:45:10,612 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:45:11,058 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:45:47,303 ml_component.ml_component2.date_wise_log INFO ---- switched--in general-----------... general
+2019-11-20 21:46:21,262 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:46:21,262 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:46:21,262 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:46:21,817 ml_component.ml_component2.date_wise_log INFO ---- switched--in general-----------... general
+2019-11-20 21:53:50,745 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:53:50,746 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:53:50,746 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** revive IPD bill {'username': 'Ritesh', 'channel_id': 1234567}
+2019-11-20 21:53:50,911 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 21:59:36,432 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:59:36,433 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:59:36,433 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** hi {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:59:36,898 ml_component.ml_component2.date_wise_log INFO ---- switched--in general-----------... general
+2019-11-20 21:59:47,691 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 21:59:47,691 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 21:59:47,691 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** how are you {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 21:59:47,821 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:01:30,984 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:01:30,984 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:01:30,984 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** counter_logic {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:01:31,546 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:01:40,270 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:01:41,152 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:01:42,089 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** revive IPD bill {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:02:32,413 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:02:33,042 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:02:33,620 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** revive IPD bill {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:03:43,661 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:23:14,079 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:23:14,656 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:23:15,209 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** revive IPD bill {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:23:41,728 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:25:47,022 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:25:48,267 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:25:48,267 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** revive IPD bill {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:25:48,768 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:26:23,258 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:26:23,258 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:26:23,258 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** How to delete vcard request {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:26:23,427 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:26:47,441 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:26:47,441 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:26:47,441 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:27:01,915 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:27:01,915 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:27:01,915 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** reset HOPE Password {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:27:02,448 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:27:32,926 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:27:32,926 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:27:32,926 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** How to delete vcard request {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:27:33,076 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:28:01,130 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:28:01,131 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:28:01,131 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** How to fill old claims in UMBS {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:28:01,257 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:28:25,842 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:28:25,842 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:28:25,842 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** i need access {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:28:26,003 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:29:21,817 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:29:21,817 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:29:21,817 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** i need access {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:29:21,979 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:37:46,240 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:37:46,241 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:37:46,241 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** i need access {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:37:46,775 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 22:47:01,322 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 22:47:01,825 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 22:47:02,305 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** i don't have sharepoint access {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-20 22:47:44,385 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-20 23:48:46,228 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-20 23:48:46,229 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-20 23:48:46,229 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}

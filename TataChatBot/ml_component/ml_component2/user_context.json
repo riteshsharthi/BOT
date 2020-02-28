@@ -1,0 +1,48 @@
+{
+                "user_info" : {
+                        "first_name": "",
+                        "middle_name": "",
+                        "last_name": "",
+                        "mob": ""
+                },
+                "identifier":{
+                        "user_id": "",
+                        "session_id": "",
+                        "channel_id": ""
+                },
+                "data_proceed": [],
+                "selected_intent_list": [],
+                "chat_req": {
+                
+                        "message_id": "",
+                        "uttarance": "",
+                        "chat_type": "",
+                        "chat_timestamp": "",
+                        "time_zone": "",
+
+                        "chat_attributes":{
+                                "intent": "",
+                                "task": "",
+                                "action_url": "",
+                                "live_user": "",
+                                "processed_uttarance": "",
+                                "entities_extracted": { },
+                                "current_asked_question": "",
+                                "asked_sequence_question": {
+                                                                                            }
+                        },
+                        "ambiguity_resolver": {},
+                        "interview_details": []
+                },
+
+                "previous_contexts": [],
+                "chat_res":{
+                        "reply_id": "",
+                        "reply_text": "",
+                        "reply_timestamp": "",
+                        "additional_param":{
+                                
+                        }
+                },
+                "channel": ""
+}

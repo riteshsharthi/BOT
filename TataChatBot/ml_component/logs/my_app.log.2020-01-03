@@ -1,0 +1,2509 @@
+2020-01-03 10:56:30,664  ============================================================================================================================================
+2020-01-03 10:56:30,673  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 10:56:30,675  *****************USER Uttarance ******************** : 
+2020-01-03 10:56:30,693  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 10:57:05,845  ============================================================================================================================================
+2020-01-03 10:57:05,846  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 10:57:05,846  *****************USER Uttarance ******************** : job 2100
+2020-01-03 10:57:06,447  ---- switched--IN---in subjective-----------... switched
+2020-01-03 10:57:06,589  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 10:57:06,589  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 10:57:07,098  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "job 2100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "call",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "job 2100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 44,
+                    "Task_Id": 53,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Your call is reddy",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Your call is reddy"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 10:57:26,863  ============================================================================================================================================
+2020-01-03 10:57:26,863  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 10:57:26,864  *****************USER Uttarance ******************** : 
+2020-01-03 10:57:26,872  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:02:06,669  ============================================================================================================================================
+2020-01-03 11:02:06,670  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:02:06,670  *****************USER Uttarance ******************** : 
+2020-01-03 11:02:06,676  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:02:32,125  ============================================================================================================================================
+2020-01-03 11:02:32,125  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:02:32,125  *****************USER Uttarance ******************** : 3100 plant job
+2020-01-03 11:02:32,591  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:02:32,625  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:02:32,626  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:02:33,091  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "3100 plant job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey buddy...! please try with different keywords"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:02:39,232  ============================================================================================================================================
+2020-01-03 11:02:39,232  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:02:39,232  *****************USER Uttarance ******************** : 
+2020-01-03 11:02:39,245  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:02:49,612  ============================================================================================================================================
+2020-01-03 11:02:49,612  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:02:49,613  *****************USER Uttarance ******************** : plant 3100 job/
+2020-01-03 11:02:49,743  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:02:49,750  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:02:49,750  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:02:49,841  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "plant 3100 job/",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey buddy...! please try with different keywords"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:04:16,915  ============================================================================================================================================
+2020-01-03 11:04:16,916  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:04:16,916  *****************USER Uttarance ******************** : 
+2020-01-03 11:04:16,922  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:04:27,254  ============================================================================================================================================
+2020-01-03 11:04:27,254  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:04:27,254  *****************USER Uttarance ******************** : job plant pune
+2020-01-03 11:04:27,740  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:04:27,777  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:04:27,777  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:04:28,273  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "job plant pune",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "job plant pune",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:05:02,310  ============================================================================================================================================
+2020-01-03 11:05:02,310  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:05:02,310  *****************USER Uttarance ******************** : plant 3100 job?
+2020-01-03 11:05:02,436  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:05:02,443  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:05:02,443  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:05:02,539  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "plant 3100 job?",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_004",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 21,
+                    "Task_Id": 30,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [
+        {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 3100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        }
+    ],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:05:13,280  ============================================================================================================================================
+2020-01-03 11:05:13,281  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:05:13,281  *****************USER Uttarance ******************** : plant 1100 job
+2020-01-03 11:05:13,418  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:05:13,425  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:05:13,426  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:05:13,517  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "plant 1100 job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "PV_001",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 16,
+                    "Task_Id": 26,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [
+        {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 3100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "CV_004",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 1100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 21,
+                    "Task_Id": 30,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        }
+    ],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:05:41,798  ============================================================================================================================================
+2020-01-03 11:05:41,799  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:05:41,799  *****************USER Uttarance ******************** : ttttdhscv IUIRIRE'NNNCMVFVF; 3100
+2020-01-03 11:05:41,946  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:05:41,954  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:05:41,954  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:05:42,072  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "ttttdhscv IUIRIRE'NNNCMVFVF; 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_005",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 22,
+                    "Task_Id": 31,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [
+        {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 3100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "CV_004",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 1100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 21,
+                    "Task_Id": 30,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "PV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "ttttdhscv IUIRIRENNNCMVFVF 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 16,
+                    "Task_Id": 26,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        }
+    ],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:06:21,629  ============================================================================================================================================
+2020-01-03 11:06:21,629  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:06:21,629  *****************USER Uttarance ******************** : MY NAME IS LAV,,  TELL YOUR NAME 1001
+2020-01-03 11:06:21,773  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:06:21,780  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:06:21,780  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:06:21,887  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "MY NAME IS LAV,,  TELL YOUR NAME 1001",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_005",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "MY NAME IS LAV TELL YOUR NAME 1001",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 22,
+                    "Task_Id": 31,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 2
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [
+        {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 3100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "CV_004",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 1100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 21,
+                    "Task_Id": 30,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "PV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "ttttdhscv IUIRIRENNNCMVFVF 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 16,
+                    "Task_Id": 26,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        }
+    ],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:06:54,921  ============================================================================================================================================
+2020-01-03 11:06:54,921  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:06:54,921  *****************USER Uttarance ******************** : PLANT JOB
+2020-01-03 11:06:55,100  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:06:55,107  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:06:55,107  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:06:55,211  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "PLANT JOB",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_005",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "PLANT JOB",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 22,
+                    "Task_Id": 31,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 3
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [
+        {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 3100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "CV_004",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 1100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 21,
+                    "Task_Id": 30,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "PV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "ttttdhscv IUIRIRENNNCMVFVF 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 16,
+                    "Task_Id": 26,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        }
+    ],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:07:04,124  ============================================================================================================================================
+2020-01-03 11:07:04,125  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:07:04,125  *****************USER Uttarance ******************** : TELL YOU NAME
+2020-01-03 11:07:04,403  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:07:04,411  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:07:04,411  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:07:04,513  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [
+        {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 3100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "CV_004",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant 1100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 21,
+                    "Task_Id": 30,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        },
+        {
+            "intent": "",
+            "task": "PV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "ttttdhscv IUIRIRENNNCMVFVF 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 16,
+                    "Task_Id": 26,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 0
+                }
+            }
+        }
+    ],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "My robot brain is not sure about that one...Please try asking a different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:08:11,213  ============================================================================================================================================
+2020-01-03 11:08:11,215  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:08:11,215  *****************USER Uttarance ******************** : 
+2020-01-03 11:08:11,228  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:08:23,271  ============================================================================================================================================
+2020-01-03 11:08:23,271  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:08:23,271  *****************USER Uttarance ******************** : plant job
+2020-01-03 11:08:23,767  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:08:23,805  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:08:23,805  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:08:24,301  Exception in Main function : name 'results_D1' is not defined
+2020-01-03 11:08:24,302  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "plant job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:09:05,440  ============================================================================================================================================
+2020-01-03 11:09:05,441  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:09:05,441  *****************USER Uttarance ******************** : 
+2020-01-03 11:09:05,458  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:09:12,615  ============================================================================================================================================
+2020-01-03 11:09:12,615  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:09:12,615  *****************USER Uttarance ******************** : plant job
+2020-01-03 11:09:13,082  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:09:13,128  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:09:13,128  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:09:13,620  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "plant job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey I am not sure about that ...please try different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:09:16,036  ============================================================================================================================================
+2020-01-03 11:09:16,036  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:09:16,036  *****************USER Uttarance ******************** : 
+2020-01-03 11:09:16,047  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:09:36,378  ============================================================================================================================================
+2020-01-03 11:09:36,378  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:09:36,378  *****************USER Uttarance ******************** : 
+2020-01-03 11:09:36,383  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:09:42,293  ============================================================================================================================================
+2020-01-03 11:09:42,293  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:09:42,293  *****************USER Uttarance ******************** : pune plant
+2020-01-03 11:09:42,421  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:09:42,432  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:09:42,432  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:09:42,526  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pune plant",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pune plant",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:10:54,964  ============================================================================================================================================
+2020-01-03 11:10:54,964  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:10:54,964  *****************USER Uttarance ******************** : plant job 
+2020-01-03 11:10:55,104  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:10:55,111  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:10:55,111  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:10:55,207  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "plant job ",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "plant job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 2
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:10:58,180  ============================================================================================================================================
+2020-01-03 11:10:58,181  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:10:58,181  *****************USER Uttarance ******************** : 
+2020-01-03 11:10:58,190  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:14:40,656  ============================================================================================================================================
+2020-01-03 11:14:40,656  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:14:40,657  *****************USER Uttarance ******************** : sadfklsdajlkf pune
+2020-01-03 11:14:40,793  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:14:40,802  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:14:40,802  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:14:40,895  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "sadfklsdajlkf pune",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "sadfklsdajlkf pune",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:15:33,745  ============================================================================================================================================
+2020-01-03 11:15:33,745  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:15:33,745  *****************USER Uttarance ******************** : cxcxcx
+2020-01-03 11:15:33,874  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:15:33,892  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "cxcxcx",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "cxcxcx",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:15:52,658  ============================================================================================================================================
+2020-01-03 11:15:52,658  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:15:52,658  *****************USER Uttarance ******************** : pune plant 7889
+2020-01-03 11:15:52,803  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:15:52,810  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:15:52,811  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:15:52,918  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pune plant 7889",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pune plant 7889",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 2
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:15:59,751  ============================================================================================================================================
+2020-01-03 11:15:59,751  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:15:59,751  *****************USER Uttarance ******************** : 301
+2020-01-03 11:15:59,898  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:15:59,906  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "301",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "301",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 2
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:16:05,058  ============================================================================================================================================
+2020-01-03 11:16:05,058  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:16:05,058  *****************USER Uttarance ******************** : pune
+2020-01-03 11:16:05,207  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:16:05,216  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pune",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pune",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 2
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:16:18,535  ============================================================================================================================================
+2020-01-03 11:16:18,535  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:16:18,535  *****************USER Uttarance ******************** : pune x
+2020-01-03 11:16:18,676  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:16:18,684  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:16:18,684  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:16:18,775  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pune x",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pune x",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 3
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-03 11:18:03,749  ============================================================================================================================================
+2020-01-03 11:18:03,749  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-03 11:18:03,749  *****************USER Uttarance ******************** : show me jobs in Pune
+2020-01-03 11:18:03,930  ---- switched--IN---in subjective-----------... switched
+2020-01-03 11:18:03,938  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-03 11:18:03,938  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-03 11:18:04,049  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey I am not sure about that ...please try different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}

@@ -1,0 +1,1512 @@
+2020-02-06 09:37:04,444  ============================================================================================================================================
+2020-02-06 09:37:04,445  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 09:37:04,445  *****************USER Uttarance ******************** : 
+2020-02-06 09:37:04,458  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:40:31,598  ============================================================================================================================================
+2020-02-06 21:40:31,600  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:40:31,600  *****************USER Uttarance ******************** : 
+2020-02-06 21:40:31,614  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:41:01,734  ============================================================================================================================================
+2020-02-06 21:41:01,734  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:41:01,734  *****************USER Uttarance ******************** : what Job detail for PV Pune 1100
+2020-02-06 21:41:02,248  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:41:02,368  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what Job detail for PV Pune 1100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what Job detail for PV Pune 1100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 13,
+                "faqid": "76963",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 100.0,
+                "rank": "0",
+                "sequence": "1"
+            },
+            {
+                "question_id": 15,
+                "faqid": "38785",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 53.13,
+                "rank": "0",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "32803",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 46.3,
+                "rank": "0",
+                "sequence": "3"
+            },
+            {
+                "question_id": 20,
+                "faqid": "69062",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 8,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 41.61,
+                "rank": "0",
+                "sequence": "4"
+            },
+            {
+                "question_id": 19,
+                "faqid": "61436",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 27.41,
+                "rank": "4",
+                "sequence": "5"
+            },
+            {
+                "question_id": 16,
+                "faqid": "54661",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 26.14,
+                "rank": "2",
+                "sequence": "6"
+            },
+            {
+                "question_id": 17,
+                "faqid": "08823",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 26.14,
+                "rank": "3",
+                "sequence": "7"
+            },
+            {
+                "question_id": 18,
+                "faqid": "61394",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 26.14,
+                "rank": "2",
+                "sequence": "8"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:47:33,772  ============================================================================================================================================
+2020-02-06 21:47:33,772  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:47:33,772  *****************USER Uttarance ******************** : job of PV
+2020-02-06 21:47:33,963  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:47:34,034  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "job of PV",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "job of PV",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 13,
+                "faqid": "84436",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 50.55,
+                "rank": "3",
+                "sequence": "1"
+            },
+            {
+                "question_id": 14,
+                "faqid": "32594",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 47.18,
+                "rank": "1",
+                "sequence": "2"
+            },
+            {
+                "question_id": 20,
+                "faqid": "25968",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 8,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 42.4,
+                "rank": "0",
+                "sequence": "3"
+            },
+            {
+                "question_id": 15,
+                "faqid": "80652",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 15.64,
+                "rank": "2",
+                "sequence": "4"
+            },
+            {
+                "question_id": 19,
+                "faqid": "72474",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 13.55,
+                "rank": "8",
+                "sequence": "5"
+            },
+            {
+                "question_id": 16,
+                "faqid": "09811",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 12.93,
+                "rank": "2",
+                "sequence": "6"
+            },
+            {
+                "question_id": 17,
+                "faqid": "62294",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 12.93,
+                "rank": "3",
+                "sequence": "7"
+            },
+            {
+                "question_id": 18,
+                "faqid": "17733",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 12.93,
+                "rank": "2",
+                "sequence": "8"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:47:47,587  ============================================================================================================================================
+2020-02-06 21:47:47,587  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:47:47,588  *****************USER Uttarance ******************** : 
+2020-02-06 21:47:47,604  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:47:56,096  ============================================================================================================================================
+2020-02-06 21:47:56,096  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:47:56,096  *****************USER Uttarance ******************** : job of PV
+2020-02-06 21:47:56,223  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:47:56,288  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "job of PV",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "job of PV",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 13,
+                "faqid": "50087",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 50.55,
+                "rank": "3",
+                "sequence": "1"
+            },
+            {
+                "question_id": 14,
+                "faqid": "53926",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 47.18,
+                "rank": "2",
+                "sequence": "2"
+            },
+            {
+                "question_id": 20,
+                "faqid": "64041",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 8,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 42.4,
+                "rank": "0",
+                "sequence": "3"
+            },
+            {
+                "question_id": 15,
+                "faqid": "60885",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 15.64,
+                "rank": "2",
+                "sequence": "4"
+            },
+            {
+                "question_id": 19,
+                "faqid": "81439",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 13.55,
+                "rank": "8",
+                "sequence": "5"
+            },
+            {
+                "question_id": 16,
+                "faqid": "61145",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 12.93,
+                "rank": "2",
+                "sequence": "6"
+            },
+            {
+                "question_id": 17,
+                "faqid": "10521",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 12.93,
+                "rank": "3",
+                "sequence": "7"
+            },
+            {
+                "question_id": 18,
+                "faqid": "59492",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 12.93,
+                "rank": "2",
+                "sequence": "8"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:52:40,270  ============================================================================================================================================
+2020-02-06 21:52:40,271  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:52:40,271  *****************USER Uttarance ******************** : overtime jobs in PV
+2020-02-06 21:52:40,508  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:52:40,517  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-02-06 21:52:40,517  ----so  NOW IN TASK ENGINE-----------... switched
+2020-02-06 21:52:41,076  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "overtime jobs in PV",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey buddy...! please try with different keywords"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:52:48,367  ============================================================================================================================================
+2020-02-06 21:52:48,367  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:52:48,367  *****************USER Uttarance ******************** : pv jobs pune
+2020-02-06 21:52:48,631  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:52:48,670  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pv jobs pune",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pv jobs pune",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 13,
+                "faqid": "57798",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 62.72,
+                "rank": "4",
+                "sequence": "1"
+            },
+            {
+                "question_id": 15,
+                "faqid": "51692",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 34.28,
+                "rank": "3",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "06333",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 26.1,
+                "rank": "3",
+                "sequence": "3"
+            },
+            {
+                "question_id": 20,
+                "faqid": "97433",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 4,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 23.45,
+                "rank": "1",
+                "sequence": "4"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:53:20,139  ============================================================================================================================================
+2020-02-06 21:53:20,139  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:53:20,139  *****************USER Uttarance ******************** : cv job
+2020-02-06 21:53:20,443  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:53:20,507  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "cv job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "cv job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 15,
+                "faqid": "15311",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 44.48,
+                "rank": "4",
+                "sequence": "1"
+            },
+            {
+                "question_id": 19,
+                "faqid": "04542",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 38.54,
+                "rank": "9",
+                "sequence": "2"
+            },
+            {
+                "question_id": 16,
+                "faqid": "63632",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 36.76,
+                "rank": "2",
+                "sequence": "3"
+            },
+            {
+                "question_id": 17,
+                "faqid": "09143",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 36.76,
+                "rank": "3",
+                "sequence": "4"
+            },
+            {
+                "question_id": 18,
+                "faqid": "55812",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 36.76,
+                "rank": "2",
+                "sequence": "5"
+            },
+            {
+                "question_id": 13,
+                "faqid": "14036",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 17.78,
+                "rank": "6",
+                "sequence": "6"
+            },
+            {
+                "question_id": 14,
+                "faqid": "59552",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 16.59,
+                "rank": "3",
+                "sequence": "7"
+            },
+            {
+                "question_id": 20,
+                "faqid": "05156",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 8,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 14.91,
+                "rank": "1",
+                "sequence": "8"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:54:35,545  ============================================================================================================================================
+2020-02-06 21:54:35,546  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:54:35,547  *****************USER Uttarance ******************** : overtime pv
+2020-02-06 21:54:35,770  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:54:35,780  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-02-06 21:54:35,780  ----so  NOW IN TASK ENGINE-----------... switched
+2020-02-06 21:54:35,903  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "overtime pv",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey I am not sure about that ...please try different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:54:41,761  ============================================================================================================================================
+2020-02-06 21:54:41,761  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:54:41,761  *****************USER Uttarance ******************** : hello
+2020-02-06 21:54:41,975  ---- switched--in general-----------... general
+2020-02-06 21:54:41,979  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "hello",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "hello",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hello, how may I help you?"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:54:53,703  ============================================================================================================================================
+2020-02-06 21:54:53,703  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:54:53,703  *****************USER Uttarance ******************** : pune
+2020-02-06 21:54:53,948  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:54:53,959  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pune",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pune",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "I did not understand, Please try in different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 21:55:02,736  ============================================================================================================================================
+2020-02-06 21:55:02,736  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 21:55:02,737  *****************USER Uttarance ******************** : pune job
+2020-02-06 21:55:02,991  ---- switched--IN---in subjective-----------... switched
+2020-02-06 21:55:03,064  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pune job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pune job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 13,
+                "faqid": "24037",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 54.61,
+                "rank": "6",
+                "sequence": "1"
+            },
+            {
+                "question_id": 15,
+                "faqid": "36053",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 53.86,
+                "rank": "4",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "06964",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 13.7,
+                "rank": "3",
+                "sequence": "3"
+            },
+            {
+                "question_id": 19,
+                "faqid": "75113",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 12.55,
+                "rank": "16",
+                "sequence": "4"
+            },
+            {
+                "question_id": 20,
+                "faqid": "24833",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 8,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 12.32,
+                "rank": "1",
+                "sequence": "5"
+            },
+            {
+                "question_id": 16,
+                "faqid": "41378",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 11.97,
+                "rank": "5",
+                "sequence": "6"
+            },
+            {
+                "question_id": 17,
+                "faqid": "46695",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 11.97,
+                "rank": "4",
+                "sequence": "7"
+            },
+            {
+                "question_id": 18,
+                "faqid": "23298",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 11.97,
+                "rank": "2",
+                "sequence": "8"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 22:00:15,406  ============================================================================================================================================
+2020-02-06 22:00:15,406  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 22:00:15,407  *****************USER Uttarance ******************** : 1100 job
+2020-02-06 22:00:15,636  ---- switched--IN---in subjective-----------... switched
+2020-02-06 22:00:15,697  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "1100 job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "1100 job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 13,
+                "faqid": "62804",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 60.51,
+                "rank": "8",
+                "sequence": "1"
+            },
+            {
+                "question_id": 15,
+                "faqid": "72088",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 13.07,
+                "rank": "7",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "74168",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 12.37,
+                "rank": "8",
+                "sequence": "3"
+            },
+            {
+                "question_id": 19,
+                "faqid": "08317",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 11.33,
+                "rank": "19",
+                "sequence": "4"
+            },
+            {
+                "question_id": 20,
+                "faqid": "54575",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 8,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 11.12,
+                "rank": "1",
+                "sequence": "5"
+            },
+            {
+                "question_id": 16,
+                "faqid": "76732",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 10.8,
+                "rank": "5",
+                "sequence": "6"
+            },
+            {
+                "question_id": 17,
+                "faqid": "15743",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 10.8,
+                "rank": "4",
+                "sequence": "7"
+            },
+            {
+                "question_id": 18,
+                "faqid": "60845",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 10.8,
+                "rank": "4",
+                "sequence": "8"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 23:34:08,146  ============================================================================================================================================
+2020-02-06 23:34:08,146  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 23:34:08,147  *****************USER Uttarance ******************** : 
+2020-02-06 23:34:08,150  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-02-06 23:34:20,578  ============================================================================================================================================
+2020-02-06 23:34:20,578  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '6hoxwrgdjbyskrecfcz474xh14plsq1a'}
+2020-02-06 23:34:20,578  *****************USER Uttarance ******************** : cv job for pune
+2020-02-06 23:34:20,719  ---- switched--IN---in subjective-----------... switched
+2020-02-06 23:34:20,796  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "6hoxwrgdjbyskrecfcz474xh14plsq1a",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "cv job for pune",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "cv job for pune",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 15,
+                "faqid": "29464",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 70.55,
+                "rank": "8",
+                "sequence": "1"
+            },
+            {
+                "question_id": 13,
+                "faqid": "00727",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 53.75,
+                "rank": "9",
+                "sequence": "2"
+            },
+            {
+                "question_id": 19,
+                "faqid": "89285",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 34.79,
+                "rank": "19",
+                "sequence": "3"
+            },
+            {
+                "question_id": 16,
+                "faqid": "71821",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 33.2,
+                "rank": "5",
+                "sequence": "4"
+            },
+            {
+                "question_id": 17,
+                "faqid": "83055",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 33.2,
+                "rank": "4",
+                "sequence": "5"
+            },
+            {
+                "question_id": 18,
+                "faqid": "38244",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 33.2,
+                "rank": "4",
+                "sequence": "6"
+            },
+            {
+                "question_id": 14,
+                "faqid": "71716",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 21.65,
+                "rank": "10",
+                "sequence": "7"
+            },
+            {
+                "question_id": 20,
+                "faqid": "45514",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 8,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 19.42,
+                "rank": "2",
+                "sequence": "8"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}

@@ -1,0 +1,3237 @@
+2020-01-25 16:59:39,076  ============================================================================================================================================
+2020-01-25 16:59:39,077  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 16:59:39,077  *****************USER Uttarance ******************** : 
+2020-01-25 16:59:39,092  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:02:12,939  ============================================================================================================================================
+2020-01-25 17:02:12,940  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:02:12,940  *****************USER Uttarance ******************** : what is Job detail for CV
+2020-01-25 17:02:13,436  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:02:13,497  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:05:47,645  ============================================================================================================================================
+2020-01-25 17:05:47,645  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:05:47,646  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:05:47,774  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:05:47,799  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:05:55,942  ============================================================================================================================================
+2020-01-25 17:05:55,943  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:05:55,944  *****************USER Uttarance ******************** : 
+2020-01-25 17:05:55,951  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:05:59,666  ============================================================================================================================================
+2020-01-25 17:05:59,666  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:05:59,666  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:05:59,808  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:05:59,830  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:06:36,953  ============================================================================================================================================
+2020-01-25 17:06:36,953  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:06:36,953  *****************USER Uttarance ******************** : 
+2020-01-25 17:06:36,963  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:06:39,701  ============================================================================================================================================
+2020-01-25 17:06:39,701  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:06:39,701  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:06:39,829  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:06:39,850  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:09:30,880  ============================================================================================================================================
+2020-01-25 17:09:30,880  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:09:30,881  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:09:31,142  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:09:31,163  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:09:42,270  ============================================================================================================================================
+2020-01-25 17:09:42,270  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:09:42,271  *****************USER Uttarance ******************** : 
+2020-01-25 17:09:42,276  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:09:45,381  ============================================================================================================================================
+2020-01-25 17:09:45,381  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:09:45,381  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:09:45,508  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:09:45,531  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:13:40,852  ============================================================================================================================================
+2020-01-25 17:13:40,852  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:13:40,853  *****************USER Uttarance ******************** : 
+2020-01-25 17:13:40,857  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:13:43,386  ============================================================================================================================================
+2020-01-25 17:13:43,386  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:13:43,387  *****************USER Uttarance ******************** :  width="320" height="240" controls
+2020-01-25 17:13:43,517  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:13:43,525  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-25 17:13:43,525  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-25 17:13:44,046  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": " width=\"320\" height=\"240\" controls",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey I am not sure about that ...please try different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:13:55,703  ============================================================================================================================================
+2020-01-25 17:13:55,704  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:13:55,704  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:13:55,833  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:13:55,854  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:14:40,679  ============================================================================================================================================
+2020-01-25 17:14:40,679  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:14:40,679  *****************USER Uttarance ******************** : 
+2020-01-25 17:14:40,682  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:14:43,491  ============================================================================================================================================
+2020-01-25 17:14:43,491  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:14:43,491  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:14:43,633  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:14:43,657  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:15:26,512  ============================================================================================================================================
+2020-01-25 17:15:26,512  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:15:26,512  *****************USER Uttarance ******************** : 
+2020-01-25 17:15:26,517  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:15:29,296  ============================================================================================================================================
+2020-01-25 17:15:29,296  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:15:29,296  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:15:29,469  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:15:29,493  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:15:55,904  ============================================================================================================================================
+2020-01-25 17:15:55,904  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:15:55,905  *****************USER Uttarance ******************** : 
+2020-01-25 17:15:55,918  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:15:58,669  ============================================================================================================================================
+2020-01-25 17:15:58,670  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:15:58,670  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:15:58,846  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:15:58,876  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:17:06,512  ============================================================================================================================================
+2020-01-25 17:17:06,513  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:17:06,514  *****************USER Uttarance ******************** : 
+2020-01-25 17:17:06,523  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:41:55,513  ============================================================================================================================================
+2020-01-25 17:41:55,513  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:41:55,513  *****************USER Uttarance ******************** : 
+2020-01-25 17:41:55,528  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:42:03,003  ============================================================================================================================================
+2020-01-25 17:42:03,003  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:42:03,003  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:42:03,547  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:42:03,615  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:43:15,368  ============================================================================================================================================
+2020-01-25 17:43:15,368  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:43:15,368  *****************USER Uttarance ******************** : 
+2020-01-25 17:43:15,380  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:43:18,231  ============================================================================================================================================
+2020-01-25 17:43:18,231  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:43:18,231  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:43:18,743  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:43:18,819  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:45:26,699  ============================================================================================================================================
+2020-01-25 17:45:26,703  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:45:26,704  *****************USER Uttarance ******************** : 
+2020-01-25 17:45:26,717  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:45:29,447  ============================================================================================================================================
+2020-01-25 17:45:29,447  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:45:29,448  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:45:29,968  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:45:30,060  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:46:24,873  ============================================================================================================================================
+2020-01-25 17:46:24,875  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:46:24,875  *****************USER Uttarance ******************** : 
+2020-01-25 17:46:24,892  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:46:37,819  ============================================================================================================================================
+2020-01-25 17:46:37,819  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:46:37,819  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:46:38,377  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:46:38,443  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:53:37,222  ============================================================================================================================================
+2020-01-25 17:53:37,224  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:53:37,225  *****************USER Uttarance ******************** : 
+2020-01-25 17:53:37,237  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:53:39,756  ============================================================================================================================================
+2020-01-25 17:53:39,756  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:53:39,756  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:53:40,300  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:53:40,372  Exception in Main function : where() got an unexpected keyword argument 'cosine'
+2020-01-25 17:53:40,373  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:53:46,365  ============================================================================================================================================
+2020-01-25 17:53:46,365  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:53:46,365  *****************USER Uttarance ******************** : 
+2020-01-25 17:53:46,382  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:53:50,539  ============================================================================================================================================
+2020-01-25 17:53:50,539  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:53:50,539  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:53:50,671  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:53:50,692  Exception in Main function : where() got an unexpected keyword argument 'cosine'
+2020-01-25 17:53:50,692  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:54:27,486  ============================================================================================================================================
+2020-01-25 17:54:27,486  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:54:27,486  *****************USER Uttarance ******************** : cosine
+2020-01-25 17:54:27,966  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:54:28,008  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "cosine",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "cosine",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:54:38,400  ============================================================================================================================================
+2020-01-25 17:54:38,400  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:54:38,400  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:54:38,541  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:54:38,559  Exception in Main function : unhashable type: 'numpy.ndarray'
+2020-01-25 17:54:38,559  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:54:45,753  ============================================================================================================================================
+2020-01-25 17:54:45,753  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:54:45,753  *****************USER Uttarance ******************** : 
+2020-01-25 17:54:45,761  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:54:52,983  ============================================================================================================================================
+2020-01-25 17:54:52,983  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:54:52,983  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:54:53,120  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:54:53,136  Exception in Main function : unhashable type: 'numpy.ndarray'
+2020-01-25 17:54:53,137  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:59:09,674  ============================================================================================================================================
+2020-01-25 17:59:09,674  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:59:09,675  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:59:10,196  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:59:10,246  Exception in Main function : 'numpy.dtype' object is not callable
+2020-01-25 17:59:10,246  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 17:59:54,126  ============================================================================================================================================
+2020-01-25 17:59:54,127  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 17:59:54,127  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 17:59:54,679  ---- switched--IN---in subjective-----------... switched
+2020-01-25 17:59:54,733  Exception in Main function : 'numpy.ndarray' object has no attribute 'type'
+2020-01-25 17:59:54,734  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:00:41,574  ============================================================================================================================================
+2020-01-25 18:00:41,574  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:00:41,574  *****************USER Uttarance ******************** : cosine.
+2020-01-25 18:00:42,047  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:00:42,085  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "cosine.",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "cosine.",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:00:50,218  ============================================================================================================================================
+2020-01-25 18:00:50,218  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:00:50,218  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:00:50,357  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:00:50,379  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:09:57,568  ============================================================================================================================================
+2020-01-25 18:09:57,569  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:09:57,570  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:09:58,272  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:09:58,335  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:17:03,796  ============================================================================================================================================
+2020-01-25 18:17:03,796  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:17:03,796  *****************USER Uttarance ******************** : 
+2020-01-25 18:17:03,813  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:17:07,881  ============================================================================================================================================
+2020-01-25 18:17:07,881  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:17:07,881  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:17:08,445  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:17:08,521  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:19:08,404  ============================================================================================================================================
+2020-01-25 18:19:08,404  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:19:08,404  *****************USER Uttarance ******************** : 
+2020-01-25 18:19:08,420  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:19:15,759  ============================================================================================================================================
+2020-01-25 18:19:15,759  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:19:15,759  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:19:16,230  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:19:16,285  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:56:25,185  ============================================================================================================================================
+2020-01-25 18:56:25,193  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:56:25,193  *****************USER Uttarance ******************** : 
+2020-01-25 18:56:25,206  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:56:33,320  ============================================================================================================================================
+2020-01-25 18:56:33,320  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:56:33,320  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:56:33,907  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:56:33,957  Exception in Main function : unsupported operand type(s) for +: 'dict_keys' and 'int'
+2020-01-25 18:56:33,958  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:57:53,928  ============================================================================================================================================
+2020-01-25 18:57:53,928  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:57:53,928  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:57:54,076  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:57:54,100  Exception in Main function : unsupported operand type(s) for +: 'dict_keys' and 'int'
+2020-01-25 18:57:54,101  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:58:47,831  ============================================================================================================================================
+2020-01-25 18:58:47,831  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:58:47,831  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:58:48,306  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:58:48,359  Exception in Main function : 'dict_keys' object does not support indexing
+2020-01-25 18:58:48,359  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 18:59:25,479  ============================================================================================================================================
+2020-01-25 18:59:25,480  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 18:59:25,480  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 18:59:26,001  ---- switched--IN---in subjective-----------... switched
+2020-01-25 18:59:26,079  Exception in Main function : 'dict_keys' object does not support indexing
+2020-01-25 18:59:26,080  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 19:00:18,054  ============================================================================================================================================
+2020-01-25 19:00:18,055  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 19:00:18,055  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 19:00:18,578  ---- switched--IN---in subjective-----------... switched
+2020-01-25 19:00:18,640  Exception in Main function : 'dict_keys' object does not support indexing
+2020-01-25 19:00:18,641  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 19:03:48,258  ============================================================================================================================================
+2020-01-25 19:03:48,258  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 19:03:48,258  *****************USER Uttarance ******************** : 
+2020-01-25 19:03:48,292  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 19:03:58,405  ============================================================================================================================================
+2020-01-25 19:03:58,405  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 19:03:58,405  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 19:03:58,953  ---- switched--IN---in subjective-----------... switched
+2020-01-25 19:03:59,080  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 19:05:35,367  ============================================================================================================================================
+2020-01-25 19:05:35,367  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 19:05:35,367  *****************USER Uttarance ******************** : 
+2020-01-25 19:05:35,388  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-25 20:05:43,996  ============================================================================================================================================
+2020-01-25 20:05:43,996  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-25 20:05:43,996  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-25 20:05:44,499  ---- switched--IN---in subjective-----------... switched
+2020-01-25 20:05:44,615  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}

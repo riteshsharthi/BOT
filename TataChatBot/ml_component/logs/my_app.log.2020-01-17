@@ -1,0 +1,107 @@
+2020-01-17 00:09:59,560  ============================================================================================================================================
+2020-01-17 00:09:59,560  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'gd76otgn8q9zo2chnksoyy68ydm6cc4e'}
+2020-01-17 00:09:59,560  *****************USER Uttarance ******************** : jffdsc fsd;af; dfsa;lf dsfka
+2020-01-17 00:10:00,094  ---- switched--IN---in subjective-----------... switched
+2020-01-17 00:10:00,146  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-17 00:10:00,146  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-17 00:10:00,638  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "gd76otgn8q9zo2chnksoyy68ydm6cc4e",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "jffdsc fsd;af; dfsa;lf dsfka",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "My robot brain is not sure about that one...Please try asking a different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-17 00:24:46,882  ============================================================================================================================================
+2020-01-17 00:24:46,883  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'gd76otgn8q9zo2chnksoyy68ydm6cc4e'}
+2020-01-17 00:24:46,883  *****************USER Uttarance ******************** : 
+2020-01-17 00:24:46,884  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "gd76otgn8q9zo2chnksoyy68ydm6cc4e",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}

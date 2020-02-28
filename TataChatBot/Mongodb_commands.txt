@@ -1,0 +1,50 @@
+sudo systemctl status mongodb
+
+sudo systemctl start mongodb
+
+sudo systemctl stop mongodb
+
+sudo systemctl restart mongodb
+
+sudo systemctl disable mongodb
+
+sudo systemctl enable mongodb
+
+####################################
+db.createUser(
+   {
+     user: "admin",
+     pwd: "shree@123",
+
+     roles: [{"role":"dbAdmin","db":"admin"}],
+    /* All built-in Roles
+     Database User Roles: read|readWrite
+     Database Admin Roles: dbAdmin|dbOwner|userAdmin
+     Cluster Admin Roles: clusterAdmin|clusterManager|clusterMonitor|hostManager
+     Backup and Restoration Roles: backup|restore
+     All-Database Roles: readAnyDatabase|readWriteAnyDatabase|userAdminAnyDatabase|dbAdminAnyDatabase
+     Superuser Roles: root
+    */
+
+    // authenticationRestrictions: [ {
+    //     clientSource: ["192.168.0.0"],
+    //     serverAddress: ["xxx.xxx.xxx.xxx"]
+    //  } ],
+
+    //mechanisms: [ "<SCRAM-SHA-1|SCRAM-SHA-256>", ... ],
+
+    //passwordDigestor: "<server|client>"
+   }
+)
+
+
+#############################################################################3
+db.your_collection.update({},
+                          {$set : {"create_dt" : ISODate("2019-12-12T23:28:20.327+05:30")}},
+                          {upsert:false,multi:true})
+
+########################################
+./nosqlbooster4mongo*.AppImage
+
+mongodump -d Db_name  -o dir_name
+mongorestore -h host -d dbname    folderfile

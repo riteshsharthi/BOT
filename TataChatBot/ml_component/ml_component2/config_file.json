@@ -1,0 +1,9 @@
+{
+  "multi_answering": "no",
+  "switch_task": "yes",
+  "switch_task_confirmation": "yes",
+  "holding_previous_task":0,
+  "failure_tasks":"failuretask",
+  "start_task": "default_task_telecom_bot" 
+
+}

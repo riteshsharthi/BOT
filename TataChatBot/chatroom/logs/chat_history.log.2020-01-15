@@ -1,0 +1,91 @@
+2020-01-15 04:36:43,658  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 04:39:01,048  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 04:39:02,282  Chat history Info from chatbot : {'request_data': 'when should normal training will start', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 04:40:24,110  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 04:40:36,697  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 04:40:38,086  Chat history Info from chatbot : {'request_data': 'when should normal training will start', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 04:46:13,903  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 04:46:16,492  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 04:46:17,726  Chat history Info from chatbot : {'request_data': 'When will the next virtual training start?', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 04:48:17,895  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 04:48:24,482  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 04:48:25,748  Chat history Info from chatbot : {'request_data': 'When will the next virtual training start?', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 04:56:22,297  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 04:56:30,148  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 04:56:32,188  Chat history Info from chatbot : {'request_data': 'When will the next virtual training start?', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 08:52:23,653  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 08:52:25,157  Chat history Info from chatbot : {'request_data': 'When does the next virtual training start?', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:01:55,462  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:02:17,666  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:02:18,242  Chat history Info from chatbot : {'request_data': 'When does the next virtual training start?', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:06:49,751  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:06:51,047  Chat history Info from chatbot : {'request_data': 'When does the next virtual training start?', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:07:49,550  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:07:50,002  Chat history Info from chatbot : {'request_data': 'please give me details about virtual training session at tricontes', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:10:04,122  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:10:12,650  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:10:13,837  Chat history Info from chatbot : {'request_data': 'please give me details about virtual training session at tricontes', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:10:18,360  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:10:18,817  Chat history Info from chatbot : {'request_data': 'please give me details about virtual training session at tricontes', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:10:22,771  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:11:35,486  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:11:35,928  Chat history Info from chatbot : {'request_data': 'provide the start details', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:12:29,901  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:12:30,333  Chat history Info from chatbot : {'request_data': 'get Start Training', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:12:33,594  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:12:36,141  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:12:36,606  Chat history Info from chatbot : {'request_data': 'get Start Training', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:12:43,884  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:14:11,346  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:14:11,787  Chat history Info from chatbot : {'request_data': 'get Start Training', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:14:44,210  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:14:44,668  Chat history Info from chatbot : {'request_data': 'when should i start', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:30:33,185  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:30:59,841  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:31:01,102  Chat history Info from chatbot : {'request_data': 'when it will be starting of next virtual training', 'responce_data': ['virtual training_start'], 'task_name': 'virtual_training_start', 'task_type': 'virtual_training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:32:04,775  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:32:05,226  Chat history Info from chatbot : {'request_data': 'When does the normal training start?', 'responce_data': ['virtual training_start'], 'task_name': 'virtual_training_start', 'task_type': 'virtual_training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:32:48,147  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:32:48,597  Chat history Info from chatbot : {'request_data': 'next normal training', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:36:25,218  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:36:25,656  Chat history Info from chatbot : {'request_data': 'When do you train again?', 'responce_data': ['virtual training_start'], 'task_name': 'virtual_training_start', 'task_type': 'virtual_training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:37:37,008  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:37:40,239  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:37:40,669  Chat history Info from chatbot : {'request_data': 'get Start normal Training', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:39:15,281  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 09:39:19,403  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 09:39:19,845  Chat history Info from chatbot : {'request_data': 'solution for my problem', 'responce_data': ['ReportAndIssue is reddy'], 'task_name': 'ReportAndIssue', 'task_type': 'ReportAndIssue', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 09:41:37,558  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 10:08:14,876  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 10:08:16,188  Chat history Info from chatbot : {'request_data': 'can i get chance to virtual train again', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 10:32:55,953  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 10:32:57,157  Chat history Info from chatbot : {'request_data': 'can i get chance to virtual train again', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 10:41:36,151  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 10:42:49,489  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 10:42:50,780  Chat history Info from chatbot : {'request_data': 'can i get chance to virtual train again', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 10:43:13,295  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 10:47:27,585  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 10:47:54,939  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 10:47:56,080  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 10:49:03,219  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 10:49:04,756  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:27:46,975  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 11:31:20,336  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:31:21,495  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:33:38,299  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 11:33:41,250  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:33:42,470  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:35:17,123  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:35:18,406  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:36:15,313  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 11:36:23,002  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:36:24,254  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:40:14,050  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:40:15,245  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:41:41,832  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:41:42,995  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': ['Your training has started'], 'task_name': 'training_start', 'task_type': 'training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:42:35,350  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:42:36,590  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-15 11:43:20,319  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-15 11:43:30,983  Chat Bot Start Restart or Start By User : Admin
+2020-01-15 11:43:32,233  Chat history Info from chatbot : {'request_data': 'please provide again virtual training details', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}

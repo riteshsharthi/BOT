@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ritesh/TATABOT/TataChatBot/ml_component/ml_component2/tensorflow_classifie/tf_model/model.tflearn"
+all_model_checkpoint_paths: "/home/ritesh/TATABOT/TataChatBot/ml_component/ml_component2/tensorflow_classifie/tf_model/model.tflearn"

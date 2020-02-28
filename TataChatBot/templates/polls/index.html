@@ -1,0 +1,729 @@
+
+<html style="background-attachment: scroll;">
+<title>TATA BOT</title>
+{% load static from staticfiles %}
+<head>
+
+<script src="{% static 'polls/jquery.min.js' %}"></script>
+<link rel='stylesheet prefetch' href="{% static 'polls/reset.min.css' %}">
+<!--<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>-->
+
+<link rel="stylesheet" href="{% static 'polls/font-awesome.min.css' %}">
+<!--<link href="{% static 'voice/shoelace.css' %}" rel="stylesheet" type="text/css"/>-->
+<!--<link href="{% static 'voice/styles.css' %}" rel="stylesheet" type="text/css"/>-->
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'polls/bootstrap.min.css' %}">
+<link  class="cp-pen-styles" rel='stylesheet prefetch' href="{% static 'chat/chat.css' %}"> 
+ <script src="{% static 'polls/jquery.min.js' %}"></script>
+  <script src="{% static 'polls/popper.min.js' %}"></script>
+  <script src="{% static 'bootstrap/Bootstrapcdn/bootstrap.min.js' %}"></script>
+<script>
+	var identifierflag = false;
+	var identifierValue ="";
+</script>
+<script>
+function myfun(planId){
+//("Hiiii");
+//alert(planId)
+identifierflag = true;
+document.getElementById("data").value =planId;
+//alert(document.getElementById("data").value);
+identifierValue = planId;
+}
+function submitPlan(){
+
+        var data= document.getElementById("data").value;
+ 		//alert(data)
+ 		var d=data.split("#");
+ 		var csrftoken = getCookie('csrftoken');
+
+ 		var message="#redirect-test?identifier="+d[0]+"?planType="+d[1];
+ 		//alert(message)
+ 		if (csrftoken && message){
+		$.ajax({
+			   url : "{% url 'chatbot' %}",
+			   type : "POST",
+			   data : { "csrfmiddlewaretoken" : csrftoken, "answers" : message,},
+			   success : function(json) {
+			   console.log(json); // another sanity check
+				debugger
+ 			   var arrayLength = json.bot_responce.length;
+ 			   if(json.recommend!=undefined && json.recommend!=null){
+					console.log("recommend");
+					console.log(json.recommend);
+					displayButton(json);
+				}else{
+				for (var i = 0; i < arrayLength; i++) {
+
+				botMessage(json.bot_responce[i])
+					}
+
+ 			   $("#greettext").html(json.a);
+			   $("#username").html(json.username);
+				}
+ 			},
+       		error : function(xhr,errmsg,err) {
+ 			console.log(xhr.status + ": " + xhr.responseText);
+ 			}
+ 			});
+ 		}
+ 	}
+
+jQuery(document).ready(function() {
+    jQuery('p').each(function() {
+        var $this = jQuery(this);
+        if($this.html().replace(/\s|&nbsp;/g, '').length == 0) {
+            $this.remove();
+        }
+    });
+});
+function displayButton(mesg) {
+	console.log("In display Button");
+	console.log(mesg);
+	message = mesg;
+
+	var message='';
+	var data='<div  style="display:inline-block;float: left;margin-left: 12px; width: 640px;">';
+	/*if(mesg.bot_responce[0].includes("div")){
+			data=mesg.bot_responce[0];
+			//alert(data);
+            //data+='<img  class="img" src="/static/88.png" alt="" /><div  style="display:inline-block;float: left;margin-left: 12px;"><button type="submit" class="button">Approve</button></div>';
+            console.log("Buddy"+data);
+			$('#sentId').html(data);
+			$('.message-input input').val(null);
+			$('.contact.active .preview').html('<span>You: </span>' + message);
+			$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+
+	}else{*/
+    $('<li class="sent"><img  class="img" src="/static/88.png" alt="" /><p>' + mesg.bot_responce[0]['value'] + '</p></li>').appendTo($('.messages ul'));
+	for(var i = 0; i<mesg.recommend.length; i++){
+			if(mesg.recommend[i].task!=null && mesg.recommend[i].task!=undefined && mesg.recommend[i].task!=""){
+				message=mesg.recommend[i].utterance;
+				message+=mesg.recommend[i].task;
+			}else{
+				message= mesg.recommend[i].utterance;
+			}
+		  data+='<button type="submit" class="button btn btn-success" onClick="pastMesg(\''+message+'\')" >'+mesg.recommend[i].title+'</button>   ';
+
+			//data+='<div  style="display:inline-block;float: left;margin-left: 12px;"><div class="card-carousel"><div class="my-card"><p style="padding: 10px;"><span style="color:darkolivegreen;font-weight:bold;font-size: 13px;">'+mesg.recommend[i].title+'</span></p></div></div>';
+
+		  if(mesg.recommend[i].link!='' && mesg.recommend[i].link!=null){
+
+			data+='<a href="'+mesg.recommend[i].link+'" target="_blank"><i class="fa fa-external-link" style="font-size:24px" aria-hidden="true"></i></a>';
+		  }
+		}
+		data+='</div>';
+		$(data).appendTo($('.messages ul'));
+		$('.message-input input').val(null);
+	$('.contact.active .preview').html('<span>You: </span>' + message);
+	$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+	//}
+
+
+
+};
+</script>
+  <style>
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+  .carousel-control-prev {
+
+    width: 25%;
+
+}
+
+#frame .content .messages ul li.sent p:empty { display:none; }
+
+.carousel-control-next {
+     width: 30%;
+}
+
+  /* Make the image fully responsive */
+  .carousel-inner .img {
+      width: 100%;
+      height: 100%;
+  }
+  [type=radio] {
+  display: none;
+}
+
+#slider {
+  height: 20vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+#slider label {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(-30%,0,-200px);
+}
+
+#s1:checked ~ #slide5, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(-15%,0,-100px);
+}
+
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+  box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+  transform: translate3d(0,0,0);
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(15%,0,-100px);
+}
+
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(30%,0,-200px);
+}
+
+#slide1 { background: #00BCD4 }
+#slide2 { background: #4CAF50 }
+#slide3 { background: #CDDC39 }
+#slide4 { background: #FFC107 }
+#slide5 { background: #FF5722 }
+
+.div2 {
+    width: 443px;
+    height: 368px;
+    padding: 100px;
+    border: 1px solid red;
+}
+
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+  </style>
+
+</head>
+<body>
+<script>
+
+</script>
+{% if user.is_authenticated %}
+
+
+
+
+<div >
+	<div id="frame">
+
+	<div class="content" >
+		<div class="contact-profile">
+			<img  class="img" src="{% static '99.png' %}" alt="" />
+			{% if  username %}
+				<p>{{ username }}</p>
+			{% else %}
+				<p id="username"></p>
+			{% endif %}
+
+			<div class="social-media">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="messages" style="overflow:auto;">
+			<ul>
+				<li class="sent">
+					<img  class="img" src="{% static '88.png' %}" alt="" />
+					<p>{% for field in bot_responce %}
+					{{ field |safe}}
+					<!--  -->
+					<!--<script>displayButton({"recommend": {{recommend}}});</script>-->
+					<!-- <p id="greettext"></p> -->
+					{% endfor %}
+				    </p>
+                <br/>
+					{% for field in recommend %}
+						<div style="display:inline-block;float: left;margin-left: 9px;"><button type="submit" class="button" onClick="pastMesg(' {{field.utterance}}{{field.task}} ')">{{field.title}}</button>
+						{% ifnotequal field.link "" %}
+						<a href="{{field.link}}" target="_blank"><i class="fa fa-external-link" style="font-size:24px" aria-hidden="true"></i></a>
+						{% endifnotequal %}
+						</div>
+					{% endfor %}
+				</li>
+				<li class="sent" id="sentId"></li>
+			</ul>
+
+		</div>
+
+		<form role="form"  >
+			{% csrf_token %}
+		<div class="message-input">
+
+			<div class="wrap">
+
+			<input type="text" name="input" id="note-textarea"  autofocus="autofocus" required />
+
+
+			<button id="start-record-btn" ><i class="fa fa-microphone" aria-hidden="true"></i></button>
+			<button type="submit" value="Submit" id="submit-button"><i class="fa fa-paper-plane " aria-hidden="true"></i></button>
+			</div>
+		</div>
+		</form>
+
+	</div>
+</div>
+<div>
+</div>
+</div>
+
+<script>
+//$(".messages").animate({ scrollTop: $(document).height() }, "fast");
+var messages_length = $('.messages').length;
+//For getting CSRF token
+function getCookie(name) {
+          var cookieValue = null;
+          if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+               var cookie = jQuery.trim(cookies[i]);
+          // Does this cookie string begin with the name we want?
+          if (cookie.substring(0, name.length + 1) == (name + '=')) {
+            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+              break;
+             }
+          }
+      }
+ return cookieValue;
+}
+
+//For doing AJAX post
+var interval;
+
+////////////////////////////enter key//////////////////////
+$("#addcontact").on('click', function(e) {
+	if ( e.type === 'click') {
+	location.reload();
+
+	}});
+
+//$("#start-record-btn").on('click', function(e) {
+//	if ( e.type === 'click') {
+  //	e.preventDefault();
+  	//clearInterval(interval);
+ 	//	interval=setInterval(function(){ voicePost(); }, 7000);
+
+//	}
+//});
+
+$("#submit-button").on('click', function(e) {
+	if ( e.type === 'click') {
+    	e.preventDefault();
+       	clearInterval(interval);
+ 		//interval=setInterval(function(){ alert("Session is Expire"); }, 1800000);
+ 		var message = $(".message-input input").val();
+ 		newMessage();
+ 		var csrftoken = getCookie('csrftoken');
+ 		if (csrftoken && message){
+		$.ajax({
+			   url : "{% url 'chatbot' %}",
+			   type : "POST",
+			   data : { "csrfmiddlewaretoken" : csrftoken, "answers" : message,},
+			   success : function(json) {
+
+			   console.log(json); // another sanity check
+				debugger
+
+ 			   var arrayLength = json.bot_responce.length;
+ 			   if(json.recommend!=undefined && json.recommend!=null){
+					console.log("recommend");
+					console.log(json.recommend);
+					displayButton(json);
+				}else{
+				for (var i = 0; i < arrayLength; i++) {
+
+				botMessage(json.bot_responce[i])
+					}
+
+ 			   $("#greettext").html(json.a);
+			   $("#username").html(json.username);
+				}
+ 			},
+       		error : function(xhr,errmsg,err) {
+ 			console.log(xhr.status + ": " + xhr.responseText);
+ 			}
+ 			});}
+    return false;
+  	}
+});
+
+$(".message-input input").on('keydown', function(e) {
+	if (e.which == 13 ) {
+    	e.preventDefault();
+
+       	clearInterval(interval);
+ 		//interval=setInterval(function(){ alert("Session is Expire"); }, 1800000);
+ 		var message = $(".message-input input").val();
+ 		newMessage();
+ 		var faqList = [];
+ 		var csrftoken = getCookie('csrftoken');
+ 		if (csrftoken && message){
+		$.ajax({
+			   url : "{% url 'chatbot' %}",
+			   type : "POST",
+			   data : { "csrfmiddlewaretoken" : csrftoken, "answers" : message,},
+			   success : function(json) {
+ 			   console.log(json); // another sanity check
+				var arrayLength = json.bot_responce.length;
+                 if(json.recommend!=undefined && json.recommend!=null){
+					console.log("recommend");
+					console.log(json.recommend);
+					displayButton(json);
+				}else{
+				for (var i = 0; i < arrayLength; i++) {
+					if(json.bot_responce[i]["type"]=="link"){
+						faqList.push(json.bot_responce[i]);
+						//alert(json.bot_responce[i]);
+					}else{
+
+						botMessage(json.bot_responce[i])
+						}
+					}
+					if(faqList.length > 0){
+					//alert(faqList.length );
+					faqBotMessage(faqList)
+					}
+
+				}
+ 			   $("#greettext").html(json.a);
+			   $("#username").html(json.username);
+ 			},
+       		error : function(xhr,errmsg,err) {
+ 			console.log(xhr.status + ": " + xhr.responseText);
+ 			}
+ 			});}
+    return false;
+  	}
+});
+
+</script>
+<script >
+function voicePost() {
+clearInterval(interval);
+ 		//interval=setInterval(function(){ alert("Session is Expire"); }, 1800000);
+ 		var message = $(".message-input input").val();
+ 		newMessage();
+ 		var csrftoken = getCookie('csrftoken');
+ 		if (csrftoken && message){
+		$.ajax({
+			   url : "{% url 'chatbot' %}",
+			   type : "POST",
+			   data : { "csrfmiddlewaretoken" : csrftoken, "answers" : message,},
+			   success : function(json) {
+ 			   console.log(json); // another sanity check
+				//alert("T3")
+ 			   var arrayLength = json.bot_responce.length;
+				for (var i = 0; i < arrayLength; i++) {
+
+				botMessage(json.bot_responce[i])
+					}
+
+ 			   $("#greettext").html(json.a);
+			   $("#username").html(json.username);
+ 			},
+       		error : function(xhr,errmsg,err) {
+ 			console.log(xhr.status + ": " + xhr.responseText);
+ 			}
+ 			});}
+
+    return false;
+
+};
+
+
+
+function newMessage() {
+	message = $(".message-input input").val();
+	if($.trim(message) == '') {
+	 	return false;
+	}
+	$('<li class="replies"><img  class="img" src="{% static '99.png' %}" alt="" /><p>' + message + '</p></li>').appendTo($('.messages ul'));
+	$('.message-input input').val(null);
+	$('.contact.active .preview').html('<span>You: </span>' + message);
+	$(".messages").animate({ scrollTop: $(document).height() }, "fast");
+	//alert(messages_length);
+};
+
+function botMessage(mesg) {
+	message = mesg;
+	console.log("Buddy @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+	/*if(mesg.includes("div")){
+	       message+='<div  style="display:inline-block;float: left;margin-left: 12px;"><button type="submit" class="button"  onclick="submitPlan()">Approve</button></div>';
+	}*/
+	console.log(message);
+	//alert(message);
+	if($.trim(message) == '') {
+		return false;
+	}
+	if(message['type']=='text'){
+		$('<li class="sent"><img  class="img" src="{% static '88.png' %}" alt="" /><p>' + message['value'] + '</p></li>').appendTo($('.messages ul'));
+		$('.message-input input').val(null);
+		$('.contact.active .preview').html('<span>You: </span>' + message);
+		$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+		//alert(messages_length);
+	}
+	if(message['type']=='img'){
+		$('<li class="sent">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<object style=" border-style: solid; border-width: thick;" width="300" height="300" data="' + message['value'] + '" alt="Image Not Found"  /></li>').appendTo($('.messages ul'));
+		$('.message-input input').val(null);
+		$('.contact.active .preview').html('<span>You: </span>' + message);
+		$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+	}
+	if(message['type']=='video'){
+		$('<li class="sent">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<video   width="50%" height="60%" controls> <source src="' + message['value'] + '" type="video/mp4"></video></li>').appendTo($('.messages ul'));
+		$('.message-input input').val(null);
+		$('.contact.active .preview').html('<span>You: </span>' + message);
+		$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+	}
+	if(message['type']=='audio'){
+		$('<li class="sent">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<object style=" border-style: solid; border-width: thick;" width="300" height="300" data="' + message['value'] + '" alt="Image Not Found"  /></li>').appendTo($('.messages ul'));
+		$('.message-input input').val(null);
+		$('.contact.active .preview').html('<span>You: </span>' + message);
+		$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+	}
+	if(message['type']=='doc'){
+		$('<li class="sent">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<object  width="50%" height="50%" data="' + message['value'] + '" type="application/pdf"  /></li>').appendTo($('.messages ul'));
+		$('.message-input input').val(null);
+		$('.contact.active .preview').html('<span>You: </span>' + message);
+		$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+	}
+	//if(message['type']=='link'){
+	//	$('<li class="sent">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="' + message['value'] + '" target="_blank">Example Page</a></li>').appendTo($('.messages ul'));
+	//	$('.message-input input').val(null);
+	//	$('.contact.active .preview').html('<span>You: </span>' + message);
+	//	$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+	//}
+};
+function faq_rank_update(rankId){
+ 		var csrftoken = getCookie('csrftoken');
+ 		if (csrftoken && message){
+		$.ajax({
+			   url : "{% url 'faq_rank_update' %}",
+			   type : "POST",
+			   data : { "csrfmiddlewaretoken" : csrftoken, "rankId" : rankId,},
+			   success : function(json) {
+ 			   console.log(json); // another sanity check
+ 			   //alert(json);
+
+ 			},
+       		error : function(xhr,errmsg,err) {
+ 			console.log(xhr.status + ": " + xhr.responseText);
+ 			}
+ 			});}
+
+    return false;
+
+}
+function myfunc(strID, rank_id)
+{
+//alert(strID);
+	$("#p"+strID).toggle();
+	faq_rank_update(rank_id);
+};
+
+function faqBotMessage(mesg){
+	message = mesg;
+	console.log("Buddy @@@@@@@FAQ@@@@@@@@");
+	console.log(message);
+	//alert(message);
+	if($.trim(message) == '') {
+		return false;
+	}
+
+	prag='<ol  align="center" class="list-group" style="width:50%">';
+	$(document).ready(function(){
+		$(".faqpara").hide();
+  	});
+
+	for (i = 0; i < message.length; i++) {
+		if(message[i]["type"]=="link"){
+		seq=message[i]["faqid"];
+		rank = message[i]["question_id"];
+		if(message[i]["link"]!=''){
+			//alert(message[i]["link"]);
+			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ '<br> <a type="button" href="' + message[i]["link"] + '" target="_blank" class="btn btn-outline-primary">Reference Document</a></p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary"> You can Click Me </button> <button type="button" class="btn btn-outline-primary"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
+		}else{
+			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ ' </p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary"> You can Click Me </button> <button type="button" class="btn btn-outline-primary"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
+		}
+	}	}
+
+	prag+='</ol>';
+
+	$('<li class="sent"><img  class="img" src="{% static '88.png' %}" alt="" />' + prag + '</li>').appendTo($('.messages ul'));
+	$('.message-input input').val(null);
+	$('.contact.active .preview').html('<span>You: </span>' + message);
+	$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+
+}
+ function pastMesg(mesg){
+
+//alert(mesg);
+
+	if(!mesg.includes('#')){
+	//alert('step 1'+mesg);
+
+		$('<li class="replies"><img  class="img" src="{% static '99.png' %}" alt="" /><p>' +mesg.split("-")[1] + '</p></li>').appendTo($('.messages ul'));
+		$('.message-input input').val(null);
+		$('.contact.active .preview').html('<span>You: </span>' + mesg);
+		$(".messages").animate({ scrollTop: $(document).height() }, "fast");
+	}else{
+
+		$('<li class="replies"><img  class="img" src="{% static '99.png' %}" alt="" /><p>' + mesg.split("#")[0]+ '</p></li>').appendTo($('.messages ul'));
+		//alert('here1 ?'+mesg.split("#")[0])
+		$('.message-input input').val(null);
+		//alert('here2 ?')
+		$('.contact.active .preview').html('<span>You: </span>' + mesg.split("#")[0]);
+		//alert('here3 ?')
+		$(".messages").animate({ scrollTop: $(document).height() }, "fast");
+		var tc=mesg.split("#");
+		mesg='#'+tc[1];
+		if(identifierflag)
+
+		{
+			mesg = mesg + '?identifier='+identifierValue;
+			identifierflag = false;
+		}
+	}
+
+	console.log("mesg  **** "+mesg)
+	var csrftoken = getCookie('csrftoken');
+ 		$.ajax({
+			   url : "{% url 'chatbot' %}",
+			   type : "POST",
+			   data : { "csrfmiddlewaretoken" : csrftoken, "answers" : mesg,},
+			   success : function(json) {
+ 			   console.log(json); // another sanity check
+				var arrayLength = json.bot_responce.length;
+                 if(json.recommend!=undefined && json.recommend!=null){
+					console.log("recommend");
+					console.log(json.recommend);
+					displayButton(json);
+				}else{
+				for (var i = 0; i < arrayLength; i++) {
+					//alert(json.bot_responce[i]);
+					botMessage(json.bot_responce[i])
+					}
+				}
+ 			   $("#greettext").html(json.a);
+			   $("#username").html(json.username);
+ 			},
+       		error : function(xhr,errmsg,err) {
+ 			console.log(xhr.status + ": " + xhr.responseText);
+ 			}
+ 			});
+};
+//
+//function displayButton(mesg) {
+//	console.log("In display Button");
+//	console.log(mesg);
+//	message = mesg;
+//
+//	$('<li class="replies"><img  class="img" src="{% static '99.png' %}" alt="" /><p>' + mesg.bot_responce[0] + '</p></li>').appendTo($('.messages ul'));
+//	var message='';
+//	var data='<div style="display:inline-block;float: right;">';
+//	for(var i = 0; i<mesg.recommend.length; i++){
+//		if(mesg.recommend[i].task!=null && mesg.recommend[i].task!=undefined && mesg.recommend[i].task!=""){
+//			message=mesg.recommend[i].task;
+//		}else{
+//			message= mesg.recommend[i].utterance;
+//		}
+//      data+='<button type="submit" class="button" onClick="pastMesg(\''+message+'\')" >'+mesg.recommend[i].title+'</button>';
+//
+//	  if(mesg.recommend[i].link!='' && mesg.recommend[i].link!=null){
+//		data+='<a href="'+mesg.recommend[i].link+'" target="_blank">Link</a>';
+//	  }
+//	}
+//
+//
+//	data+='</div>';
+//	$(data).appendTo($('.messages ul'));
+//	//$('<div id="outer"><div class="inner"><button type="submit" class="msgBtn" onClick="return false;" >Save</button></div></div>').appendTo($('.messages ul'));
+//	$('.message-input input').val(null);
+//	$('.contact.active .preview').html('<span>You: </span>' + message);
+//	$(".messages").animate({ scrollTop: $('.messages')[0].scrollHeight}, "fast");
+//
+//};
+
+$('.submit').click(function() {
+  newMessage();
+});
+
+$(window).on('keydown', function(e) {
+  if (e.which == 13) {
+    newMessage();
+    return false;
+  }
+});
+//# sourceURL=pen.js
+</script>
+
+<!--<script src="{% static 'voice/script.js' %}"></script>-->
+<!--<script src="{% static 'voice/v3.js' %}"></script>-->
+{% else %}
+
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="modal-title">Session is Expire</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a href="{% url 'login' %}" type="button" class="btn btn-danger" data-dismiss="modal"> Go Login</a>
+
+        </div>
+
+      </div>
+    </div>
+
+{% endif %}
+<input type="hidden" name="data" id="data">
+
+
+</body>
+</html>

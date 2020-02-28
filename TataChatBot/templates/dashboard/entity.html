@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+{% block mainbox %}
+<div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">Entity</h1>
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    Entity Form
+                                </div>
+                                <div class="panel-body">
+                                     {% if entity_edit1 %}
+
+                                    <form role="form"  method="post" action="{% url 'entityedit1'  %}" >
+                                        {% csrf_token %}
+                                        <div class="form-group has-success col-lg-4">
+                                            <label class="control-label" for="inputSuccess1">Entity Type</label>
+                                            <input type="text" class="form-control" name="EType" value="{{ entity_edit1.Entity_Type }}" placeholder="{{ a.Entity_Type }}" id="inputSuccess1">
+                                            <input type="hidden" class="form-control" name="eid" value="{{ entity_edit1.id }}" >
+                                        </div>
+                                        <div class="form-group has-success col-lg-4">
+                                            <label class="control-label" for="inputSuccess2">Entity Name</label>
+                                            <input type="text" class="form-control" name="EName" value="{{ entity_edit1.Entity_Name }}" id="inputSuccess2">
+                                        </div>
+                                        <div class="form-group has-success col-lg-4">
+                                            <label class="control-label" for="inputSuccess">Entity Regex</label>
+                                            <input type="text" class="form-control" name="ERegex" value="{{ entity_edit1.Entity_Regex }}" id="inputSuccess">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
+                                        </div>
+
+
+                                    </form>
+                                    {% else %}
+
+                                    <form role="form"  method="post" action="{% url 'entityCreate'  %}" >
+                                        {% csrf_token %}
+                                        <div class="form-group has-success col-lg-4">
+                                            <label class="control-label" for="inputSuccess11">Entity Type</label>
+                                            <input type="text" class="form-control" name="EType"  id="inputSuccess11">
+                                        </div>
+                                        <div class="form-group has-success col-lg-4">
+                                            <label class="control-label" for="inputSuccess12">Entity Name</label>
+                                            <input type="text" class="form-control" name="EName"  id="inputSuccess12">
+                                        </div>
+                                        <div class="form-group has-success col-lg-4">
+                                            <label class="control-label" for="inputSuccess13">Entity Regex</label>
+                                            <input type="text" class="form-control" name="ERegex"  id="inputSuccess13">
+                                        </div>
+                                        <div class="form-group input-group">
+
+                                            <button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
+
+                                        </div>
+                                    </form>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    Entity Table
+
+
+                                </div>
+                                <!-- /.panel-heading -->
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id </th>
+                                                    <th>Type</th>
+                                                    <th>Name</th>
+                                                    <th>Regex</th>
+                                                    <th>Oprations</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% if entity_detail %}
+                                            {% for entity in entity_detail %}
+                                                <tr class="odd gradeX">
+                                                    <td>{{ entity.id}}</td>
+                                                    <td>{{ entity.Entity_Type}}</td>
+                                                    <td>{{ entity.Entity_Name}}</td>
+                                                    <td class="center">{{ entity.Entity_Regex}}</td>
+                                                   <td><a  class="btn btn-sm btn-danger " data-toggle="modal" data-target="#exampleModal{{ entity.id}}"><i class="fa fa-trash"></i></a>
+                                            <a href="{% url 'entityedit' id=entity.id %}" class="btn btn-sm btn-info "><i class="fa fa-edit"></i></a></td>
+
+
+                                            <div class="modal fade" id="exampleModal{{ entity.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel{{ entity.id}}" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h3 class="modal-title" id="exampleModalLabel{{ entity.id}}">Delete conformation</h3>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    Sure.... you want delete this data!
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                                                      <a href="{% url 'entitydelete' id=entity.id %}"><button type="button" class="btn btn-danger">Delete</button></a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                                </tr>
+
+                                            {% endfor %}
+                                            {% endif %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.table-responsive -->
+
+                                </div>
+                                <!-- /.panel-body -->
+                            </div>
+                            <!-- /.panel -->
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+
+                </div>
+</div>
+{% endblock %}

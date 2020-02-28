@@ -1,0 +1,450 @@
+2019-11-26 17:21:10,686 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 17:21:10,689 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 17:21:10,689 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 17:21:19,306 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 17:21:19,306 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 17:21:19,307 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** pune plant {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 17:21:19,775 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 17:21:19,809 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 17:21:19,809 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:21:37,857 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:21:37,858 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:21:37,858 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:31:09,167 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:31:09,167 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:31:09,167 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** cv 1500 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:31:09,689 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:31:09,725 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:31:09,725 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:31:13,378 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:31:13,378 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:31:13,378 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:31:26,751 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:31:26,752 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:31:26,752 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1500 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:31:26,893 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:31:26,901 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:31:26,902 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:31:37,541 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:31:37,542 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:31:37,542 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** pune PV {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:31:37,676 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:31:37,687 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:31:37,687 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:31:47,556 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:31:47,556 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:31:47,556 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** PV 1100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:31:47,688 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:31:47,695 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:31:47,695 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:31:58,620 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:31:58,620 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:31:58,621 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 3100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:31:58,753 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:31:58,760 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:31:58,760 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:32:10,613 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:32:10,613 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:32:10,613 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** PV Pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:32:10,742 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:32:10,749 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:32:10,749 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:33:01,029 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:33:01,029 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:33:01,029 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 3001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:33:01,190 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:33:01,198 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:33:01,199 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:34:01,613 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:34:01,613 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:34:01,613 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 7501 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:34:01,818 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:34:01,829 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:34:01,829 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:34:37,768 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:34:37,769 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:34:37,769 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:34:37,996 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:34:38,005 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:34:38,005 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:35:21,603 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:35:21,603 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:35:21,603 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:35:21,840 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:35:21,847 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:35:21,847 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:35:39,618 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:35:39,618 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:35:39,618 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** pune CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:35:39,868 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:35:39,875 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:35:39,875 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:35:43,587 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:35:43,588 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:35:43,589 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:35:53,341 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:35:53,341 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:35:53,341 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:35:53,481 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:35:53,488 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:35:53,488 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:36:07,657 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:36:07,657 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:36:07,658 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:36:07,786 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:36:07,793 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:36:07,793 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:36:35,516 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:36:35,516 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:36:35,517 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** 1001 CV {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:36:35,651 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:36:35,659 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:36:35,659 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:36:38,460 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:36:38,460 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:36:38,461 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:36:47,401 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:36:47,401 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:36:47,401 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** pune CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:36:47,545 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:36:47,552 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:36:47,553 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:37:08,328 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:37:08,329 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:37:08,330 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:37:18,563 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:37:18,564 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:37:18,564 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:37:19,076 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:37:19,134 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:37:19,134 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:37:40,142 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:37:40,142 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:37:40,142 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:37:50,738 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:37:50,738 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:37:50,739 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:37:50,865 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:37:50,872 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:37:50,872 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:43:38,002 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:43:38,002 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:43:38,002 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:43:56,098 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:43:56,098 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:43:56,098 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:43:56,634 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:43:56,671 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:43:56,671 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:44:11,002 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:44:11,002 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:44:11,003 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** pune CV 10001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:44:11,139 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:44:11,147 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:44:11,147 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:44:38,916 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:44:38,916 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:44:38,916 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 3100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:44:39,052 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:44:39,059 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:44:39,059 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:45:09,851 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:45:09,851 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:45:09,851 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV  Pune 1001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:45:09,986 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:45:09,994 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:45:09,994 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:45:35,744 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:45:35,744 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:45:35,744 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** can you give me 3001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:45:35,877 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:45:35,884 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:45:35,884 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 18:45:57,726 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 18:45:57,727 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 18:45:57,727 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 18:45:57,876 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 18:45:57,884 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 18:45:57,884 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:44:56,980 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:44:56,980 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:44:56,980 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:45:04,334 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:45:04,335 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:45:04,335 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:45:19,294 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:45:19,296 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:45:19,297 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:45:29,660 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:45:29,660 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:45:29,660 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job 1100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:45:30,166 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:45:30,227 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:45:30,228 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:45:51,963 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:45:51,963 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:45:51,963 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job 3100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:45:52,105 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:45:52,113 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:45:52,113 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:46:01,604 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:46:01,604 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:46:01,604 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job 3001 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:46:01,732 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:46:01,739 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:46:01,739 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:53:11,661 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:53:11,661 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:53:11,661 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** what  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:53:12,130 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:53:18,468 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:53:18,468 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:53:18,468 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** what are the plant {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:53:18,613 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:53:18,620 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:53:18,620 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:53:44,217 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:53:44,217 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:53:44,218 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** which are the plant {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:53:44,365 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:53:44,372 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:53:44,372 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:54:41,785 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:54:41,785 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:54:41,785 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** web job {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:54:41,998 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:54:42,007 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:54:42,007 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:55:07,316 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:55:07,317 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:55:07,317 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** web {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:55:07,546 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:57:16,072 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:57:16,073 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:57:16,073 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** pune PV  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:57:16,321 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:57:16,328 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:57:16,328 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:57:44,161 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:57:44,162 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:57:44,162 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** Pune PV web job {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:57:44,398 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:57:44,406 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:57:44,406 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 20:58:53,224 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:58:53,225 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:58:53,225 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** 3100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:58:53,469 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:58:59,754 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 20:58:59,754 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 20:58:59,754 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** 3100 ? {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 20:58:59,995 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 20:59:00,002 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 20:59:00,002 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:22:30,442 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:22:30,443 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:22:30,443 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for PV {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:22:30,970 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:22:31,016 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:22:31,016 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:36:51,595 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:36:51,595 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:36:51,595 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:36:52,085 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:36:52,120 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:36:52,120 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:40:38,389 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:40:38,389 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:40:38,389 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:40:38,868 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:40:38,903 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:40:38,903 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:41:27,510 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:41:27,510 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:41:27,511 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** 1100 job {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:41:27,661 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:41:27,672 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:41:27,672 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:41:40,696 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:41:40,696 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:41:40,696 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** Job 1100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:41:40,852 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:41:40,859 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:41:40,859 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:41:43,750 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:41:43,750 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:41:43,750 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:42:04,873 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:42:04,873 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:42:04,873 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** PV 1100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:42:05,020 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:42:05,028 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:42:05,029 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:43:56,135 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:43:56,135 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:43:56,135 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV Pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:43:56,647 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:43:56,698 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:43:56,699 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 21:44:06,389 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 21:44:06,389 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 21:44:06,389 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 21:44:06,521 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 21:44:06,528 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 21:44:06,528 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:15:32,797 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:15:32,797 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:15:32,797 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:16:01,124 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:16:01,124 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:16:01,124 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV jobs {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:16:01,604 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:16:01,638 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:16:01,638 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:16:14,376 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:16:14,376 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:16:14,376 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV job for Pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:16:14,521 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:16:14,529 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:16:14,529 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:16:24,410 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:16:24,410 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:16:24,410 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** CV 1100 {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:16:24,558 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:16:24,566 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:16:24,566 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:18:04,755 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:18:04,755 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:18:04,755 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:18:04,896 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:18:04,903 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:18:04,903 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:18:43,336 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:18:43,336 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:18:43,336 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:18:43,492 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:18:43,503 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:18:43,504 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:20:28,228 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:20:28,228 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:20:28,228 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:20:28,731 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:20:28,776 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:20:28,776 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:25:03,427 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:25:03,428 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:25:03,428 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:25:03,972 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:25:04,027 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:25:04,027 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:27:07,118 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:27:07,119 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:27:07,119 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:27:07,662 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:27:07,699 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:27:07,699 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:28:29,559 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:28:29,559 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:28:29,559 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:28:30,106 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:28:30,157 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:28:30,157 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:30:30,280 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:30:30,281 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:30:30,282 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** pune jobs  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:30:30,556 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:30:30,567 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:30:30,567 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:32:33,362 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:32:33,363 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:32:33,363 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:32:34,034 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:32:34,076 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:32:34,076 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:34:30,702 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:34:30,702 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:34:30,702 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:34:31,303 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:34:31,344 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:34:31,344 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:43:04,154 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:43:04,154 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:43:04,154 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:43:04,772 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:43:04,831 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:43:04,831 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 22:53:30,563 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 22:53:30,563 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 22:53:30,563 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 22:53:31,183 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 22:53:31,226 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 22:53:31,226 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:00:25,694 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:00:25,694 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:00:25,694 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:00:26,317 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:00:26,361 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:00:26,361 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:04:39,661 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:04:39,661 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:04:39,661 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:04:40,313 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:04:40,359 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:04:40,359 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:05:37,914 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:05:37,915 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:05:37,915 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:05:38,528 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:05:38,572 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:05:38,572 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:08:15,785 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:08:15,786 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:08:15,786 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:08:22,345 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:08:22,345 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:08:22,345 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:08:22,889 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:08:22,959 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:08:22,959 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:10:00,764 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:10:00,764 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:10:00,764 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:10:01,300 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:10:01,350 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:10:01,350 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:10:36,517 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:10:36,517 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:10:36,517 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:10:44,640 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:10:44,640 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:10:44,640 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:10:44,778 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:10:44,785 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:10:44,785 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:11:29,254 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:11:29,255 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:11:29,255 ml_component.ml_component2.date_wise_log INFO *****************USER HIT********************  {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:11:36,140 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:11:36,140 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:11:36,140 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:11:36,286 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:11:36,294 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:11:36,294 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:12:57,690 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:12:57,690 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:12:57,690 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** jobs for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:12:58,183 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:12:58,252 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:12:58,252 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:16:50,034 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:16:50,034 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:16:50,034 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:16:50,185 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:16:50,198 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:16:50,199 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched
+2019-11-26 23:17:44,518 ml_component.ml_component2.date_wise_log INFO ========================================================================= 
+2019-11-26 23:17:44,518 ml_component.ml_component2.date_wise_log INFO =============================================================================== 
+2019-11-26 23:17:44,519 ml_component.ml_component2.date_wise_log INFO *****************USER HIT******************** job for pune {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ta48ut53g9wsl1kr5cf92w46v0hf4z9z'}
+2019-11-26 23:17:44,673 ml_component.ml_component2.date_wise_log INFO ---- switched--IN---in subjective-----------... switched
+2019-11-26 23:17:44,687 ml_component.ml_component2.date_wise_log INFO ---- NO DATA FOUND FROM FAQ -----------... 
+2019-11-26 23:17:44,687 ml_component.ml_component2.date_wise_log INFO ----so  NOW IN TASK ENGINE-----------... switched

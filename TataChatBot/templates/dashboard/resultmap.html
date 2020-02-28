@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% block mainbox %}
+<div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">Result Map</h1>
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    Result Map Form
+                                </div>
+                                <div class="panel-body">
+                                     {% if ResultMap_edit %}
+
+
+                                    <form role="form"  method="post" action="{% url 'result_map_update1'  %}" >
+                                        {% csrf_token %}
+                                        <div class="form-group has-success  col-lg-3">
+                                            <label class="control-label" for="inputSuccess1">Task Id</label>
+                                            <input type="text" class="form-control" name="TaskID" value="{{ ResultMap_edit.taskId }}" placeholder="{{ a.Entity_Type }}" id="inputSuccess1">
+                                            <input type="hidden" class="form-control" name="eid" value="{{ ResultMap_edit.id }}" >
+                                        </div>
+                                        <div class="form-group has-success col-lg-3">
+                                            <label class="control-label" for="inputSuccess2">Entity Id</label>
+                                            <input type="text" class="form-control" name="EntityID" value="{{ ResultMap_edit.entityId }}" id="inputSuccess2" required>
+                                        </div>
+                                        <div class="form-group has-success col-lg-3">
+                                            <label class="control-label" for="inputSuccess">Key</label>
+                                            <input type="text" class="form-control" name="Key" value="{{ ResultMap_edit.keyof }}" id="inputSuccess" required>
+                                        </div>
+                                        <div class="form-group has-success col-lg-3">
+                                            <label class="control-label" for="inputSuccess4">Redirect Task</label>
+                                            <input type="text" class="form-control" name="Redirectto" value="{{ ResultMap_edit.redirectTo }}" id="inputSuccess4" required>
+                                        </div>
+                                        <div class="form-group input-group ">
+
+                                            <button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
+
+                                        </div>
+
+
+                                    </form>
+
+                                    {% else %}
+                                    <form role="form"  method="post" action="{% url 'result_map_create'%}" >
+                                        {% csrf_token %}
+                                        <div class="form-group has-success col-lg-3">
+                                            <label class="control-label" for="inputSuccess11">Task Id</label>
+                                            <select class="form-control" name="TaskID"  id="inputSuccess11">
+                                                <option value="------">----------</option>
+                                                {% for t in intenttotask_detail %}
+                                                    <option value="{{ t.id }}">{{ t.id }}-->{{t.Intent_Name}}</option>
+                                                    {% endfor %}
+                                                  </select>
+
+                                        </div>
+                                        <div class="form-group has-success col-lg-3">
+                                            <label class="control-label" for="inputSuccess12">Entity ID</label>
+                                            <select class="form-control" name="EntityID"  id="inputSuccess12" >
+                                                <option value="------">----------</option>
+                                                {% for t in tasktoentity_detail %}
+                                                    <option value="{{ t.id }}">{{ t.id }}-->{{t.Entity_Question}}</option>
+                                                    {% endfor %}
+                                                  </select>
+
+                                        </div>
+                                        <div class="form-group has-success col-lg-3">
+                                            <label class="control-label" for="inputSuccess13">Key </label>
+                                            <input type="text" class="form-control" name="Key"  id="inputSuccess13" required>
+                                        </div>
+                                        <div class="form-group has-success col-lg-3">
+                                            <label class="control-label" for="inputSuccess131">Redirect Task</label>
+                                            <input type="text" class="form-control" name="Redirectto"  id="inputSuccess131" required>
+                                        </div>
+                                        <div class="form-group input-group">
+
+                                            <button class="btn btn-lg btn-success btn-block" type="submit" >Submit</button>
+
+                                        </div>
+
+
+                                    </form>
+                                {% endif %}
+
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    Entity Table
+
+
+                                </div>
+                                <!-- /.panel-heading -->
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                            <thead>
+                                        <tr>
+                                            <th>Id</th>
+                                            <th>Task Id</th>
+                                            <th>Entity ID</th>
+                                            <th>Key</th>
+                                            <th>Redirect To</th>
+                                            <th>Operation</th>
+                                        </tr>
+                                        </thead>
+                                        {% if ResultMap_all %}
+                                        {% for  i in ResultMap_all  %}
+                                         <tbody>
+                                        <tr class="odd gradeX">
+                                            <td>{{ i.id}}</td>
+                                            <td>{{ i.taskId }}</td>
+                                            <td>{{ i.entityId }}</td>
+                                            <td>{{ i.keyof }}</td>
+                                            <td>{{ i.redirectTo }}</td>
+                                            <td>
+                                            <a  class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal{{ i.id}}"><i class="fa fa-trash"></i></a>
+<!--                                            <a href="{% url 'result_map_update' id=i.pk %}" class="btn btn-sm btn-info "><i class="fa fa-edit"></i></a>-->
+                                            </td>
+                                            <div class="modal fade" id="exampleModal{{ i.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel{{ i.id}}" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h3 class="modal-title" id="exampleModalLabel{{ i.id}}">Delete conformation</h3>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    Sure.... you want delete this data!
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                                                      <a href="{% url 'result_map_delete' id=i.pk %}"><button type="button" class="btn btn-danger">Delete</button></a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </tr>
+                                         </tbody>
+                                        {% endfor %}
+                                        {% endif %}
+                                        </table>
+                                    </div>
+                                    <!-- /.table-responsive -->
+
+                                </div>
+                                <!-- /.panel-body -->
+                            </div>
+                            <!-- /.panel -->
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+
+                </div>
+</div>
+{% endblock %}
