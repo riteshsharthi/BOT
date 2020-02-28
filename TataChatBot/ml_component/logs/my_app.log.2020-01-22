@@ -1,0 +1,2221 @@
+2020-01-22 16:28:53,530  ============================================================================================================================================
+2020-01-22 16:28:53,532  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:28:53,532  *****************USER Uttarance ******************** : 
+2020-01-22 16:28:53,546  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:29:07,445  ============================================================================================================================================
+2020-01-22 16:29:07,445  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:29:07,445  *****************USER Uttarance ******************** : When is the next normal training session at the tricontes
+2020-01-22 16:29:07,978  ---- switched--IN---in subjective-----------... switched
+2020-01-22 16:29:08,030  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 16:29:08,030  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 16:29:08,498  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "When is the next normal training session at the tricontes",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry, I did not understand that.."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:30:31,547  ============================================================================================================================================
+2020-01-22 16:30:31,547  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:30:31,547  *****************USER Uttarance ******************** : When is the next normal training session at the tricontes
+2020-01-22 16:30:31,686  ---- switched--IN---in subjective-----------... switched
+2020-01-22 16:30:31,696  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 16:30:31,696  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 16:30:31,798  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "When is the next normal training session at the tricontes",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey buddy...! please try with different keywords"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:31:44,343  ============================================================================================================================================
+2020-01-22 16:31:44,343  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:31:44,343  *****************USER Uttarance ******************** : When is the next normal training session at the tricontes
+2020-01-22 16:31:44,800  ---- switched--IN---in subjective-----------... switched
+2020-01-22 16:31:44,836  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 16:31:44,837  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 16:31:45,360  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "When is the next normal training session at the tricontes",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey I am not sure about that ...please try different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:33:11,707  ============================================================================================================================================
+2020-01-22 16:33:11,712  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:33:11,712  *****************USER Uttarance ******************** : 
+2020-01-22 16:33:11,725  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:33:21,105  ============================================================================================================================================
+2020-01-22 16:33:21,105  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:33:21,105  *****************USER Uttarance ******************** : When is the next normal training session at the tricontes
+2020-01-22 16:33:21,586  ---- switched--IN---in subjective-----------... switched
+2020-01-22 16:33:21,627  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 16:33:21,627  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 16:33:22,118  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "When is the next normal training session at the tricontes",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey I am not sure about that ...please try different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:33:31,620  ============================================================================================================================================
+2020-01-22 16:33:31,620  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:33:31,620  *****************USER Uttarance ******************** : When is the next normal training session at the tricontes
+2020-01-22 16:33:31,748  ---- switched--IN---in subjective-----------... switched
+2020-01-22 16:33:31,758  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 16:33:31,759  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 16:33:31,850  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "When is the next normal training session at the tricontes",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey buddy...! please try with different keywords"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:37:28,392  ============================================================================================================================================
+2020-01-22 16:37:28,393  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:37:28,393  *****************USER Uttarance ******************** : When is the next normal training session at the tricontes
+2020-01-22 16:37:28,896  ---- switched--IN---in subjective-----------... switched
+2020-01-22 16:37:28,934  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 16:37:28,934  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 16:37:33,805  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "When is the next normal training session at the tricontes",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "virtual_training_start",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "When is the next normal training session at the tricontes",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 47,
+                    "Task_Id": 56,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "virtual training_start",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "virtual training_start"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:38:13,674  ============================================================================================================================================
+2020-01-22 16:38:13,674  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:38:13,675  *****************USER Uttarance ******************** : When is the next normal training session at the tricontes
+2020-01-22 16:38:14,240  ---- switched--IN---in subjective-----------... switched
+2020-01-22 16:38:14,283  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 16:38:14,283  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 16:38:15,032  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "When is the next normal training session at the tricontes",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "virtual_training_start",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "When is the next normal training session at the tricontes",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 47,
+                    "Task_Id": 56,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "virtual training_start",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 2
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "virtual training_start"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 16:40:03,190  ============================================================================================================================================
+2020-01-22 16:40:03,192  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 16:40:03,193  *****************USER Uttarance ******************** : 
+2020-01-22 16:40:03,205  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 17:09:22,499  ============================================================================================================================================
+2020-01-22 17:09:22,501  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 17:09:22,501  *****************USER Uttarance ******************** : 
+2020-01-22 17:09:22,512  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 17:12:13,673  ============================================================================================================================================
+2020-01-22 17:12:13,673  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 17:12:13,674  *****************USER Uttarance ******************** : 
+2020-01-22 17:12:13,678  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 17:12:45,232  ============================================================================================================================================
+2020-01-22 17:12:45,232  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 17:12:45,233  *****************USER Uttarance ******************** : what is Job detail for CV uttarakhand or utk 3100
+2020-01-22 17:12:45,792  ---- switched--IN---in subjective-----------... switched
+2020-01-22 17:12:45,866  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV uttarakhand or utk 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV uttarakhand or utk 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 17:13:21,173  ============================================================================================================================================
+2020-01-22 17:13:21,173  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 17:13:21,173  *****************USER Uttarance ******************** : what is Job detail for CV uttarakhand  3100
+2020-01-22 17:13:21,301  ---- switched--IN---in subjective-----------... switched
+2020-01-22 17:13:21,322  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV uttarakhand  3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV uttarakhand 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 17:13:35,459  ============================================================================================================================================
+2020-01-22 17:13:35,460  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'l8ihr8n9gro2egfot0j6l4m42gv1b7yo'}
+2020-01-22 17:13:35,460  *****************USER Uttarance ******************** : what is Job detail for CV  utk 3100
+2020-01-22 17:13:35,604  ---- switched--IN---in subjective-----------... switched
+2020-01-22 17:13:35,625  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "l8ihr8n9gro2egfot0j6l4m42gv1b7yo",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV  utk 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV utk 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:31:49,748  ============================================================================================================================================
+2020-01-22 20:31:49,749  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:31:49,749  *****************USER Uttarance ******************** : 
+2020-01-22 20:31:49,757  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:32:18,868  ============================================================================================================================================
+2020-01-22 20:32:18,868  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:32:18,868  *****************USER Uttarance ******************** : CV uttarakhand or utk 3100
+2020-01-22 20:32:19,353  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:32:19,415  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV uttarakhand or utk 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV uttarakhand or utk 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:32:28,907  ============================================================================================================================================
+2020-01-22 20:32:28,908  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:32:28,908  *****************USER Uttarance ******************** : CV uttarakhand  3100
+2020-01-22 20:32:29,039  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:32:29,056  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV uttarakhand  3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV uttarakhand 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:36:39,485  ============================================================================================================================================
+2020-01-22 20:36:39,485  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:36:39,485  *****************USER Uttarance ******************** : CV uttarakhand 3100
+2020-01-22 20:36:39,971  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:36:40,022  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV uttarakhand 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV uttarakhand 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:37:09,469  ============================================================================================================================================
+2020-01-22 20:37:09,474  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:37:09,475  *****************USER Uttarance ******************** : 
+2020-01-22 20:37:09,491  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:37:12,729  ============================================================================================================================================
+2020-01-22 20:37:12,729  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:37:12,729  *****************USER Uttarance ******************** : CV uttarakhand 3100
+2020-01-22 20:37:13,184  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:37:13,234  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV uttarakhand 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV uttarakhand 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:37:55,102  ============================================================================================================================================
+2020-01-22 20:37:55,102  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:37:55,103  *****************USER Uttarance ******************** : CV utk 3100
+2020-01-22 20:37:55,227  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:37:55,249  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV utk 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV utk 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:43:26,253  ============================================================================================================================================
+2020-01-22 20:43:26,253  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:43:26,253  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-22 20:43:26,390  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:43:26,411  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:44:02,741  ============================================================================================================================================
+2020-01-22 20:44:02,742  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:44:02,743  *****************USER Uttarance ******************** : 
+2020-01-22 20:44:02,748  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:44:08,054  ============================================================================================================================================
+2020-01-22 20:44:08,054  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:44:08,054  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-22 20:44:08,219  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:44:08,239  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:46:05,789  ============================================================================================================================================
+2020-01-22 20:46:05,789  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:46:05,790  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-22 20:46:06,318  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:46:06,379  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:52:20,284  ============================================================================================================================================
+2020-01-22 20:52:20,287  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:52:20,287  *****************USER Uttarance ******************** : 
+2020-01-22 20:52:20,303  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:52:24,250  ============================================================================================================================================
+2020-01-22 20:52:24,251  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:52:24,251  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-22 20:52:24,752  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:52:24,805  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "127.0.1.1/NELL_BOTdb_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 20:52:52,365  ============================================================================================================================================
+2020-01-22 20:52:52,365  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 20:52:52,365  *****************USER Uttarance ******************** : PV sanand 7501
+2020-01-22 20:52:52,524  ---- switched--IN---in subjective-----------... switched
+2020-01-22 20:52:52,546  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "PV sanand 7501",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "PV sanand 7501",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:27:37,643  ============================================================================================================================================
+2020-01-22 21:27:37,644  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:27:37,644  *****************USER Uttarance ******************** : PV sanand 7501
+2020-01-22 21:27:37,814  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:27:37,835  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "PV sanand 7501",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "PV sanand 7501",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:27:48,946  ============================================================================================================================================
+2020-01-22 21:27:48,946  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:27:48,946  *****************USER Uttarance ******************** : 
+2020-01-22 21:27:48,953  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:27:52,032  ============================================================================================================================================
+2020-01-22 21:27:52,032  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:27:52,032  *****************USER Uttarance ******************** : CV Pune 1001
+2020-01-22 21:27:52,188  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:27:52,210  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV Pune 1001",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV Pune 1001",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:28:06,191  ============================================================================================================================================
+2020-01-22 21:28:06,191  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:28:06,191  *****************USER Uttarance ******************** : CV Pune 1001 7501
+2020-01-22 21:28:06,324  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:28:06,344  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV Pune 1001 7501",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV Pune 1001 7501",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:28:46,596  ============================================================================================================================================
+2020-01-22 21:28:46,597  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:28:46,598  *****************USER Uttarance ******************** : CV Pune 1001 plant 7501 plant 3100
+2020-01-22 21:28:46,801  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:28:46,819  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV Pune 1001 plant 7501 plant 3100",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV Pune 1001 plant 7501 plant 3100",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:29:20,648  ============================================================================================================================================
+2020-01-22 21:29:20,649  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:29:20,650  *****************USER Uttarance ******************** : CV Pune 1001 plant 7501
+2020-01-22 21:29:20,865  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:29:20,885  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV Pune 1001 plant 7501",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV Pune 1001 plant 7501",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:29:58,759  ============================================================================================================================================
+2020-01-22 21:29:58,760  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:29:58,760  *****************USER Uttarance ******************** : CV Pune 1001 
+2020-01-22 21:29:58,976  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:29:59,007  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "CV Pune 1001 ",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "CV Pune 1001",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:34:56,451  ============================================================================================================================================
+2020-01-22 21:34:56,452  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:34:56,452  *****************USER Uttarance ******************** : 
+2020-01-22 21:34:56,454  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:35:16,557  ============================================================================================================================================
+2020-01-22 21:35:16,557  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:35:16,557  *****************USER Uttarance ******************** : virtual training safdalkafm dfsakflsdkmf
+2020-01-22 21:35:16,699  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:35:16,707  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 21:35:16,707  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 21:35:17,274  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "virtual training safdalkafm dfsakflsdkmf",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry, I did not understand that.."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-22 21:35:30,695  ============================================================================================================================================
+2020-01-22 21:35:30,696  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-22 21:35:30,696  *****************USER Uttarance ******************** : virtual training
+2020-01-22 21:35:30,824  ---- switched--IN---in subjective-----------... switched
+2020-01-22 21:35:30,832  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-22 21:35:30,832  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-22 21:35:30,978  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "virtual training",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "virtual_training_start",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "virtual training",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 47,
+                    "Task_Id": 56,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "virtual training_start",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "virtual training_start"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}

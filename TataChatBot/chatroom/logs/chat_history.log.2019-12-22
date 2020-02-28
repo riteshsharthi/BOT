@@ -1,0 +1,20 @@
+2019-12-22 17:05:55,631  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-22 17:06:21,248  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:06:21,693  Chat history Info from chatbot : {'request_data': 'interview', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:06:41,385  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:06:41,840  Chat history Info from chatbot : {'request_data': 'intervie call', 'responce_data': ['Your call is reddy'], 'task_name': 'call', 'task_type': 'call', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:07:06,445  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:07:06,884  Chat history Info from chatbot : {'request_data': 'incidaet ditails', 'responce_data': ['Your call is reddy'], 'task_name': 'call', 'task_type': 'call', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:07:34,573  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:07:35,007  Chat history Info from chatbot : {'request_data': 'incident details', 'responce_data': ['IncidentDetails is reddy'], 'task_name': 'IncidentDetails', 'task_type': 'IncidentDetails', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:07:40,344  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:07:40,796  Chat history Info from chatbot : {'request_data': 'dfsjfkn sdlfKSFL', 'responce_data': ['IncidentDetails is reddy'], 'task_name': 'IncidentDetails', 'task_type': 'IncidentDetails', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:07:43,172  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-22 17:07:44,757  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-22 17:07:48,919  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:07:49,401  Chat history Info from chatbot : {'request_data': 'FJDSKJLKDS DLFLKF', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:08:42,684  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:08:43,148  Chat history Info from chatbot : {'request_data': 'SAFLML INTREVIEW', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:08:54,018  Chat Bot Start Restart or Start By User : Admin
+2019-12-22 17:08:54,518  Chat history Info from chatbot : {'request_data': 'SAFLML INTREVIEW CALL', 'responce_data': ['Your call is reddy'], 'task_name': 'call', 'task_type': 'call', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-22 17:09:44,184  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}

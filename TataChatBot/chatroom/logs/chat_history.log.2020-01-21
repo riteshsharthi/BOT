@@ -1,0 +1,17 @@
+2020-01-21 00:08:06,158  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-21 00:08:09,552  Chat Bot Start Restart or Start By User : Admin
+2020-01-21 00:08:10,421  Chat history Info from chatbot : {'request_data': '\tHow to revive IPD bill', 'responce_data': ['Please contact HOD for this as the facility is provided to HOD'], 'task_name': 'FAQ', 'task_type': 'FAQ', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-21 00:09:09,623  Chat Bot Start Restart or Start By User : Admin
+2020-01-21 00:09:10,063  Chat history Info from chatbot : {'request_data': 'IPD bill', 'responce_data': [], 'task_name': 'FAQ', 'task_type': 'FAQ', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-21 00:09:19,861  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-21 00:09:27,082  Chat Bot Start Restart or Start By User : Admin
+2020-01-21 00:09:27,448  Chat history Info from chatbot : {'request_data': 'IPD bill', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-21 00:10:00,331  Chat Bot Start Restart or Start By User : Admin
+2020-01-21 00:10:00,723  Chat history Info from chatbot : {'request_data': 'revive IPD bill\t', 'responce_data': ['Please contact HOD for this as the facility is provided to HOD'], 'task_name': 'FAQ', 'task_type': 'FAQ', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-21 00:11:09,449  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-21 00:37:02,974  Chat Bot Start Restart or Start By User : Admin
+2020-01-21 00:37:03,378  Chat history Info from chatbot : {'request_data': 'what is job detail for 1500', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-21 00:37:52,225  Chat Bot Start Restart or Start By User : Admin
+2020-01-21 00:37:52,611  Chat history Info from chatbot : {'request_data': 'what is job detail for 1500 in lok', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-21 00:41:35,349  Chat Bot Start Restart or Start By User : Admin
+2020-01-21 00:41:36,136  Chat history Info from chatbot : {'request_data': 'what is job detail for 1500 in lok', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}

@@ -1,0 +1,3 @@
+2020-01-17 00:09:59,559  Chat Bot Start Restart or Start By User : Admin
+2020-01-17 00:10:00,847  Chat history Info from chatbot : {'request_data': 'jffdsc fsd;af; dfsa;lf dsfka', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-17 00:24:46,885  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}

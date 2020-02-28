@@ -1,0 +1,67 @@
+2019-12-16 00:01:03,833  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:01:28,869  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:01:29,981  Chat history Info from chatbot : {'request_data': 'sdjkdkfkd kkdcnlkanlksn jcsnjnlcs', 'responce_data': [], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:04:28,644  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:06:28,224  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:06:28,984  Chat history Info from chatbot : {'request_data': 'skakdskn', 'responce_data': ["Sorry I didn't understand, Please Provide more details"], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:06:34,746  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:06:35,417  Chat history Info from chatbot : {'request_data': 'dsakfmdvcm kmdasmd;mkd', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:07:17,890  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:07:23,912  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:07:25,046  Chat history Info from chatbot : {'request_data': 'sdkskdfv ksdkc', 'responce_data': ['Are You new joiner'], 'task_name': 'SharepointAccessError', 'task_type': 'SharepointAccessError', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:07:45,527  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:07:59,565  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:08:00,725  Chat history Info from chatbot : {'request_data': 'dksadck sdnckzk', 'responce_data': ['Are You new joiner'], 'task_name': 'SharepointAccessError', 'task_type': 'SharepointAccessError', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:08:09,194  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:08:23,671  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:08:24,007  Chat history Info from chatbot : {'request_data': 'skadannxccdn scnjdnnlkca lamClklk', 'responce_data': ['Are You new joiner'], 'task_name': 'SharepointAccessError', 'task_type': 'SharepointAccessError', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:10:06,955  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:10:13,660  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:10:14,895  Chat history Info from chatbot : {'request_data': 'dsjfsd sacscm ksack', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:10:18,771  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:10:26,861  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:10:27,201  Chat history Info from chatbot : {'request_data': 'nzkxcnlnvl lsncad llMA LAxlmaLMASDCL', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:11:01,984  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 00:11:07,763  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:11:08,128  Chat history Info from chatbot : {'request_data': 'DJSKAK ASclaMLAxSxmk ', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:11:15,083  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:11:15,412  Chat history Info from chatbot : {'request_data': 'PV Job', 'responce_data': ['One shell OT_PUNE_PV.sh on tmpnewebdb01 server please use putty and login with overtime user'], 'task_name': 'Web_002', 'task_type': 'Web_002', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 00:11:32,080  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 00:11:32,423  Chat history Info from chatbot : {'request_data': 'job plant', 'responce_data': ['Open schedular tasks on AWS server and check sheduled tasks for metrology'], 'task_name': 'Web_004', 'task_type': 'Web_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:18:50,705  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:18:51,970  Chat history Info from chatbot : {'request_data': 'ndasldl ls;dm;am;sd;dmmc;m;', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:19:24,404  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 23:19:33,053  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:19:33,417  Chat history Info from chatbot : {'request_data': 'sdaskjjf kdsaflklk asdfjdj', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:19:41,077  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:19:41,441  Chat history Info from chatbot : {'request_data': 'dslkafjlkd ASDLSJSFL', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:19:53,821  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:19:54,169  Chat history Info from chatbot : {'request_data': 'I ASKDKLKLFD3 3', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:20:58,645  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:20:59,013  Chat history Info from chatbot : {'request_data': 'ASJDSJ SKDFLKD ksldkl', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:21:55,570  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 23:22:02,801  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:22:04,038  Chat history Info from chatbot : {'request_data': 'hjasjaj sladlsalk skjnsd', 'responce_data': ['Okey which module is it.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:23:14,262  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 23:23:33,558  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:23:34,702  Chat history Info from chatbot : {'request_data': 'slkDSKk sadLC DKSMCALKCMK pv', 'responce_data': ['Open schedular tasks on AWS server and check sheduled tasks for metrology'], 'task_name': 'Web_004', 'task_type': 'Web_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:27:55,379  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:27:55,732  Chat history Info from chatbot : {'request_data': 'KKKFKDFKDKFK MDSKFKDF PV', 'responce_data': ['Open schedular tasks on AWS server and check sheduled tasks for metrology'], 'task_name': 'Web_004', 'task_type': 'Web_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:28:38,029  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 23:28:51,407  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:28:51,775  Chat history Info from chatbot : {'request_data': 'SKANDLKNKLSND VLDKLVKL PV', 'responce_data': ['Open schedular tasks on AWS server and check sheduled tasks for metrology'], 'task_name': 'Web_004', 'task_type': 'Web_004', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:30:30,938  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 23:30:40,787  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:30:42,146  Chat history Info from chatbot : {'request_data': 'SDLKDSC LSADK lasdldsc PV', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:35:05,652  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:35:06,822  Chat history Info from chatbot : {'request_data': 'sadkasd msadsC SDMFC;LSADM PV', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:35:11,391  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 23:35:19,999  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:35:20,360  Chat history Info from chatbot : {'request_data': 'JDSKDKVKS CSCEREA CV', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:35:38,182  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:35:38,551  Chat history Info from chatbot : {'request_data': 'cv JOBS', 'responce_data': ['Sorry, I did not understand that..'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:35:53,204  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:35:53,547  Chat history Info from chatbot : {'request_data': 'CV job', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-16 23:35:56,994  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-16 23:36:34,304  Chat Bot Start Restart or Start By User : Admin
+2019-12-16 23:36:34,669  Chat history Info from chatbot : {'request_data': 'CV plant job', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}

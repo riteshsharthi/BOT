@@ -1,0 +1,2 @@
+2020-02-28 22:39:08,670   Exception in BOT Start : User matching query does not exist. 
+2020-02-28 22:39:08,723  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}

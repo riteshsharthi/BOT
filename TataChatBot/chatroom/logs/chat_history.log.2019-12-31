@@ -1,0 +1,7 @@
+2019-12-31 10:08:41,483   Exception in BOT Start : User matching query does not exist. 
+2019-12-31 10:08:41,484  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-31 10:14:54,145  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2019-12-31 10:15:06,736  Chat Bot Start Restart or Start By User : Admin
+2019-12-31 10:15:07,432  Chat history Info from chatbot : {'request_data': 'hi', 'responce_data': ['Hi, how may I help you?'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2019-12-31 10:18:41,971  Chat Bot Start Restart or Start By User : Admin
+2019-12-31 10:18:42,785  Chat history Info from chatbot : {'request_data': 'want to know about incident', 'responce_data': ['IncidentDetails is reddy'], 'task_name': 'IncidentDetails', 'task_type': 'IncidentDetails', 'request_user': 'Admin', 'responce_user': 'Chatbot'}

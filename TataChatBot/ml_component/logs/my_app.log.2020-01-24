@@ -1,0 +1,5029 @@
+2020-01-24 16:25:23,624  ============================================================================================================================================
+2020-01-24 16:25:23,625  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:25:23,625  *****************USER Uttarance ******************** : 
+2020-01-24 16:25:23,631  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:25:27,311  ============================================================================================================================================
+2020-01-24 16:25:27,311  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:25:27,311  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 16:25:27,856  ---- switched--IN---in subjective-----------... switched
+2020-01-24 16:25:27,932  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "127.0.1.1/NELL_BOTdb_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:29:10,330  ============================================================================================================================================
+2020-01-24 16:29:10,332  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:29:10,333  *****************USER Uttarance ******************** : 
+2020-01-24 16:29:10,342  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:29:13,260  ============================================================================================================================================
+2020-01-24 16:29:13,260  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:29:13,260  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 16:29:13,784  ---- switched--IN---in subjective-----------... switched
+2020-01-24 16:29:13,858  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "127.0.1.1/media/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:31:35,997  ============================================================================================================================================
+2020-01-24 16:31:35,997  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:31:35,997  *****************USER Uttarance ******************** : 
+2020-01-24 16:31:36,008  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:31:38,991  ============================================================================================================================================
+2020-01-24 16:31:38,992  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:31:38,992  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 16:31:39,485  ---- switched--IN---in subjective-----------... switched
+2020-01-24 16:31:39,553  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:33:19,782  ============================================================================================================================================
+2020-01-24 16:33:19,782  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:33:19,782  *****************USER Uttarance ******************** : 
+2020-01-24 16:33:19,804  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:33:24,332  ============================================================================================================================================
+2020-01-24 16:33:24,332  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:33:24,332  *****************USER Uttarance ******************** : 127.0.1.1/media/img/db_and_models.pn
+2020-01-24 16:33:24,879  ---- switched--IN---in subjective-----------... switched
+2020-01-24 16:33:24,947  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "127.0.1.1/media/img/db_and_models.pn",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "127.0.1.1/media/img/db_and_models.pn",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 16:33:36,256  ============================================================================================================================================
+2020-01-24 16:33:36,256  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 16:33:36,256  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 16:33:36,399  ---- switched--IN---in subjective-----------... switched
+2020-01-24 16:33:36,420  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:26:40,302  ============================================================================================================================================
+2020-01-24 17:26:40,302  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:26:40,303  *****************USER Uttarance ******************** : 
+2020-01-24 17:26:40,320  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:27:16,491  ============================================================================================================================================
+2020-01-24 17:27:16,491  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:27:16,491  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:27:17,030  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:27:17,104  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:30:06,699  ============================================================================================================================================
+2020-01-24 17:30:06,699  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:30:06,699  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:30:06,874  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:30:06,896  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:30:32,287  ============================================================================================================================================
+2020-01-24 17:30:32,287  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:30:32,287  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:30:32,501  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:30:32,529  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:33:40,366  ============================================================================================================================================
+2020-01-24 17:33:40,366  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:33:40,367  *****************USER Uttarance ******************** : 
+2020-01-24 17:33:40,373  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:33:45,202  ============================================================================================================================================
+2020-01-24 17:33:45,202  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:33:45,202  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:33:45,346  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:33:45,367  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:34:23,051  ============================================================================================================================================
+2020-01-24 17:34:23,052  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:34:23,052  *****************USER Uttarance ******************** : 
+2020-01-24 17:34:23,060  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:34:24,152  ============================================================================================================================================
+2020-01-24 17:34:24,153  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:34:24,153  *****************USER Uttarance ******************** : 
+2020-01-24 17:34:24,158  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:34:26,961  ============================================================================================================================================
+2020-01-24 17:34:26,961  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:34:26,961  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:34:27,097  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:34:27,123  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:38:12,195  ============================================================================================================================================
+2020-01-24 17:38:12,196  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:38:12,197  *****************USER Uttarance ******************** : 
+2020-01-24 17:38:12,208  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:38:15,064  ============================================================================================================================================
+2020-01-24 17:38:15,064  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:38:15,064  *****************USER Uttarance ******************** : botMessage
+2020-01-24 17:38:15,191  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:38:15,200  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "botMessage",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "botMessage",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Sorry I didn't understand, Please Provide more details"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:38:28,998  ============================================================================================================================================
+2020-01-24 17:38:28,998  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:38:28,998  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:38:29,140  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:38:29,162  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:38:55,561  ============================================================================================================================================
+2020-01-24 17:38:55,561  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:38:55,562  *****************USER Uttarance ******************** : 
+2020-01-24 17:38:55,570  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:38:59,291  ============================================================================================================================================
+2020-01-24 17:38:59,291  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:38:59,291  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:38:59,416  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:38:59,437  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:39:33,964  ============================================================================================================================================
+2020-01-24 17:39:33,964  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:39:33,965  *****************USER Uttarance ******************** : 
+2020-01-24 17:39:33,968  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:39:49,005  ============================================================================================================================================
+2020-01-24 17:39:49,005  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:39:49,005  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:39:49,146  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:39:49,167  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:40:31,807  ============================================================================================================================================
+2020-01-24 17:40:31,808  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:40:31,808  *****************USER Uttarance ******************** : 
+2020-01-24 17:40:31,816  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:40:38,486  ============================================================================================================================================
+2020-01-24 17:40:38,486  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'lyatehlaejo0v5ea21kc5tgdg8otiyq6'}
+2020-01-24 17:40:38,486  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:40:38,941  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:40:38,990  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "lyatehlaejo0v5ea21kc5tgdg8otiyq6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:43:50,837  ============================================================================================================================================
+2020-01-24 17:43:50,838  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:43:50,838  *****************USER Uttarance ******************** : 
+2020-01-24 17:43:50,843  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:45:35,180  ============================================================================================================================================
+2020-01-24 17:45:35,180  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:45:35,180  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:45:35,690  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:45:35,746  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:49:08,751  ============================================================================================================================================
+2020-01-24 17:49:08,751  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:49:08,751  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:49:08,889  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:49:08,912  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:49:39,277  ============================================================================================================================================
+2020-01-24 17:49:39,277  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:49:39,277  *****************USER Uttarance ******************** : 
+2020-01-24 17:49:39,291  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:50:02,407  ============================================================================================================================================
+2020-01-24 17:50:02,408  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '76ifnyhrgnhv79iq943qc2ktno73hvns'}
+2020-01-24 17:50:02,408  *****************USER Uttarance ******************** : 
+2020-01-24 17:50:02,410  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "76ifnyhrgnhv79iq943qc2ktno73hvns",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:50:05,674  ============================================================================================================================================
+2020-01-24 17:50:05,674  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '76ifnyhrgnhv79iq943qc2ktno73hvns'}
+2020-01-24 17:50:05,674  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:50:05,798  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:50:05,818  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "76ifnyhrgnhv79iq943qc2ktno73hvns",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:50:16,586  ============================================================================================================================================
+2020-01-24 17:50:16,586  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': '76ifnyhrgnhv79iq943qc2ktno73hvns'}
+2020-01-24 17:50:16,586  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:50:16,708  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:50:16,730  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "76ifnyhrgnhv79iq943qc2ktno73hvns",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:55:32,191  ============================================================================================================================================
+2020-01-24 17:55:32,195  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:55:32,195  *****************USER Uttarance ******************** : 
+2020-01-24 17:55:32,213  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:55:35,192  ============================================================================================================================================
+2020-01-24 17:55:35,192  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:55:35,192  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:55:35,643  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:55:35,691  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:56:56,306  ============================================================================================================================================
+2020-01-24 17:56:56,306  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:56:56,306  *****************USER Uttarance ******************** : 
+2020-01-24 17:56:56,321  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:57:04,390  ============================================================================================================================================
+2020-01-24 17:57:04,390  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:57:04,390  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:57:04,849  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:57:04,897  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:58:59,203  ============================================================================================================================================
+2020-01-24 17:58:59,203  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:58:59,203  *****************USER Uttarance ******************** : 
+2020-01-24 17:58:59,211  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 17:59:02,073  ============================================================================================================================================
+2020-01-24 17:59:02,073  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 17:59:02,073  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 17:59:02,200  ---- switched--IN---in subjective-----------... switched
+2020-01-24 17:59:02,219  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:00:57,448  ============================================================================================================================================
+2020-01-24 18:00:57,448  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:00:57,449  *****************USER Uttarance ******************** : 
+2020-01-24 18:00:57,457  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:01:00,307  ============================================================================================================================================
+2020-01-24 18:01:00,307  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:01:00,307  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:01:00,432  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:01:00,456  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:01:24,979  ============================================================================================================================================
+2020-01-24 18:01:24,980  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:01:24,981  *****************USER Uttarance ******************** : 
+2020-01-24 18:01:24,990  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:01:29,973  ============================================================================================================================================
+2020-01-24 18:01:29,974  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:01:29,974  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:01:30,109  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:01:30,132  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:03:05,093  ============================================================================================================================================
+2020-01-24 18:03:05,094  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:03:05,094  *****************USER Uttarance ******************** : 
+2020-01-24 18:03:05,098  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:03:13,718  ============================================================================================================================================
+2020-01-24 18:03:13,719  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:03:13,719  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:03:13,861  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:03:13,883  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:03:36,997  ============================================================================================================================================
+2020-01-24 18:03:36,997  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:03:36,997  *****************USER Uttarance ******************** : 
+2020-01-24 18:03:37,009  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:03:39,894  ============================================================================================================================================
+2020-01-24 18:03:39,894  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:03:39,894  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:03:40,029  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:03:40,053  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:04:40,440  ============================================================================================================================================
+2020-01-24 18:04:40,441  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:04:40,442  *****************USER Uttarance ******************** : 
+2020-01-24 18:04:40,449  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:04:49,622  ============================================================================================================================================
+2020-01-24 18:04:49,622  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:04:49,622  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:04:49,750  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:04:49,772  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:06:38,896  ============================================================================================================================================
+2020-01-24 18:06:38,897  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:06:38,897  *****************USER Uttarance ******************** : 
+2020-01-24 18:06:38,905  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:06:45,440  ============================================================================================================================================
+2020-01-24 18:06:45,440  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:06:45,440  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:06:45,569  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:06:45,592  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:07:15,601  ============================================================================================================================================
+2020-01-24 18:07:15,601  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:07:15,601  *****************USER Uttarance ******************** : 
+2020-01-24 18:07:15,622  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:07:21,897  ============================================================================================================================================
+2020-01-24 18:07:21,897  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:07:21,897  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:07:22,038  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:07:22,070  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:07:41,715  ============================================================================================================================================
+2020-01-24 18:07:41,715  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:07:41,715  *****************USER Uttarance ******************** : 
+2020-01-24 18:07:41,722  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:07:44,834  ============================================================================================================================================
+2020-01-24 18:07:44,834  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:07:44,834  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:07:44,969  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:07:44,998  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:12:14,875  ============================================================================================================================================
+2020-01-24 18:12:14,877  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:12:14,878  *****************USER Uttarance ******************** : 
+2020-01-24 18:12:14,890  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:12:17,145  ============================================================================================================================================
+2020-01-24 18:12:17,145  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:12:17,145  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:12:17,419  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:12:17,462  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:12:47,934  ============================================================================================================================================
+2020-01-24 18:12:47,935  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:12:47,938  *****************USER Uttarance ******************** : 
+2020-01-24 18:12:47,948  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:12:57,661  ============================================================================================================================================
+2020-01-24 18:12:57,661  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:12:57,661  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:12:57,790  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:12:57,811  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:16:47,115  ============================================================================================================================================
+2020-01-24 18:16:47,116  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:16:47,117  *****************USER Uttarance ******************** : 
+2020-01-24 18:16:47,129  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:16:54,991  ============================================================================================================================================
+2020-01-24 18:16:54,991  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:16:54,991  *****************USER Uttarance ******************** : How to revive IPD bill
+2020-01-24 18:16:55,127  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:16:55,149  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "How to revive IPD bill",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "How to revive IPD bill",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Please contact HOD for this as the facility is provided to HOD"
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/db_and_models.png"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:32:56,134  ============================================================================================================================================
+2020-01-24 18:32:56,142  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:32:56,143  *****************USER Uttarance ******************** : 
+2020-01-24 18:32:56,156  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 18:32:58,744  ============================================================================================================================================
+2020-01-24 18:32:58,744  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 18:32:58,744  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 18:32:59,209  ---- switched--IN---in subjective-----------... switched
+2020-01-24 18:32:59,258  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "img",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 20:39:20,612  ============================================================================================================================================
+2020-01-24 20:39:20,619  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 20:39:20,619  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 20:39:21,183  ---- switched--IN---in subjective-----------... switched
+2020-01-24 20:39:21,257  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 20:45:14,198  ============================================================================================================================================
+2020-01-24 20:45:14,199  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 20:45:14,199  *****************USER Uttarance ******************** : 
+2020-01-24 20:45:14,203  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 20:45:20,701  ============================================================================================================================================
+2020-01-24 20:45:20,701  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 20:45:20,701  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 20:45:21,262  ---- switched--IN---in subjective-----------... switched
+2020-01-24 20:45:21,335  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 20:48:16,337  ============================================================================================================================================
+2020-01-24 20:48:16,337  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 20:48:16,337  *****************USER Uttarance ******************** : 
+2020-01-24 20:48:16,341  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 20:48:20,132  ============================================================================================================================================
+2020-01-24 20:48:20,132  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 20:48:20,132  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 20:48:20,609  ---- switched--IN---in subjective-----------... switched
+2020-01-24 20:48:20,678  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 20:50:59,930  ============================================================================================================================================
+2020-01-24 20:50:59,930  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 20:50:59,931  *****************USER Uttarance ******************** : 
+2020-01-24 20:50:59,945  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 20:51:03,331  ============================================================================================================================================
+2020-01-24 20:51:03,331  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 20:51:03,331  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 20:51:03,461  ---- switched--IN---in subjective-----------... switched
+2020-01-24 20:51:03,491  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:22:13,442  ============================================================================================================================================
+2020-01-24 21:22:13,449  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:22:13,449  *****************USER Uttarance ******************** : 
+2020-01-24 21:22:13,473  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:22:17,562  ============================================================================================================================================
+2020-01-24 21:22:17,562  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:22:17,562  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 21:22:17,780  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:22:17,824  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:24:24,199  ============================================================================================================================================
+2020-01-24 21:24:24,200  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:24:24,202  *****************USER Uttarance ******************** : 
+2020-01-24 21:24:24,217  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:24:27,550  ============================================================================================================================================
+2020-01-24 21:24:27,550  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:24:27,550  *****************USER Uttarance ******************** : what is Job detail for CV dharwad
+2020-01-24 21:24:27,787  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:24:27,820  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:25:06,198  ============================================================================================================================================
+2020-01-24 21:25:06,198  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:25:06,198  *****************USER Uttarance ******************** : cv  dharwad job
+2020-01-24 21:25:06,423  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:25:06,453  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "cv  dharwad job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "cv dharwad job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:26:08,206  ============================================================================================================================================
+2020-01-24 21:26:08,207  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:26:08,207  *****************USER Uttarance ******************** : cv job DWH 1500
+2020-01-24 21:26:08,445  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:26:08,502  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "cv job DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "cv job DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:53:08,003  ============================================================================================================================================
+2020-01-24 21:53:08,003  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:53:08,003  *****************USER Uttarance ******************** : 
+2020-01-24 21:53:08,007  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:53:10,994  ============================================================================================================================================
+2020-01-24 21:53:10,994  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:53:10,994  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 21:53:11,131  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:53:11,159  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:56:59,713  ============================================================================================================================================
+2020-01-24 21:56:59,714  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:56:59,714  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 21:57:00,387  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:57:00,452  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:58:10,994  ============================================================================================================================================
+2020-01-24 21:58:10,996  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:58:10,996  *****************USER Uttarance ******************** : 
+2020-01-24 21:58:11,010  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:58:14,417  ============================================================================================================================================
+2020-01-24 21:58:14,417  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:58:14,417  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 21:58:14,571  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:58:14,599  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:58:47,605  ============================================================================================================================================
+2020-01-24 21:58:47,607  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:58:47,607  *****************USER Uttarance ******************** : 
+2020-01-24 21:58:47,619  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:58:51,533  ============================================================================================================================================
+2020-01-24 21:58:51,533  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:58:51,533  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 21:58:51,670  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:58:51,709  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:59:16,720  ============================================================================================================================================
+2020-01-24 21:59:16,722  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:59:16,722  *****************USER Uttarance ******************** : 
+2020-01-24 21:59:16,734  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 21:59:22,602  ============================================================================================================================================
+2020-01-24 21:59:22,602  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 21:59:22,602  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 21:59:22,743  ---- switched--IN---in subjective-----------... switched
+2020-01-24 21:59:22,770  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-24 22:37:16,217  ============================================================================================================================================
+2020-01-24 22:37:16,217  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'psib6r23w1j6yw5vnpf32ov3ym0xvger'}
+2020-01-24 22:37:16,217  *****************USER Uttarance ******************** : what is Job detail for CV dharwad or DWH 1500
+2020-01-24 22:37:16,491  ---- switched--IN---in subjective-----------... switched
+2020-01-24 22:37:16,515  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "psib6r23w1j6yw5vnpf32ov3ym0xvger",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for CV dharwad or DWH 1500",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for CV dharwad or DWH 1500",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            },
+            {
+                "type": "video",
+                "sequence": "2",
+                "value": "http://127.0.1.1/media/video/Angular.mp4"
+            },
+            {
+                "type": "img",
+                "sequence": "3",
+                "value": "http://127.0.1.1/media/img/q.jpg"
+            },
+            {
+                "type": "doc",
+                "sequence": "4",
+                "value": "http://127.0.1.1/media/doc/Tensorflow.pdf"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}

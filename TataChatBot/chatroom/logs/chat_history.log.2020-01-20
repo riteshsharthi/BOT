@@ -1,0 +1,11 @@
+2020-01-20 21:12:39,910  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-20 21:12:55,830  Chat Bot Start Restart or Start By User : Admin
+2020-01-20 21:12:57,138  Chat history Info from chatbot : {'request_data': '2001 CV plant jobs', 'responce_data': ['Hey I am not sure about that ...please try different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-20 21:13:46,468  Chat Bot Start Restart or Start By User : Admin
+2020-01-20 21:13:46,902  Chat history Info from chatbot : {'request_data': '2001 CV', 'responce_data': ['Hey buddy...! please try with different keywords'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-20 21:15:00,746  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-20 21:15:04,363  Chat Bot Start Restart or Start By User : Admin
+2020-01-20 21:15:05,597  Chat history Info from chatbot : {'request_data': '2001 CV', 'responce_data': ['My robot brain is not sure about that one...Please try asking a different way.'], 'task_name': '', 'task_type': '', 'request_user': 'Admin', 'responce_user': 'Chatbot'}
+2020-01-20 21:18:01,553  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Admin... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-01-20 21:18:17,445  Chat Bot Start Restart or Start By User : Admin
+2020-01-20 21:18:18,977  Chat history Info from chatbot : {'request_data': 'training virtual', 'responce_data': ['virtual training_start'], 'task_name': 'virtual_training_start', 'task_type': 'virtual_training_start', 'request_user': 'Admin', 'responce_user': 'Chatbot'}

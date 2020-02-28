@@ -1,0 +1,571 @@
+2020-01-07 08:06:32,976  ============================================================================================================================================
+2020-01-07 08:06:32,980  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-07 08:06:32,980  *****************USER Uttarance ******************** : 
+2020-01-07 08:06:33,007  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-07 08:07:08,885  ============================================================================================================================================
+2020-01-07 08:07:08,885  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-07 08:07:08,885  *****************USER Uttarance ******************** : job plats
+2020-01-07 08:07:09,091  ---- switched--IN---in subjective-----------... switched
+2020-01-07 08:07:09,187  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-07 08:07:09,187  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-07 08:07:09,307  Exception in Main function : too many values to unpack (expected 2)
+2020-01-07 08:07:09,307  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 005",
+            "tag": "CV_005"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 001",
+            "tag": "CV_001"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 004",
+            "tag": "CV_004"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 007",
+            "tag": "CV_007"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 006",
+            "tag": "CV_006"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "PV job 001",
+            "tag": "PV_001"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 003",
+            "tag": "CV_003"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 009",
+            "tag": "CV_009"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 008",
+            "tag": "CV_008"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "CV job 002",
+            "tag": "CV_002"
+        },
+        {
+            "application": "Enterprise",
+            "module": "pp",
+            "process": "Consumption",
+            "subprocess": "job",
+            "name": "PV job 002",
+            "tag": "PV_002"
+        },
+        {
+            "application": "WEB",
+            "module": "Employee Facing",
+            "process": "Metrology",
+            "subprocess": "job",
+            "tag": "Web_004"
+        },
+        {
+            "application": "WEB",
+            "module": "Employee Facing",
+            "process": "CommonEmployee",
+            "subprocess": "Issue",
+            "tag": "Issue001"
+        }
+    ],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "job plats",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "job plats",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "stop_key": "application",
+                "sequence": "1",
+                "value": "Okey which application is it."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": [
+                {
+                    "title": "Enterprise",
+                    "task": "$redirect-Enterprise",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "WEB",
+                    "task": "$redirect-WEB",
+                    "link": "",
+                    "utterance": ""
+                }
+            ]
+        }
+    },
+    "channel": ""
+}
+2020-01-07 08:07:13,889  ============================================================================================================================================
+2020-01-07 08:07:13,889  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-07 08:07:13,889  *****************USER Uttarance ******************** : $redirect-Enterprise
+2020-01-07 08:07:13,891  Exception in Main function : too many values to unpack (expected 2)
+2020-01-07 08:07:13,891  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "stop_key": "process",
+                "sequence": "1",
+                "value": "Okey which process is it."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": [
+                {
+                    "title": "Consumption",
+                    "task": "$redirect-Consumption",
+                    "link": "",
+                    "utterance": ""
+                }
+            ]
+        }
+    },
+    "channel": ""
+}
+2020-01-07 08:07:15,756  ============================================================================================================================================
+2020-01-07 08:07:15,756  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-07 08:07:15,756  *****************USER Uttarance ******************** : $redirect-Consumption
+2020-01-07 08:07:15,758  Exception in Main function : too many values to unpack (expected 2)
+2020-01-07 08:07:15,759  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "stop_key": "name",
+                "sequence": "1",
+                "value": "Okey which name is it."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": [
+                {
+                    "title": "CV job 009",
+                    "task": "$redirect-CV job 009",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 002",
+                    "task": "$redirect-CV job 002",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 004",
+                    "task": "$redirect-CV job 004",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 003",
+                    "task": "$redirect-CV job 003",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 008",
+                    "task": "$redirect-CV job 008",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "PV job 002",
+                    "task": "$redirect-PV job 002",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 005",
+                    "task": "$redirect-CV job 005",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 006",
+                    "task": "$redirect-CV job 006",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "PV job 001",
+                    "task": "$redirect-PV job 001",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 001",
+                    "task": "$redirect-CV job 001",
+                    "link": "",
+                    "utterance": ""
+                },
+                {
+                    "title": "CV job 007",
+                    "task": "$redirect-CV job 007",
+                    "link": "",
+                    "utterance": ""
+                }
+            ]
+        }
+    },
+    "channel": ""
+}
+2020-01-07 08:07:18,306  ============================================================================================================================================
+2020-01-07 08:07:18,307  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-07 08:07:18,308  *****************USER Uttarance ******************** : $redirect-CV job 004
+2020-01-07 08:07:18,330  Exception in Main function : too many values to unpack (expected 2)
+2020-01-07 08:07:18,333  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "CV_004",
+            "task": "CV_004",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "CV_004",
+            "entities_extracted": {},
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 21,
+                    "Task_Id": 30,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-01-07 08:07:31,440  ============================================================================================================================================
+2020-01-07 08:07:31,440  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'tgij1781ir6bbfhgvjktdd0bs2iz27u6'}
+2020-01-07 08:07:31,440  *****************USER Uttarance ******************** : pune plant for job
+2020-01-07 08:07:31,603  ---- switched--IN---in subjective-----------... switched
+2020-01-07 08:07:31,610  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-01-07 08:07:31,610  ----so  NOW IN TASK ENGINE-----------... switched
+2020-01-07 08:07:31,717  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "tgij1781ir6bbfhgvjktdd0bs2iz27u6",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "pune plant for job",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "CV_001",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "pune plant for job",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "1",
+            "asked_sequence_question": {
+                "1": {
+                    "_id": 18,
+                    "Task_Id": 27,
+                    "Entity_Id": 2,
+                    "Entity_Name": "yes_no",
+                    "Entity_Question": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                    "Entity_alternet_qustion": [
+                        ""
+                    ],
+                    "Entity_Sequence": 1,
+                    "task_redirect": "",
+                    "pre_text": "",
+                    "pre_action_url": "",
+                    "interview_url": "",
+                    "value_collection_name": "",
+                    "collection_url": "",
+                    "validation_url": "",
+                    "count": 1
+                }
+            }
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}

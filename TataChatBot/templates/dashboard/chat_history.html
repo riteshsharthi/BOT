@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block mainbox %}
+<div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">Chat History</h1>
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+
+
+                <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    Chat History
+                                </div>
+                                <!-- /.panel-heading -->
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id </th>
+                                                    <th>Request Data</th>
+                                                    <th>Responce Data</th>
+                                                    <th>Task Name</th>
+                                                    <th>Section Type</th>
+                                                    <th>Request From</th>
+                                                    <th>Responce From</th>
+                                                    <th>Chat Time</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% if chat_history_detail %}
+                                            {% for chat in chat_history_detail %}
+                                                <tr >
+                                                    <td >{{ chat.id}}</td>
+                                                    <td>{{ chat.request_data}}</td>
+                                                    <td>{{ chat.responce_data}}</td>
+                                                    <td>{{ chat.task_name}}</td>
+                                                    <td>{{ chat.task_type}}</td>
+                                                    <td>{{ chat.request_user}}</td>
+                                                    <td>{{ chat.responce_user}}</td>
+                                                    <td>{{ chat.create_dt}}</td>
+                                                </tr>
+                                            {% endfor %}
+                                            {% endif %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.table-responsive -->
+
+                                </div>
+                                <!-- /.panel-body -->
+                            </div>
+                            <!-- /.panel -->
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+
+                </div>
+</div>
+{% endblock %}

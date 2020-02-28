@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Dr. Wallace"/>
+<meta name="language" content="en"/>
+
+<!-- All bye patterns -->
+<category>
+	<pattern>BAI</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>BYE BYE</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>BYEBYE</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>C YA</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CYA</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>CIAO</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>END</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOOD BY</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOOD BYE</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>BYEE</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>BYEEE</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>BONJOUR</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOODBY</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOODBYE</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOT TO GO</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOTTA GO</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>HASTA LA VISTA</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>HASTALAVISTA</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAVE TO GO</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>HASTALAVISTA</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>SAYONARA</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>SEE YOU</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>SEE YOU LATER</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>SEE YOU SOON</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+<category>
+	<pattern>TA TA</pattern>
+	<template>
+		<srai>BYE</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>BYE</pattern>
+	<template>
+		<random>
+			<li>Bye.. It was nice interacting with you.Keep asking Queries.</li>
+			<li>Bye.. Have a nice day ahead. Keep in contact.Always ready to answer your Queries.</li>
+			<li>Bye.. It was nice interacting with you.I hope you found what you were looking for.</li>
+			<li>Bye.. I hope you found what you were looking for. </li>
+			<li>Bye.. May the force be with you. </li>
+			<li>Bye.. Be good.. Take care. </li>
+			<li>Bye.. keep rocking. </li>
+		</random>
+	</template>
+</category>
+
+
+<!-- All hello patterns -->
+
+<category>
+	<pattern>HI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HII</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HIII</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>ALOHA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY BOT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI BOT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO BOT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>YO ^ BOT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI BRO</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAY</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAY BOT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLLLOO</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLLLOO BOT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HELOOO</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELOOO BOT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO BUDDY</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<!--<category>
+	<pattern>HELLO LIGHTAPP ANSWERING ENGINE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>-->
+<!--<category>
+	<pattern>HELLO SKILLSALFA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO SKILLS ALFA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO SKILLSALPHA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO SKILLS ALPHA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>-->
+<!--<category>
+	<pattern>HELLO LIGHT</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>-->
+<category>
+	<pattern>HAI THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAI THER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAI THR</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+<pattern>HI THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>ANYBODY HOME</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>LETS TALK</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+<category>
+	<pattern>LETS CHAT</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+<category>
+	<pattern>LETS HAVE A CONVERSATION</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+<category>
+	<pattern>^ HAVE ^ CONVERSATION ^ ME</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+<category>
+	<pattern>^ TALK ^ ME</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+<category>
+	<pattern>LETS CONVERSE</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+
+<category>
+	<pattern>HI SKILLS ALFA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HEY SKILLSALFA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HELLO THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HAI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HELLO AGAIN</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLOW</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HELLO </pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY DER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY THER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY THR</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HI DER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAI DER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HELLO DER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HI THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI THER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HELLO THER</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HI THR</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HELLO THR</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HIYA</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOWDIE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOWDY</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>HULLO</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOOD DAY</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>IS ANYONE THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+<category>
+	<pattern>MOOSHI MOOSHI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>HELLO</pattern>
+	<template>
+		<random>
+			<li>Hi, how may I help you?</li>
+			<li>Hello, how may I help you?</li>
+		</random>
+	</template>
+</category>
+
+
+
+
+
+
+<!-- All cool patterns -->
+
+<category>
+	<pattern>KOOL</pattern>
+	<template>
+		<srai>COOL</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>COOL</pattern>
+	<template>
+		<random>
+			<li>Kool. I think you liked it buddy. :)</li>
+			<li>cool. I think you liked it buddy. :)</li>
+			<li>cool. I am glad you liked it. :)</li>
+			<li>Kool. Always happy to help :)</li>
+			<li>Kool. Always ready to help :)</li>
+		</random>
+	</template>
+</category>
+
+<!-- All good afternoon, good evening, good night patterns-->
+
+<category>
+	<pattern>GA</pattern>
+	<template>
+		<srai>GOOD AFTERNOON</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUD AFTERNOON</pattern>
+	<template>
+		<srai>GOOD AFTERNOON</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUDAFTERNOON</pattern>
+	<template>
+		<srai>GOOD AFTERNOON</srai>
+	</template>
+</category>
+<category>
+    <pattern>GOOD AFTERNOON</pattern>
+	<template>
+		<random>
+			<li>Good afternoon! how are you doing?</li>
+			
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>GE</pattern>
+	<template>
+		<srai>GOOD EVENING</srai>
+	</template>
+</category>
+<category>
+    <pattern>GOOD EVENING</pattern>
+	<template>
+		<random>
+			<li>Good evening! how are you doing?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>GM</pattern>
+	<template>
+		<srai>GOOD MORNING</srai>
+	</template>
+</category>
+<category>
+	<pattern>MORNING</pattern>
+	<template>
+		<srai>GOOD MORNING</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUD MORNING</pattern>
+	<template>
+		<srai>GOOD MORNING</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUDMORNING</pattern>
+	<template>
+		<srai>GOOD MORNING</srai>
+	</template>
+</category>
+<category>
+	<pattern>GD MRNG</pattern>
+	<template>
+		<srai>GOOD MORNING</srai>
+	</template>
+</category>
+<category>
+	<pattern>GDMRNG</pattern>
+	<template>
+		<srai>GOOD MORNING</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOOD MRNING</pattern>
+	<template>
+		<srai>GOOD MORNING</srai>
+	</template>
+</category>
+<category>
+    <pattern>GOOD MORNING</pattern>
+	<template>
+		<random>
+			<li>Good morning! how are you doing?</li>
+			<li>Good morning!!.</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>GD NITE</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUD NIGHT</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUDNIGHT</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GN</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GNIGHT</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUD NITE</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GDNI8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GD NI8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOOD N8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUD N8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOODN8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOODNI8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUDNI8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GOOD NI8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>GUD NI8</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+<category>
+	<pattern>HAVE A GOOD NIGHT</pattern>
+	<template>
+		<srai>GOOD NIGHT</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>GOOD NIGHT</pattern>
+	<template>
+		<random>
+			<li>Good night! It was nice interacting with you.Keep asking Queries.</li>
+			<li>Good night! Always ready to answer your Queries.</li>
+			<li>Good night! It was nice interacting with you.I hope you found what you were looking for.</li>
+			<li>Good night! I hope you found what you were looking for.</li>
+			<li>Good night! See you in the morning.I hope you found what you were looking for.</li>
+		</random>
+	</template>
+</category>
+
+<!-- how r u patterns-->
+
+<category>
+	<pattern>HOW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW ARE U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW R YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HOW ARE YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HOW ARE U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO HW R YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO HOW ARE U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO HW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO HOW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO HOW ARE YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HW ARE YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HW ARE U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HW R YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HOW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HEY HW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO HW ARE U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HELLO HW ARE YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI HOW ARE YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI HOW ARE U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI HOW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI HW R YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI HW R U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI HW ARE U</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HI HW ARE YOU</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+
+<category>
+	<pattern>HOW ARE YOU DOING</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW R U DOING</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW ARE U DOING</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW R YOU DOING</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW ARE YOU DNG</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HW R U DOING</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU DOIN</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HW R U DOIN</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU DOING TODAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HW R U DOING TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE U DOING TODAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU DOIN TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HW R U DOIN TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HW R U DOIN TODAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW R U DOIN TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HW DO U DO</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW DO U DO</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW DO YOU DO</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WHAZZUP</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>WHAZZ UP</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>WHATS UP</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>WHATSUP</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WHATSP</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>WHTSP</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>WASSUP</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>HOW ARE YOU TODAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HW R U TODAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW R U TODAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE U TODAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HW R U TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE U TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW R U TDAY</pattern>
+	<template>
+		<srai>HOW ARE YOU</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>HOW ARE YOU</pattern>
+	<template>
+		<random>
+			<li>I am good..</li>
+			<li>I am doing very good :) how are you doing?</li>
+		</random>
+	</template>
+</category>
+
+
+<!--gREAT APP PATTERNS-->
+
+<category>
+	<pattern>VERY NICE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>GRT APP</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>VERYNICE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>NICE ANSWER</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICEAPP</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE ONE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE OF YOU</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE OF U</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE RESPONSE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE TALKING TO YOU</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE TALKING 2 U</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE TALKING 2 YOU</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+<category>
+	<pattern>NICE TALKING TO U</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>GREAT APP</pattern>
+	<template>
+		<random>
+			<li>Thank you buddy.. Always ready to answer thanks for your feedback.</li>
+			<li>Thanks. I appreciate that.</li>
+		</random>
+	</template>
+</category>
+
+<!-- All ok patterns -->
+
+<category>
+	<pattern>OK</pattern>
+	<template>
+		<srai>OKAY</srai>
+	</template>
+</category>
+<category>
+	<pattern>K</pattern>
+	<template>
+		<srai>OKAY</srai>
+	</template>
+</category>
+<category>
+	<pattern>SALUT</pattern>
+	<template>
+		<srai>OKAY</srai>
+	</template>
+</category>
+<category>
+	<pattern>I AM GOING</pattern>
+	<template>
+		<srai>OKAY</srai>
+	</template>
+</category>
+<category>
+	<pattern>I AM GOING TO GO</pattern>
+	<template>
+		<srai>OKAY</srai>
+	</template>
+</category>
+<category>
+	<pattern>I AM LEAVING</pattern>
+	<template>
+		<srai>OKAY</srai>
+	</template>
+</category>
+<category>
+    <pattern>OKAY</pattern>
+	<template>
+		<random>
+			<li> ok..I hope you found what you were looking for :)</li>
+		</random>
+	</template>
+</category>
+
+
+<!-- all thank you patterns -->
+
+<category>
+	<pattern>THANKS</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>THANKS A LOT</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>THANKX</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>THNKZ</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>THNKS</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>THNX</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>THNK U</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>THANKZZ</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>THNK U</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+
+
+<category>
+	<pattern>THANKZ</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>THANK U</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+<category>
+	<pattern>THANK YOU SO MUCH</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>THANK U SO MUCH</pattern>
+	<template>
+		<srai>THANK YOU</srai>
+	</template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+	<template>
+		<random>
+			<li>You are always welcome buddy.. Always ready to answer questions from you:)</li>
+			<li>You are always welcome.. keep asking :)</li>
+			<li>Anytime! You are always welcome! </li>
+		</random>
+	</template>
+</category>
+
+<!-- ALL WELCOME PATTERNS -->
+
+<category>
+	<pattern>WELCUM</pattern>
+	<template>
+		<srai>WELCOME</srai>
+	</template>
+</category>
+<category>
+	<pattern>WELCM</pattern>
+	<template>
+		<srai>WELCOME</srai>
+	</template>
+</category>
+<category>
+    <pattern>WELCOME</pattern>
+	<template>
+		<random>
+			<li>Always ready to help :)</li>
+			<li>Always ready to help.. keep asking :)</li>
+		</random>
+	</template>
+</category>
+
+<!-- all patterns containing REPLY tag answer -->
+
+<category>
+	<pattern>I AM WAITING</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I AM WAITIN</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I M WAITING</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I M WAITIN</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I AM WAITING FOR ANSWER</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I M WAITING FOR ANSWER</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WAITING FOR ANSWER</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WAITING FOR AN ANSWER</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WAITIN FOR ANSWER</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>REPLY ME</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WAITIN</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WAITING</pattern>
+	<template>
+		<srai>REPLY</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>REPLY</pattern>
+	<template>
+		Hii..Your answer is on its way
+	</template>
+</category>
+
+
+<!-- Randoms -->
+
+<category>
+	<pattern>cheers!</pattern>
+	<template>
+		cheers
+	</template>
+</category>
+
+<category>
+	<pattern>SAY HELLO IN GERMAN</pattern>
+	<template>
+		Hallo.
+	</template>
+</category>
+
+
+<!-- one with <sr tags> -->
+
+<category>
+	<pattern>YO *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<!-- that is/was * patterns -->
+
+<category>
+	<pattern>THAT IS *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>THT IS *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>THATS *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>THAT WAS *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>THT WAS *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+
+<!-- you/you are * patterns -->
+
+<category>
+	<pattern>YOU *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>U *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>YOU ARE *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>U R *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>YOU R *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>YOU ARE SO *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>
+	<pattern>U R SO *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<category>                                                                                                                  
+	<pattern>YOU R SO *</pattern>
+	<template>
+		<sr/>
+	</template>
+</category>
+
+<!-- <sr/> responses -->
+<category>
+	<pattern>AWESOME</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>BEAUTIFUL</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>BEST</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>BRIGHT</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>BRILLIANT</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CLEVER</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GOOD</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GUD</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GOOD ONE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GUD ONE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GREAT</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GRT</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>INTELLIGENT</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>LOVABLE</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>MARVELOUS</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>OSSOM</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>SWEET</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WONDERFUL</pattern>
+	<template>
+		<srai>GREAT APP</srai>
+	</template>
+</category>
+
+
+<!--old not sure for why they had added.. so kept it for reviewing
+
+<category>
+<pattern>A LOT</pattern>
+<template>
+:)
+</template>
+</category>
+
+<category>
+<pattern>BUDY</pattern>
+<template>
+:)
+</template>
+</category>
+
+<category>
+<pattern>BUDDY</pattern>
+<template>
+:)
+</template>
+</category>
+
+<category>
+<pattern>VERY MUCH</pattern>
+<template>
+:)
+</template>
+</category>
+
+<category>
+<pattern>VERYMUCH</pattern>
+<template>
+:)
+</template>
+</category>
+
+-->
+
+<category>
+	<pattern>YOU ARE AWESOME</pattern>
+	<template>Thanks, I know that!</template>
+</category>
+<category>
+	<pattern>U ARE AWESOME</pattern>
+	<template>Thanks, I know that!</template>
+</category>
+<category>
+	<pattern>U R AWESOME</pattern>
+	<template>Thanks, I know that!</template>
+</category>
+<category>
+	<pattern>YOU R AWESOME</pattern>
+	<template>Thanks, I know that!</template>
+</category>
+
+</aiml>
