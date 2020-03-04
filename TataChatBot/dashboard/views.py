@@ -392,6 +392,7 @@ def faq_data(request):
     dict_con['username'] = request.user
     parental_node_data_detail = NodesModule.objects.all()
     post_list = serializers.serialize('json', parental_node_data_detail)
+    # post_list = sorted(post_list, key=lambda x: x['pk'])
     dict_con['parental_node_data_detail'] = parental_node_data_detail
     dict_con['parental_node_data_detail_json'] = post_list
     print(post_list)
@@ -576,8 +577,8 @@ def faq_edit(request):
             edit_faq.video = video
             edit_faq.image = upload_img
             edit_faq.doc = doc
-            edit_faq.image = link
-            edit_faq.doc = nodes
+            edit_faq.link = link
+            edit_faq.nodes = str(nodes)
             edit_faq.save()
     return  HttpResponseRedirect("/dashboard/faq/")
 

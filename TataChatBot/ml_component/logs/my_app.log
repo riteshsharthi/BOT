@@ -1,7 +1,7 @@
-2020-02-21 06:48:35,990  ============================================================================================================================================
-2020-02-21 06:48:35,991  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '5ybjkx1i8dn2b6mjr13v3swyvcysw8ep'}
-2020-02-21 06:48:35,991  *****************USER Uttarance ******************** : 
-2020-02-21 06:48:35,998  *****************Final Replay context_data ******************** : 
+2020-03-04 10:20:42,211  ============================================================================================================================================
+2020-03-04 10:20:42,211  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:20:42,212  *****************USER Uttarance ******************** : 
+2020-03-04 10:20:42,422  *****************Final Replay context_data ******************** : 
  {
     "user_info": {
         "first_name": "",
@@ -10,7 +10,7 @@
         "mob": ""
     },
     "identifier": {
-        "user_id": "5ybjkx1i8dn2b6mjr13v3swyvcysw8ep",
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
         "session_id": "",
         "channel_id": "",
         "user_name": "admin"
@@ -47,10 +47,11 @@
     },
     "channel": ""
 }
-2020-02-21 06:48:42,378  ============================================================================================================================================
-2020-02-21 06:48:42,378  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': '5ybjkx1i8dn2b6mjr13v3swyvcysw8ep'}
-2020-02-21 06:48:42,378  *****************USER Uttarance ******************** : 
-2020-02-21 06:48:42,390  *****************Final Replay context_data ******************** : 
+2020-03-04 10:20:45,539  ============================================================================================================================================
+2020-03-04 10:20:45,539  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:20:45,539  *****************USER Uttarance ******************** : what is Job detail for PV dharwad or DWH 2255
+2020-03-04 10:20:46,181  ---- switched--IN---in subjective-----------... switched
+2020-03-04 10:20:46,353  *****************Final Replay context_data ******************** : 
  {
     "user_info": {
         "first_name": "",
@@ -59,7 +60,1180 @@
         "mob": ""
     },
     "identifier": {
-        "user_id": "5ybjkx1i8dn2b6mjr13v3swyvcysw8ep",
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for PV dharwad or DWH 2255",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for PV dharwad or DWH 2255",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 20,
+                "faqid": "19409",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 9,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 100.0,
+                "rank": "2",
+                "sequence": "1"
+            },
+            {
+                "question_id": 19,
+                "faqid": "79872",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 8,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 68.82,
+                "rank": "21",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "79574",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 45.11,
+                "rank": "10",
+                "sequence": "3"
+            },
+            {
+                "question_id": 13,
+                "faqid": "32388",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 41.61,
+                "rank": "9",
+                "sequence": "4"
+            },
+            {
+                "question_id": 16,
+                "faqid": "65667",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "7",
+                "sequence": "5"
+            },
+            {
+                "question_id": 17,
+                "faqid": "03742",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "6"
+            },
+            {
+                "question_id": 18,
+                "faqid": "44168",
+                "type": "link",
+                "link": "",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "7"
+            },
+            {
+                "question_id": 15,
+                "faqid": "22918",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 33.17,
+                "rank": "10",
+                "sequence": "8"
+            },
+            {
+                "question_id": 10,
+                "faqid": "98454",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Kindly check in mytatamotors \u00e0 Myworkplace",
+                "retio": 7.21,
+                "rank": "0",
+                "sequence": "9"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 10:26:08,832  ============================================================================================================================================
+2020-03-04 10:26:08,839  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:26:08,839  *****************USER Uttarance ******************** : 
+2020-03-04 10:26:08,843  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 10:26:11,597  ============================================================================================================================================
+2020-03-04 10:26:11,598  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:26:11,598  *****************USER Uttarance ******************** : what is Job detail for PV dharwad or DWH 2255	
+2020-03-04 10:26:11,949  ---- switched--IN---in subjective-----------... switched
+2020-03-04 10:26:12,003  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for PV dharwad or DWH 2255\t",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for PV dharwad or DWH 2255",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 20,
+                "faqid": "24803",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 9,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 100.0,
+                "rank": "3",
+                "sequence": "1"
+            },
+            {
+                "question_id": 19,
+                "faqid": "87984",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 8,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 68.82,
+                "rank": "21",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "98312",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 45.11,
+                "rank": "10",
+                "sequence": "3"
+            },
+            {
+                "question_id": 13,
+                "faqid": "53082",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 41.61,
+                "rank": "9",
+                "sequence": "4"
+            },
+            {
+                "question_id": 16,
+                "faqid": "87619",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "7",
+                "sequence": "5"
+            },
+            {
+                "question_id": 17,
+                "faqid": "13259",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "6"
+            },
+            {
+                "question_id": 18,
+                "faqid": "50376",
+                "type": "link",
+                "link": "",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "7"
+            },
+            {
+                "question_id": 15,
+                "faqid": "37599",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 33.17,
+                "rank": "10",
+                "sequence": "8"
+            },
+            {
+                "question_id": 10,
+                "faqid": "12064",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Kindly check in mytatamotors \u00e0 Myworkplace",
+                "retio": 7.21,
+                "rank": "0",
+                "sequence": "9"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 10:30:48,920  ============================================================================================================================================
+2020-03-04 10:30:48,921  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:30:48,921  *****************USER Uttarance ******************** : 
+2020-03-04 10:30:48,922  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 10:31:09,009  ============================================================================================================================================
+2020-03-04 10:31:09,009  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:31:09,009  *****************USER Uttarance ******************** : PV job Details
+2020-03-04 10:31:09,122  ---- switched--IN---in subjective-----------... switched
+2020-03-04 10:31:09,131  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-03-04 10:31:09,131  ----so  NOW IN TASK ENGINE-----------... switched
+2020-03-04 10:31:09,665  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "PV job Details",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "I did not understand, Please try in different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 10:31:21,817  ============================================================================================================================================
+2020-03-04 10:31:21,818  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:31:21,818  *****************USER Uttarance ******************** : 
+2020-03-04 10:31:21,819  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 10:31:35,976  ============================================================================================================================================
+2020-03-04 10:31:35,976  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 10:31:35,976  *****************USER Uttarance ******************** : PV Job Details
+2020-03-04 10:31:36,101  ---- switched--IN---in subjective-----------... switched
+2020-03-04 10:31:36,111  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-03-04 10:31:36,111  ----so  NOW IN TASK ENGINE-----------... switched
+2020-03-04 10:31:36,258  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "PV Job Details",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "I did not understand, Please try in different way."
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 11:03:40,574  ============================================================================================================================================
+2020-03-04 11:03:40,600  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 11:03:40,600  *****************USER Uttarance ******************** : 
+2020-03-04 11:03:40,634  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:39:11,030  ============================================================================================================================================
+2020-03-04 14:39:11,035  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'ujobuwz5thrbmh4g13a5kzobkbrb8u8b'}
+2020-03-04 14:39:11,035  *****************USER Uttarance ******************** : 
+2020-03-04 14:39:11,102  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "ujobuwz5thrbmh4g13a5kzobkbrb8u8b",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:40:23,459  ============================================================================================================================================
+2020-03-04 14:40:23,459  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'hobe3q2wr5ozews7itgty8bddllt8chi'}
+2020-03-04 14:40:23,459  *****************USER Uttarance ******************** : 
+2020-03-04 14:40:23,461  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "hobe3q2wr5ozews7itgty8bddllt8chi",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:40:28,819  ============================================================================================================================================
+2020-03-04 14:40:28,820  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'hobe3q2wr5ozews7itgty8bddllt8chi'}
+2020-03-04 14:40:28,820  *****************USER Uttarance ******************** : what is Job detail for PV dharwad or DWH 2255
+2020-03-04 14:40:29,504  ---- switched--IN---in subjective-----------... switched
+2020-03-04 14:40:29,834  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "hobe3q2wr5ozews7itgty8bddllt8chi",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for PV dharwad or DWH 2255",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for PV dharwad or DWH 2255",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 20,
+                "faqid": "27632",
+                "type": "link",
+                "link": "http://localhost/media/video/Angular.mp4",
+                "ans_seq": 9,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 100.0,
+                "rank": "4",
+                "sequence": "1"
+            },
+            {
+                "question_id": 19,
+                "faqid": "29054",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 8,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 68.82,
+                "rank": "21",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "09878",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 45.11,
+                "rank": "10",
+                "sequence": "3"
+            },
+            {
+                "question_id": 13,
+                "faqid": "04937",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 41.61,
+                "rank": "9",
+                "sequence": "4"
+            },
+            {
+                "question_id": 16,
+                "faqid": "17733",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "7",
+                "sequence": "5"
+            },
+            {
+                "question_id": 17,
+                "faqid": "14877",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "6"
+            },
+            {
+                "question_id": 18,
+                "faqid": "53682",
+                "type": "link",
+                "link": "",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "7"
+            },
+            {
+                "question_id": 15,
+                "faqid": "13938",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 33.17,
+                "rank": "10",
+                "sequence": "8"
+            },
+            {
+                "question_id": 10,
+                "faqid": "93262",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Kindly check in mytatamotors \u00e0 Myworkplace",
+                "retio": 7.21,
+                "rank": "0",
+                "sequence": "9"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:48:11,434  ============================================================================================================================================
+2020-03-04 14:48:11,434  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'hobe3q2wr5ozews7itgty8bddllt8chi'}
+2020-03-04 14:48:11,435  *****************USER Uttarance ******************** : 
+2020-03-04 14:48:11,458  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "hobe3q2wr5ozews7itgty8bddllt8chi",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:48:15,206  ============================================================================================================================================
+2020-03-04 14:48:15,206  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'hobe3q2wr5ozews7itgty8bddllt8chi'}
+2020-03-04 14:48:15,206  *****************USER Uttarance ******************** : what is Job detail for PV dharwad or DWH 2255
+2020-03-04 14:48:15,684  ---- switched--IN---in subjective-----------... switched
+2020-03-04 14:48:15,767  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "hobe3q2wr5ozews7itgty8bddllt8chi",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "what is Job detail for PV dharwad or DWH 2255",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "FAQ",
+            "task": "FAQ",
+            "action_url": "",
+            "live_user": "True",
+            "processed_uttarance": "what is Job detail for PV dharwad or DWH 2255",
+            "entities_extracted": {
+                "username": "admin"
+            },
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "question_id": 20,
+                "faqid": "19445",
+                "type": "link",
+                "link": "https://tatatechnologies-my.sharepoint.com/:w:/p/rtt917451/EXDgAFUUxYtPqhECes6coSEB-FjoHqADlo5mJI7MuOQbGA?e=kSI2C3",
+                "ans_seq": 9,
+                "value": "Two jobs in event...go to SAP and check PV jobs in SM37 tcode with Name = *CONS*2255*, Usser name = *,  date = today date ,Program = *RMSER* , You will find two job, one is suffix  _S  which means  synchronous job with 6 month old to till date and another is run on same day.\"&M2&N2",
+                "retio": 100.0,
+                "rank": "4",
+                "sequence": "1"
+            },
+            {
+                "question_id": 19,
+                "faqid": "81897",
+                "type": "link",
+                "link": "http://localhost/media/doc/Tensorflow.pdf",
+                "ans_seq": 8,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1500 & CONS:MF70:PUNE_CV_1500_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1500*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 68.82,
+                "rank": "21",
+                "sequence": "2"
+            },
+            {
+                "question_id": 14,
+                "faqid": "69905",
+                "type": "link",
+                "link": "",
+                "ans_seq": 3,
+                "value": "job APP:DLY1/6:PPC_CONF_GO_7501_PPCG in 4 hrs...go to SAP and check jobs in SM37 tcode with Name = *PPCG*, Usser name = *, date = today date",
+                "retio": 45.11,
+                "rank": "10",
+                "sequence": "3"
+            },
+            {
+                "question_id": 13,
+                "faqid": "32757",
+                "type": "link",
+                "link": "",
+                "ans_seq": 2,
+                "value": "Two jobs in event...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, user name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another run on same day.",
+                "retio": 41.61,
+                "rank": "9",
+                "sequence": "4"
+            },
+            {
+                "question_id": 16,
+                "faqid": "67873",
+                "type": "link",
+                "link": "",
+                "ans_seq": 5,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_2001 & CONS:MF70:PUNE_CV_2001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "7",
+                "sequence": "5"
+            },
+            {
+                "question_id": 17,
+                "faqid": "06902",
+                "type": "link",
+                "link": "",
+                "ans_seq": 6,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3100 & CONS:MF70:PUNE_CV_3100_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*2001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "6"
+            },
+            {
+                "question_id": 18,
+                "faqid": "44518",
+                "type": "link",
+                "link": "",
+                "ans_seq": 7,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_3001 & CONS:MF70:PUNE_CV_3001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*3001*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 35.83,
+                "rank": "4",
+                "sequence": "7"
+            },
+            {
+                "question_id": 15,
+                "faqid": "26677",
+                "type": "link",
+                "link": "",
+                "ans_seq": 4,
+                "value": "Two jobs in event CONS:MF70:PUNE_CV_1001 & CONS:MF70:PUNE_CV_1001_S...go to SAP and check jobs in SM37 tcode with Name = *CONS*1100*, Usser name = *, date = today date ,Program = *RMSER* , You will find two job, one is suffix _S which means synchronous job with 6 month old to till date and another is run on same day.",
+                "retio": 33.17,
+                "rank": "10",
+                "sequence": "8"
+            },
+            {
+                "question_id": 10,
+                "faqid": "94405",
+                "type": "link",
+                "link": "",
+                "ans_seq": 1,
+                "value": "Kindly check in mytatamotors \u00e0 Myworkplace",
+                "retio": 7.21,
+                "rank": "0",
+                "sequence": "9"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:49:37,802  ============================================================================================================================================
+2020-03-04 14:49:37,802  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'hobe3q2wr5ozews7itgty8bddllt8chi'}
+2020-03-04 14:49:37,802  *****************USER Uttarance ******************** : 
+2020-03-04 14:49:37,806  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "hobe3q2wr5ozews7itgty8bddllt8chi",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:49:58,135  ============================================================================================================================================
+2020-03-04 14:49:58,135  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'password': 1, 'session_key': 'hobe3q2wr5ozews7itgty8bddllt8chi'}
+2020-03-04 14:49:58,135  *****************USER Uttarance ******************** : PV Job details
+2020-03-04 14:49:58,259  ---- switched--IN---in subjective-----------... switched
+2020-03-04 14:49:58,269  ---- NO DATA FOUND FROM FAQ -----------... 
+2020-03-04 14:49:58,269  ----so  NOW IN TASK ENGINE-----------... switched
+2020-03-04 14:49:58,774  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "hobe3q2wr5ozews7itgty8bddllt8chi",
+        "session_id": "",
+        "channel_id": "",
+        "user_name": "admin"
+    },
+    "data_proceed": [],
+    "selected_intent_list": [],
+    "chat_req": {
+        "message_id": "",
+        "uttarance": "PV Job details",
+        "chat_type": "",
+        "chat_timestamp": "",
+        "time_zone": "",
+        "chat_attributes": {
+            "intent": "",
+            "task": "",
+            "action_url": "",
+            "live_user": "",
+            "processed_uttarance": "",
+            "entities_extracted": {},
+            "current_asked_question": "",
+            "asked_sequence_question": {}
+        },
+        "ambiguity_resolver": {},
+        "interview_details": []
+    },
+    "previous_contexts": [],
+    "chat_res": {
+        "reply_id": "",
+        "reply_text": [
+            {
+                "type": "text",
+                "sequence": "1",
+                "value": "Hey buddy...! please try with different keywords"
+            }
+        ],
+        "reply_timestamp": "",
+        "additional_param": {
+            "button": []
+        }
+    },
+    "channel": ""
+}
+2020-03-04 14:55:00,516  ============================================================================================================================================
+2020-03-04 14:55:00,517  *****************USER HIT******************** {'username': <SimpleLazyObject: <User: admin>>, 'user_id': 1, 'session_key': 'hobe3q2wr5ozews7itgty8bddllt8chi'}
+2020-03-04 14:55:00,517  *****************USER Uttarance ******************** : 
+2020-03-04 14:55:00,521  *****************Final Replay context_data ******************** : 
+ {
+    "user_info": {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "mob": ""
+    },
+    "identifier": {
+        "user_id": "hobe3q2wr5ozews7itgty8bddllt8chi",
         "session_id": "",
         "channel_id": "",
         "user_name": "admin"

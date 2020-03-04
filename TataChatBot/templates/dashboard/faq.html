@@ -545,20 +545,7 @@ function createImgElement(p_id,p_class,p_src) {
 												node.toggleNode();
 											}
 										},
-										{
-											text : 'Expand Node',
-											icon: "{% static 'aimara/images/leaf.png' %}",
-											action : function(node) {
-												node.expandNode();
-											}
-										},
-										{
-											text : 'Collapse Node',
-											icon: "{% static 'aimara/images/leaf.png' %}",
-											action : function(node) {
-												node.collapseNode();
-											}
-										},
+
 										{
 											text : 'Expand Subtree',
 											icon: "{% static 'aimara/images/tree.png' %}",
@@ -595,17 +582,13 @@ function createImgElement(p_id,p_class,p_src) {
 											text : 'Create Child Node',
 											icon: "{% static 'aimara/images/add1.png' %}",
 											action : function(node) {
+
+											    $('#modalRegisterForm').modal('show');
+											    document.getElementById('jsonData')['value']
 												node.createChildNode('Created',false,"{% static 'aimara/images/folder.png' %}",null,'context1');
 											}
 										},
-										{
-											text : 'Create 1000 Child Nodes',
-											icon: "{% static 'aimara/images/add1.png'  %}",
-											action : function(node) {
-												for (var i=0; i<1000; i++)
-													node.createChildNode('Created -' + i,false,"{% static 'aimara/images/folder.png' %}",null,'context1');
-											}
-										},
+
 										{
 											text : 'Delete Child Nodes',
 											icon: "{% static 'aimara/images/delete.png' %}",
@@ -619,36 +602,51 @@ function createImgElement(p_id,p_class,p_src) {
 						]
 					}
 				};
+			    //createRitesh(contex_menu);
 
 				//Creating the tree
 				tree = createTree('div_tree','white',contex_menu);
                 TreeData = JSON.parse(document.getElementById('jsonData')['value']);
-                console.log(TreeData);
+                //console.log(TreeData);
 				//Loop to create test nodes
+				var nodes = {};
 				for (var i=0; i<TreeData.length; i++) {
-				if (TreeData[i]["fields"]["parental_node_id"] == 0){
+                    if (TreeData[i]["fields"]["parental_node_id"] == 0){
+                            node1 = tree.createNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )" ,false,"{% static 'aimara/images/star.png' %}",null,null,'context1');
+                            node1.id = TreeData[i]["pk"]
+                           // console.log("node1",node1);
+                    }else{
+                            if (TreeData[i]["fields"]["parental_node_id"] > 1   ){
 
-					    node1 = tree.createNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )" ,false,"{% static 'aimara/images/star.png' %}",null,null,'context1');
-				}else{
-				        if (){
-                            node1.id=
-				        }
-
-						node2 = node1.createChildNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )", false, "{% static 'aimara/images/monitor.png' %}",null,'context1');
-                        console.log("node2",node2);
-
-				}
+                                    node2 = nodes[TreeData[i]["fields"]["parental_node_id"]].createChildNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )", false, "{% static 'aimara/images/monitor.png' %}",null,'context1');
+                                    node2.id = TreeData[i]["pk"]
+                                    node2.parent.id = TreeData[i]["fields"]["parental_node_id"]
+                              }else{
+                                    node2 = node1.createChildNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )", false, "{% static 'aimara/images/monitor.png' %}",null,'context1');
+                                    node2.id = TreeData[i]["pk"]
+                                    node2.parent.id = TreeData[i]["fields"]["parental_node_id"]
+                            }
+                            nodes[TreeData[i]["pk"]] = node2
+                    }
                 }
+                                           // console.log("node2",nodes );
+
 				//Rendering the tree
 				tree.drawTree();
-
 			};
+
+                function createRitesh(contex_menu)
+                            {
+                                tree = createTree('div_tree','white',contex_menu);
+                                TreeData = JSON.parse(document.getElementById('jsonData')['value']);
+                                 node1 = tree.createNode(TreeData[0]["fields"]["node_name"] + " ( " + TreeData[0]["fields"]["node_value"]+ " )" ,false,"{% static 'aimara/images/star.png' %}",null,null,'context1');
+                                tree.drawTree();
+                            }
+
 
 			function expand_all() {
 				tree.expandTree();
 			}
-
-
 
 			function collapse_all() {
 				tree.collapseTree();
@@ -702,6 +700,7 @@ $(document).ready(function() {
                                                 Node Levels
                                             </div>
                                         <div class="panel-body">
+
                                             <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="true">
                                               <div class="modal-dialog modal-lg"  role="document">
                                                 <div class="modal-content">
@@ -760,8 +759,7 @@ $(document).ready(function() {
 
                                            <div id="div_tree"></div>
                                             <div class="text-center">
-                                              <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch
-                                                Node Entry</a>
+                                              <a id="launch" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch Node Entry</a>
                                             </div>
                                             <br>
                                         </div>
@@ -821,7 +819,7 @@ $(document).ready(function() {
                                             <input type="text" class="form-control" name="answer"  id="inputSuccess120" required >
                                         </div>
                                         <div class="form-group has-success col-lg-4">
-                                            <label class="control-label" for="inputSuccess12">Doc Link</label>
+                                            <label class="control-label" for="inputSuccess12">File Link</label>
                                             <input type="text" class="form-control" name="link"  id="inputSuccess12" required >
                                         </div>
 
