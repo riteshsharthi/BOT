@@ -299,7 +299,11 @@ function createTree(p_div,p_backColor,p_contextMenu) {
 		},
 		///// Selecting node
 		// p_node: Reference to the node;
+
 		selectNode: function(p_node) {
+		    console.log("p_node",p_node);
+		    document.getElementById('node_id').value = p_node.id
+
 			var span = p_node.elementLi.getElementsByTagName("span")[0];
 			span.className = 'node_selected';
 			if (this.selectedNode!=null && this.selectedNode!=p_node)
@@ -584,8 +588,16 @@ function createImgElement(p_id,p_class,p_src) {
 											action : function(node) {
 
 											    $('#modalRegisterForm').modal('show');
-											    document.getElementById('jsonData')['value']
-												node.createChildNode('Created',false,"{% static 'aimara/images/folder.png' %}",null,'context1');
+                                                document.getElementById('orangeForm-name1').value = node.id
+                                                document.getElementById('orangeForm-name1').style="visibility:hidden;"
+                                                //document.getElementById('orangeForm-name1-label').hidden="hidden"
+                                                document.getElementById('orangeForm-pass').value = node.node_level + 1
+                                                document.getElementById('orangeForm-pass').type="hidden"
+                                                //document.getElementById('orangeForm-pass-label').hidden="hidden"
+                                                name = document.getElementById('orangeForm-email').value
+                                                if(name){
+												        node.createChildNode(name,false,"{% static 'aimara/images/folder.png' %}",null,'context1');
+											    }
 											}
 										},
 
@@ -602,7 +614,7 @@ function createImgElement(p_id,p_class,p_src) {
 						]
 					}
 				};
-			    //createRitesh(contex_menu);
+
 
 				//Creating the tree
 				tree = createTree('div_tree','white',contex_menu);
@@ -612,18 +624,21 @@ function createImgElement(p_id,p_class,p_src) {
 				var nodes = {};
 				for (var i=0; i<TreeData.length; i++) {
                     if (TreeData[i]["fields"]["parental_node_id"] == 0){
-                            node1 = tree.createNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )" ,false,"{% static 'aimara/images/star.png' %}",null,null,'context1');
+                            node1 = tree.createNode(TreeData[i]["fields"]["node_name"] + " - "+ TreeData[i]["fields"]["node_level"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )" ,false,"{% static 'aimara/images/star.png' %}",null,null,'context1');
                             node1.id = TreeData[i]["pk"]
+                            node1.node_level = TreeData[i]["fields"]["node_level"]
                            // console.log("node1",node1);
                     }else{
-                            if (TreeData[i]["fields"]["parental_node_id"] > 1   ){
+                            if (TreeData[i]["fields"]["parental_node_id"] > 1 ){
 
-                                    node2 = nodes[TreeData[i]["fields"]["parental_node_id"]].createChildNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )", false, "{% static 'aimara/images/monitor.png' %}",null,'context1');
+                                    node2 = nodes[TreeData[i]["fields"]["parental_node_id"]].createChildNode(TreeData[i]["fields"]["node_name"] + " - "+ TreeData[i]["fields"]["node_level"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )", false, "{% static 'aimara/images/monitor.png' %}",null,'context1');
                                     node2.id = TreeData[i]["pk"]
+                                    node2.node_level = TreeData[i]["fields"]["node_level"]
                                     node2.parent.id = TreeData[i]["fields"]["parental_node_id"]
                               }else{
-                                    node2 = node1.createChildNode(TreeData[i]["fields"]["node_name"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )", false, "{% static 'aimara/images/monitor.png' %}",null,'context1');
+                                    node2 = node1.createChildNode(TreeData[i]["fields"]["node_name"] + " - "+ TreeData[i]["fields"]["node_level"] + " ( " + TreeData[i]["fields"]["node_value"]+ " )", false, "{% static 'aimara/images/monitor.png' %}",null,'context1');
                                     node2.id = TreeData[i]["pk"]
+                                    node2.node_level = TreeData[i]["fields"]["node_level"]
                                     node2.parent.id = TreeData[i]["fields"]["parental_node_id"]
                             }
                             nodes[TreeData[i]["pk"]] = node2
@@ -633,15 +648,9 @@ function createImgElement(p_id,p_class,p_src) {
 
 				//Rendering the tree
 				tree.drawTree();
+				console.log("tree",tree );
 			};
 
-                function createRitesh(contex_menu)
-                            {
-                                tree = createTree('div_tree','white',contex_menu);
-                                TreeData = JSON.parse(document.getElementById('jsonData')['value']);
-                                 node1 = tree.createNode(TreeData[0]["fields"]["node_name"] + " ( " + TreeData[0]["fields"]["node_value"]+ " )" ,false,"{% static 'aimara/images/star.png' %}",null,null,'context1');
-                                tree.drawTree();
-                            }
 
 
 			function expand_all() {
@@ -660,6 +669,23 @@ function createImgElement(p_id,p_class,p_src) {
 $(document).ready(function() {
   $('#onload').modal('show');
 });
+
+// MultiFileds JS
+
+var room = 1;
+function education_fields() {
+
+    room++;
+    var objTo = document.getElementById('education_fields')
+    var divtest = document.createElement("div");
+	divtest.setAttribute("class", "form-group removeclass"+room);
+	var rdiv = 'removeclass'+room;
+    divtest.innerHTML = '<div class="form-group has-success col-lg-4"><div class="form-group"><label class="control-label" for="linksname">File Link</label><div class="input-group"> <input type="text" class="form-control" id="linksname" name="links" value="" placeholder="Please Put link of File ...."><div class="input-group-btn"> <button class="btn btn-danger" type="button" onclick="remove_education_fields('+ room +');"> <span class="glyphicon glyphicon-minus" aria-hidden="true"></span> </button></div></div></div></div>';
+    objTo.appendChild(divtest)
+}
+   function remove_education_fields(rid) {
+	   $('.removeclass'+rid).remove();
+   }
 </script>
 {% if msg %}
 
@@ -726,13 +752,13 @@ $(document).ready(function() {
 
                                                             </div>
                                                             <div class="md-form col-lg-6">
-                                                              <label data-error="wrong" data-success="right" for="orangeForm-pass">Node level</label>
+                                                              <label data-error="wrong" data-success="right" id="orangeForm-pass-label" for="orangeForm-pass">Node level</label>
                                                               <input type="text" id="orangeForm-pass" name="node_level" class="form-control validate" required>
 
                                                             </div>
 
                                                               <div class="md-form col-lg-6">
-                                                                <label data-error="wrong" data-success="right" for="orangeForm-name1">Parental node name</label>
+                                                                <label data-error="wrong" data-success="right" id="orangeForm-name-label" for="orangeForm-name1">Parental node name</label>
                                                                <select type="text" id="orangeForm-name1" name="parental_node_id" class="form-control validate">
                                                                    <option value="0" >Select</option>
                                                                    {% for  i  in parental_node_data_detail %}
@@ -818,10 +844,26 @@ $(document).ready(function() {
                                             <label class="control-label" for="inputSuccess120">Answer</label>
                                             <input type="text" class="form-control" name="answer"  id="inputSuccess120" required >
                                         </div>
-                                        <div class="form-group has-success col-lg-4">
-                                            <label class="control-label" for="inputSuccess12">File Link</label>
-                                            <input type="text" class="form-control" name="link"  id="inputSuccess12" required >
-                                        </div>
+                                        <div id="education_fields" >
+                                          </div>
+                                         <div class="form-group has-success col-lg-4">
+                                              <div class="form-group">
+                                                  <label class="control-label" for="linksname">File Link</label>
+                                                  <div class="input-group">
+
+                                                <input type="text" class="form-control" id="linksname" name="links" value="" placeholder="Please Put link of File ....">
+                                                 <div class="input-group-btn">
+                                                    <button class="btn btn-success" type="button"  onclick="education_fields();"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> </button>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                            </div>
+                                             <input type="hidden" class="form-control" name="node_id" id="node_id"  required >
+
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                            <label class="control-label" for="inputSuccess12">File Link</label>-->
+<!--                                            <input type="text" class="form-control" name="link"  id="inputSuccess12" required >-->
+<!--                                        </div>-->
 
 <!--                                        <div class="form-group has-success col-lg-4">-->
 <!--                                            <label class="control-label" for="inputSuccess130">Audio</label>-->
@@ -839,9 +881,10 @@ $(document).ready(function() {
 <!--                                            <label class="control-label" for="inputSuccess13">Doc-file</label>-->
 <!--                                            <input type="file" class="form-control" name="doc"  id="inputSuccess13">-->
 <!--                                        </div>-->
-                                        <div class="form-group input-group">
-
-                                            <button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
+                                        <hr>
+                                        <div class="form-group has-success col-lg-12 ">
+                                            <div class="input-group  col-lg-2">
+                                            <button class="btn btn-lg btn-success btn-block " type="submit">Submit</button>
 
                                         </div>
 
@@ -857,10 +900,11 @@ $(document).ready(function() {
                                             <input type="file" class="form-control" name="xlsxfile"  id="inputSuccess130">
                                         </div>
 
-                                        <div class="form-group input-group has-success col-lg-4">
-                                            <label class="control-label" for="inputSuccess130"></label>
-                                            <button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
-
+                                         <hr>
+                                        <div class="form-group has-success col-lg-12 ">
+                                            <div class="input-group  col-lg-2">
+                                            <button class="btn btn-lg btn-success btn-block " type="submit">Submit</button>
+                                            </div>
                                         </div>
 
 

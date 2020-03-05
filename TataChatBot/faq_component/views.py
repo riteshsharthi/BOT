@@ -6,6 +6,7 @@ import numpy as np
 from dashboard.models import FAQ
 import pymongo
 import pickle
+import ast
 import time
 import timeit
 client = pymongo.MongoClient('localhost', 27017)
@@ -75,7 +76,10 @@ class Faq_Engine():
             else:
                 rank=0
 
-            main_data.append({"question_id": data.id,"faqid":str(ts)[-5:], "type":"link", "link":link, "ans_seq": len(main_data)+1 , "value":data.answer,"retio":round(float(v*100),2), "rank":str(rank)})
+            main_data.append({"question_id": data.id,"faqid":str(ts)[-5:],
+                              "type":"link", "link": link ,
+                              "ans_seq": len(main_data)+1 , "value":data.answer,
+                              "retio":round(float(v*100),2), "rank":str(rank)})
 
     main_data.sort(key=lambda x:x["retio"], reverse = True)
 

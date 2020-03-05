@@ -580,9 +580,14 @@ function faqBotMessage(mesg){
 		if(message[i]["type"]=="link"){
 		seq=message[i]["faqid"];
 		rank = message[i]["question_id"];
+		//links = JSON.parse(message[i]["link"]);
+		console.log("links",message[i]["link"]);
 		if(message[i]["link"]!=''){
 			//alert(message[i]["link"]);
-			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ '<br> <a type="button" href="' + message[i]["link"] + '" target="_blank" class="btn btn-outline-primary">Reference Document</a></p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary"> You can Click Me </button> <button type="button" class="btn btn-outline-primary"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
+			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ '<br>';
+			 prag+= '<a type="button" href="' + message[i]["link"] + '" target="_blank" class="btn btn-outline-primary">Reference Document</a>';
+			 prag+='</p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary"> You can Click Me </button> <button type="button" class="btn btn-outline-primary"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
+
 		}else{
 			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ ' </p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary"> You can Click Me </button> <button type="button" class="btn btn-outline-primary"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
 		}

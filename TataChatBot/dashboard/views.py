@@ -191,10 +191,10 @@ def TaskToEntity_Create(request):
         task_redirect = request.POST['taskredirect']
         pre_text = request.POST['pre_text']
         pre_action_url = request.POST['pre_action_url']
-        interview_url = request.POST['interview_url']
-        value_collection_name = request.POST['value_collection_name']
-        collection_url = request.POST['collection_url']
-        validation_url = request.POST['validation_url']
+        # interview_url = request.POST['interview_url']
+        # value_collection_name = request.POST['value_collection_name']
+        # collection_url = request.POST['collection_url']
+        # validation_url = request.POST['validation_url']
         Entity_alternet_qustion = (request.POST['AlternetQuestion']).split(',')
         if len(tasktoentity_detail)==0:
             idss = 1
@@ -204,11 +204,11 @@ def TaskToEntity_Create(request):
         a = TaskToEntity.objects.create(id=idss,Task_Id=taskid.strip() , Entity_Name=intentname.strip(), Entity_Id=entityId,
                                         Entity_Question=entityquestion.strip(), Entity_alternet_qustion=Entity_alternet_qustion,
                                         task_redirect=task_redirect.strip(), Entity_Sequence=entitysequence.strip(),
-                                        pre_text=pre_text.strip(), pre_action_url=pre_action_url.strip(),
-                                        interview_url=interview_url.strip(),
-                                        value_collection_name=value_collection_name.strip(),
-                                        collection_url=collection_url.strip(),
-                                        validation_url=validation_url.strip()
+                                        pre_text=pre_text.strip(), pre_action_url=pre_action_url.strip()
+                                        # interview_url=interview_url.strip(),
+                                        # value_collection_name=value_collection_name.strip(),
+                                        # collection_url=collection_url.strip(),
+                                        # validation_url=validation_url.strip()
                                         )
         a.save()
     entity_detail = Entity.objects.all()
@@ -217,8 +217,9 @@ def TaskToEntity_Create(request):
     dict_con['entity_detail'] = entity_detail
     dict_con['intenttotask_detail'] = intenttotask_detail
     dict_con['tasktoentity_detail'] = tasktoentity_detail
-    return render(request, 'dashboard/task.html', dict_con)
 
+    # return render(request, 'dashboard/task.html', dict_con)
+    return  HttpResponseRedirect("/dashboard/tasktoentity/")
 
 
 
@@ -230,7 +231,7 @@ def TaskToEntity_delete(request, id):
         print(" TaskToEntity_delete ",e)
     tasktoentity_detail = TaskToEntity.objects.all()
     dict_con['tasktoentity_detail'] = tasktoentity_detail
-    return render(request, 'dashboard/task.html', dict_con)
+    return HttpResponseRedirect("/dashboard/tasktoentity/")
 
 
 def TaskToEntity_edit(request,id):
@@ -243,7 +244,7 @@ def TaskToEntity_edit(request,id):
     dict_con['tasktoentity_edit1'] = tasktoentity_edit1
     # print(request)
 
-    return render(request, 'dashboard/task.html', dict_con)
+    return HttpResponseRedirect("/dashboard/tasktoentity/")
 
 
 def TaskToEntity_edit1(request):
@@ -268,10 +269,10 @@ def TaskToEntity_edit1(request):
         task_redirect = request.POST['taskredirect']
         pre_text = request.POST['pre_text']
         pre_action_url = request.POST['pre_action_url']
-        interview_url = request.POST['interview_url']
-        value_collection_name = request.POST['value_collection_name']
-        collection_url = request.POST['collection_url']
-        validation_url = request.POST['validation_url']
+        # interview_url = request.POST['interview_url']
+        # value_collection_name = request.POST['value_collection_name']
+        # collection_url = request.POST['collection_url']
+        # validation_url = request.POST['validation_url']
         Entity_alternet_qustion = (request.POST['AlternetQuestion']).split(',')
         Entity_alternet_qustion = [x for x in Entity_alternet_qustion if x]
         Task_edit = TaskToEntity.objects.get(id=Iid)
@@ -284,13 +285,13 @@ def TaskToEntity_edit1(request):
         Task_edit.pre_action_url=pre_action_url.strip()
         Task_edit.Entity_alternet_qustion=Entity_alternet_qustion
         Task_edit.task_redirect=task_redirect.strip()
-        Task_edit.interview_url=interview_url.strip()
-        Task_edit.value_collection_name=value_collection_name.strip()
-        Task_edit.collection_url=collection_url.strip()
-        Task_edit.validation_url=validation_url.strip()
+        # Task_edit.interview_url=interview_url.strip()
+        # Task_edit.value_collection_name=value_collection_name.strip()
+        # Task_edit.collection_url=collection_url.strip()
+        # Task_edit.validation_url=validation_url.strip()
         Task_edit.save()
 
-    return render(request, 'dashboard/task.html', dict_con)
+    return HttpResponseRedirect("/dashboard/tasktoentity/")
 
 
 ########## #this for ResultMap data Table  and form ####################
@@ -395,7 +396,7 @@ def faq_data(request):
     # post_list = sorted(post_list, key=lambda x: x['pk'])
     dict_con['parental_node_data_detail'] = parental_node_data_detail
     dict_con['parental_node_data_detail_json'] = post_list
-    print(post_list)
+    # print(post_list)
     return render(request, 'dashboard/faq.html',dict_con)
 
 
@@ -426,10 +427,27 @@ def faq_Create(request):
         # if request.FILES['faqimage'] or request.FILES['audio'] or request.FILES['video'] or request.FILES['doc']:
         question = request.POST['question']
         answer = request.POST['answer']
-        link = request.POST['link']
-        action_ids = request.POST['action_id']
-        action_names = request.POST['action_name']
-        nodes = dict(zip(action_ids, action_names))
+        link = request.POST.getlist('links')
+        # print("link",json.dumps(link))
+        nodes = {}
+        try:
+            if request.POST['node_id']:
+                node_id = request.POST['node_id']
+
+                node_data = NodesModule.objects.get(pk=node_id)
+                idd = node_data.parental_node_id
+                for level in range(node_data.node_level):
+                    if id != 0:
+                      node_data2 = NodesModule.objects.get(pk=idd)
+                      nodes[node_data2.node_name] = node_data2.node_value
+                      idd = node_data2.parental_node_id
+
+                nodes = dict(reversed(list( nodes.items())))
+                # nodes = dict(zip(action_ids, action_names)
+        except Exception as node_ex:
+            print("Exception in Node Post in FAQ", node_ex)
+            dict_con['msg'] = "There is no Node data select Uploading Node .. ! "
+
         try:
                 # import ipdb
                 # ipdb.set_trace()
@@ -477,7 +495,8 @@ def faq_Create(request):
                 idss =max(i.id for i in faq_detail)+1
 
         a = FAQ.objects.create(id=idss, question=question , answer=answer, audio=audio,
-                                   video=video,image=upload_img, doc=doc , link=link,nodes=str(nodes))
+                                   video=video,image=upload_img, doc=doc ,
+                               link=str(json.dumps(link)),nodes=str(json.dumps(nodes)))
         a.save()
     faq_detail = FAQ.objects.all()
     dict_con['faq_detail'] = faq_detail

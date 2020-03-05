@@ -1,5 +1,24 @@
 {% extends "base.html" %}
 {% block mainbox %}
+<script>
+    // MultiFileds JS
+
+var room = 1;
+function education_fields() {
+
+    room++;
+    var objTo = document.getElementById('education_fields')
+    var divtest = document.createElement("div");
+	divtest.setAttribute("class", "form-group removeclass"+room);
+	var rdiv = 'removeclass'+room;
+    divtest.innerHTML = '<div class="form-group has-success col-lg-4"><div class="form-group"><label class="control-label" for="linksname">File Link</label><div class="input-group"> <input type="text" class="form-control" id="linksname" name="links" value="" placeholder="Please Put link of File ...."><div class="input-group-btn"> <button class="btn btn-danger" type="button" onclick="remove_education_fields('+ room +');"> <span class="glyphicon glyphicon-minus" aria-hidden="true"></span> </button></div></div></div></div>';
+
+    objTo.appendChild(divtest)
+}
+   function remove_education_fields(rid) {
+	   $('.removeclass'+rid).remove();
+   }
+</script>
 <div id="page-wrapper">
 
                 <div class="container-fluid">
@@ -56,6 +75,10 @@
                                             <input type="text" class="form-control" name="taskredirect" value="{{ tasktoentity_edit1.task_redirect }}" id="inputSuccess">
                                         </div>
                                         <div class="form-group has-success col-lg-4">
+                                            <label class="control-label" for="inputSuccess">Link</label>
+                                            <input type="text" class="form-control" name="link" value="{{ tasktoentity_edit1.task_redirect }}" id="inputSuccess">
+                                        </div>
+                                        <div class="form-group has-success col-lg-4">
                                             <label class="control-label" for="inputSuccess611">Pre Text</label>
                                             <input type="text" class="form-control" name="pre_text" value="{{ tasktoentity_edit1.pre_text }}"  id="inputSuccess611">
                                         </div>
@@ -63,23 +86,23 @@
                                             <label class="control-label" for="inputSuccess6121">Pre Action</label>
                                             <input type="text" class="form-control" name="pre_action_url" value="{{ tasktoentity_edit1.pre_action_url }}"  id="inputSuccess6121">
                                         </div>
-                                        <div class="form-group has-success col-lg-4">
-                                             <label class="control-label" for="inputSuccess6111">Interview Url</label>
-                                            <input type="text" class="form-control" name="interview_url" value="{{ tasktoentity_edit1.interview_url }}"  id="inputSuccess6111">
-                                        </div>
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                             <label class="control-label" for="inputSuccess6111">Interview Url</label>-->
+<!--                                            <input type="text" class="form-control" name="interview_url" value="{{ tasktoentity_edit1.interview_url }}"  id="inputSuccess6111">-->
+<!--                                        </div>-->
 
-                                        <div class="form-group has-success col-lg-4">
-                                             <label class="control-label" for="inputSuccess6112">Value Collection Name</label>
-                                            <input type="text" class="form-control" name="value_collection_name" value="{{ tasktoentity_edit1.value_collection_name }}"  id="inputSuccess6112">
-                                        </div>
-                                        <div class="form-group has-success col-lg-4">
-                                             <label class="control-label" for="inputSuccess6113">Collection Url</label>
-                                            <input type="text" class="form-control" name="collection_url" value="{{ tasktoentity_edit1.collection_url }}"  id="inputSuccess6113">
-                                        </div>
-                                        <div class="form-group has-success col-lg-4">
-                                             <label class="control-label" for="inputSuccess6119">Validation Url</label>
-                                            <input type="text" class="form-control" name="validation_url" value="{{ tasktoentity_edit1.validation_url }}"  id="inputSuccess6119">
-                                        </div>
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                             <label class="control-label" for="inputSuccess6112">Value Collection Name</label>-->
+<!--                                            <input type="text" class="form-control" name="value_collection_name" value="{{ tasktoentity_edit1.value_collection_name }}"  id="inputSuccess6112">-->
+<!--                                        </div>-->
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                             <label class="control-label" for="inputSuccess6113">Collection Url</label>-->
+<!--                                            <input type="text" class="form-control" name="collection_url" value="{{ tasktoentity_edit1.collection_url }}"  id="inputSuccess6113">-->
+<!--                                        </div>-->
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                             <label class="control-label" for="inputSuccess6119">Validation Url</label>-->
+<!--                                            <input type="text" class="form-control" name="validation_url" value="{{ tasktoentity_edit1.validation_url }}"  id="inputSuccess6119">-->
+<!--                                        </div>-->
                                         <div class="form-group has-success col-lg-4">
 
                                             <label class="control-label" for="inputSuccess6131">Alternative Question</label>
@@ -136,6 +159,20 @@
                                             <label class="control-label" for="inputSuccess6">Redirect Task</label>
                                             <input type="text" class="form-control" name="taskredirect"  id="inputSuccess6">
                                         </div>
+                                       <div id="education_fields" >
+                                          </div>
+                                         <div class="form-group has-success col-lg-4">
+                                              <div class="form-group">
+                                                  <label class="control-label" for="linksname">File Link</label>
+                                                  <div class="input-group">
+
+                                                <input type="text" class="form-control" id="linksname" name="links" value="" placeholder="Please Put link of File ....">
+                                                 <div class="input-group-btn">
+                                                    <button class="btn btn-success" type="button"  onclick="education_fields();"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> </button>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                            </div>
                                         <div class="form-group has-success col-lg-4">
                                             <label class="control-label" for="inputSuccess61">Pre Text</label>
                                             <input type="text" class="form-control" name="pre_text"  id="inputSuccess61" >
@@ -144,22 +181,22 @@
                                             <label class="control-label" for="inputSuccess62">Pre Action</label>
                                             <input type="text" class="form-control" name="pre_action_url"  id="inputSuccess62">
                                         </div>
-                                        <div class="form-group has-success col-lg-4">
-                                            <label class="control-label" for="inputSuccess620">Interview Url</label>
-                                            <input type="text" class="form-control" name="interview_url"  id="inputSuccess620">
-                                        </div>
-                                        <div class="form-group has-success col-lg-4">
-                                            <label class="control-label" for="inputSuccess6203">Value Collection Name</label>
-                                            <input type="text" class="form-control" name="value_collection_name"  id="inputSuccess6203">
-                                        </div>
-                                        <div class="form-group has-success col-lg-4">
-                                            <label class="control-label" for="inputSuccess6202">Collection Url</label>
-                                            <input type="text" class="form-control" name="collection_url"  id="inputSuccess6202">
-                                        </div>
-                                        <div class="form-group has-success col-lg-4">
-                                            <label class="control-label" for="inputSuccess6201">Validation Url</label>
-                                            <input type="text" class="form-control" name="validation_url"  id="inputSuccess6201">
-                                        </div>
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                            <label class="control-label" for="inputSuccess620">Interview Url</label>-->
+<!--                                            <input type="text" class="form-control" name="interview_url"  id="inputSuccess620">-->
+<!--                                        </div>-->
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                            <label class="control-label" for="inputSuccess6203">Value Collection Name</label>-->
+<!--                                            <input type="text" class="form-control" name="value_collection_name"  id="inputSuccess6203">-->
+<!--                                        </div>-->
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                            <label class="control-label" for="inputSuccess6202">Collection Url</label>-->
+<!--                                            <input type="text" class="form-control" name="collection_url"  id="inputSuccess6202">-->
+<!--                                        </div>-->
+<!--                                        <div class="form-group has-success col-lg-4">-->
+<!--                                            <label class="control-label" for="inputSuccess6201">Validation Url</label>-->
+<!--                                            <input type="text" class="form-control" name="validation_url"  id="inputSuccess6201">-->
+<!--                                        </div>-->
                                         <div class="form-group has-success col-lg-4">
                                             <label class="control-label" for="inputSuccess612">Alternative Question</label>
                                             <input type="text" class="form-control" name="AlternetQuestion"  id="inputSuccess612" placeholder="text,text,text">
@@ -202,14 +239,15 @@
                                                         <th>Entity Question</th>
                                                         <th>Entity Sequence</th>
                                                         <th>Redirect Task</th>
+                                                         <th>Doc Link</th>
                                                         <th>Pre Text</th>
                                                         <th>Pre Action URL</th>
-                                                        <th>Interview Url</th>
-
-                                                        <th>Value Collection Name</th>
-                                                        <th>Collection Url</th>
-                                                        <th>Validation Url</th>
-
+<!--                                                        <th>Interview Url</th>-->
+<!---->
+<!--                                                        <th>Value Collection Name</th>-->
+<!--                                                        <th>Collection Url</th>-->
+<!--                                                        <th>Validation Url</th>-->
+<!---->
                                                         <th> Alternative Questions</th>
                                                         <!--<td>Entity Session</td>-->
                                                         <!--<td>User</td>-->
@@ -228,12 +266,13 @@
                                             <td>{{ i.Entity_Question }}</td>
                                             <td>{{ i.Entity_Sequence }}</td>
                                             <td>{{ i.task_redirect }}</td>
+                                            <td>{{ i.link }}</td>
                                             <td>{{ i.pre_text }}</td>
                                             <td>{{ i.pre_action_url }}</td>
-                                            <td>{{ i.interview_url }}</td>
-                                            <td>{{ i.value_collection_name }}</td>
-                                            <td>{{ i.collection_url }}</td>
-                                            <td>{{ i.validation_url }}</td>
+<!--                                            <td>{{ i.interview_url }}</td>-->
+<!--                                            <td>{{ i.value_collection_name }}</td>-->
+<!--                                            <td>{{ i.collection_url }}</td>-->
+<!--                                            <td>{{ i.validation_url }}</td>-->
                                             <td>
                                                 {% for a in  i.Entity_alternet_qustion %}
                                                 {{ a }},
