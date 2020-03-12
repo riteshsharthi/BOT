@@ -45,8 +45,10 @@ INSTALLED_APPS = [
     'aiml_component',
     'faq_component',
     'ml_component',
+    # 'users',
 
 ]
+# AUTH_USER_MODEL = 'users.CustomUser'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (

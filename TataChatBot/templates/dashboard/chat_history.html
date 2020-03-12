@@ -52,10 +52,29 @@
                                     </div>
                                     <!-- /.table-responsive -->
 
+                                    <div class="pagination">
+                                        <span class="step-links">
+                                            {% if chat_history_detail.has_previous %}
+                                                <a class="btn btn-success" href="?page=1">&laquo; First</a>
+                                                <a class="btn btn-success" href="?page={{ chat_history_detail.previous_page_number }}">Previous</a>
+                                            {% endif %}
+
+                                            <span class="current">
+                                                Page {{ chat_history_detail.number }} of {{ chat_history_detail.paginator.num_pages }}.
+                                            </span>
+
+                                            {% if chat_history_detail.has_next %}
+                                                <a class="btn btn-success" href="?page={{ chat_history_detail.next_page_number }}">Next</a>
+                                                <a class="btn btn-success" href="?page={{ chat_history_detail.paginator.num_pages }}">Last &raquo;</a>
+                                            {% endif %}
+                                        </span>
+                                    </div>
+
                                 </div>
                                 <!-- /.panel-body -->
                             </div>
                             <!-- /.panel -->
+
                         </div>
                         <!-- /.col-lg-12 -->
                     </div>

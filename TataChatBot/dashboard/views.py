@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from django.core.paginator import Paginator
 from django.http import HttpResponse, HttpResponseNotFound, Http404,  HttpResponseRedirect
-
+from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 from .models import *
 from django.core.files.storage import FileSystemStorage
@@ -13,7 +14,7 @@ file_json =os.path.join(base_dir, "faq_component/")
 # Create your views here.
 
 ########## #this for Entity data Table and form ####################
-
+@login_required(login_url='/accounts/login/')
 def Entity_Details(request):
     dict_contaxt = {}
     entity_detail = Entity.objects.all()
@@ -82,7 +83,7 @@ def Entity_edit1(request):
 
 ########## #this for IntentToTask data Table  and form ####################
 
-
+@login_required(login_url='/accounts/login/')
 def IntentToTask_Details(request):
     dict_contaxt = {}
     intenttotask_detail = IntentToTask.objects.all()
@@ -160,7 +161,7 @@ def IntentToTask_edit1(request):
 
 ############################### TaskToEntity #########################################
 
-
+@login_required(login_url='/accounts/login/')
 def TaskToEntity_Details(request):
     dict_con = {}
     entity_detail = Entity.objects.all()
@@ -295,7 +296,7 @@ def TaskToEntity_edit1(request):
 
 
 ########## #this for ResultMap data Table  and form ####################
-
+@login_required(login_url='/accounts/login/')
 def result_map(request):
     dict_con = {}
     ResultMap_all = ResultMap.objects.all()
@@ -385,6 +386,7 @@ def result_map_delete(request,id):
 path = '/var/www/html/media'
 from django.core import serializers
 
+@login_required(login_url='/accounts/login/')
 def faq_data(request):
     dict_con = {}
     faq_detail = FAQ.objects.all()
@@ -606,7 +608,7 @@ def faq_edit(request):
 #     Json_data = json.load(datafile)
 # print("base dir @#@#@ :",file_json)
 
-
+@login_required(login_url='/accounts/login/')
 def xlsxfile_upload(request):
     dict_con = {}
 
@@ -676,6 +678,8 @@ def xlsxfile_upload(request):
     dict_con['faq_detail'] = faq_detail
     return  HttpResponseRedirect("/dashboard/faq/")
 
+
+@login_required(login_url='/accounts/login/')
 def node_index(request):
     dict_con = {}
     nodes_module_data_detail = NodesModule.objects.all()
@@ -731,6 +735,7 @@ def node_create(request):
 
 ###################################################  recommunded_data  ########################################################
 
+@login_required(login_url='/accounts/login/')
 def recommunded_data_view(request):
     dict_con = {}
     recommunded_data_detail = recommunded_data.objects.all()
@@ -770,7 +775,8 @@ def recommunded_data_create(request):
     dict_con['TaskToEntity_detail'] = TaskToEntity_detail
     intenttotask_detail = IntentToTask.objects.all()
     dict_con['intenttotask_detail'] = intenttotask_detail
-    return render(request, 'dashboard/recommunded_data.html', dict_con)
+    # return render(request, 'dashboard/recommunded_data.html', dict_con
+    return HttpResponseRedirect("/dashboard/recommundedview/")
 
 
 def recommunded_data_edit(request, id):
@@ -788,7 +794,8 @@ def recommunded_data_edit(request, id):
     dict_con['TaskToEntity_detail'] = TaskToEntity_detail
     intenttotask_detail = IntentToTask.objects.all()
     dict_con['intenttotask_detail'] = intenttotask_detail
-    return render(request, 'dashboard/recommunded_data.html', dict_con)
+    # return render(request, 'dashboard/recommunded_data.html', dict_con)
+    return HttpResponseRedirect("/dashboard/recommundedview/")
 
 
 def recommunded_data_delete(request, id):
@@ -803,8 +810,8 @@ def recommunded_data_delete(request, id):
     dict_con['TaskToEntity_detail'] = TaskToEntity_detail
     intenttotask_detail = IntentToTask.objects.all()
     dict_con['intenttotask_detail'] = intenttotask_detail
-    return render(request, 'dashboard/recommunded_data.html', dict_con)
-
+    # return render(request, 'dashboard/recommunded_data.html', dict_con)
+    return HttpResponseRedirect("/dashboard/recommundedview/")
 
 def recommunded_data_edit1(request):
     dict_con = {}
@@ -829,12 +836,18 @@ def recommunded_data_edit1(request):
     dict_con['TaskToEntity_detail'] = TaskToEntity_detail
     intenttotask_detail = IntentToTask.objects.all()
     dict_con['intenttotask_detail'] = intenttotask_detail
-    return render(request, 'dashboard/recommunded_data.html', dict_con)
+    # return render(request, 'dashboard/recommunded_data.html', dict_con)
+    return HttpResponseRedirect("/dashboard/recommundedview/")
 
 ###################################################  Chat History  ########################################################
 
+@login_required(login_url='/accounts/login/')
 def chat_history(request):
     dict_con = {}
-    chat_history_detail = ChatHistory.objects.all()
-    dict_con['chat_history_detail'] = chat_history_detail[::-1]
+    chat_history_detail = ChatHistory.objects.all()[::-1]
+    # dict_con['chat_history_detail'] = chat_history_detail[::-1]
+    paginator = Paginator(chat_history_detail, 2)  # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    dict_con['chat_history_detail'] = page_obj
     return render(request, 'dashboard/chat_history.html', dict_con)

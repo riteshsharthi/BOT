@@ -75,7 +75,7 @@ class FAQ(models.Model):
     video = models.CharField(max_length=100, default="")
     image = models.CharField(max_length=300, default="")
     doc = models.CharField(max_length=300, default="")
-    rank =models.IntegerField(default=0)
+    rank = models.IntegerField(default=0)
     link = models.CharField(max_length=500, default="")
     nodes = models.CharField(max_length=500, default="")
     user_type = models.CharField(max_length=20, default="")
