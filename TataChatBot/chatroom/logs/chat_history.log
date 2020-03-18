@@ -1,2 +1,44 @@
-2020-03-12 00:01:25,188   Exception in BOT Start : User matching query does not exist. 
-2020-03-12 00:01:25,188  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good evening, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:00:23,115   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:00:23,165  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:01:54,038   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:01:54,038  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:02:40,653   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:02:40,653  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:04:03,799   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:04:03,799  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:04:53,239   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:04:53,239  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:05:53,152   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:05:53,152  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:13:19,408   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:13:19,428  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:13:24,248   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:13:24,248  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:15:09,055   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:15:09,055  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:15:47,158   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:15:47,158  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:15:52,453   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:15:52,453  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:19:19,778   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:19:19,778  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:19:20,817   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:19:20,817  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:20:36,084   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:20:36,084  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:22:05,188   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:22:05,189  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:23:19,529   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:23:19,529  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:29:22,109   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:29:22,125  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:29:51,889   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:29:51,890  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:29:53,023   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:29:53,023  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:29:58,055   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:29:58,056  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:33:15,522   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:33:15,522  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}
+2020-03-18 10:33:16,819   Exception in BOT Start : User matching query does not exist. 
+2020-03-18 10:33:16,819  Chat history Info  from start bot: {'request_data': 'chatbot Start', 'responce_data': 'Hi Anonymoususer... Good morning, How can I help you.', 'task_name': 'Greating', 'task_type': 'Greating', 'request_user': 'ChatBot', 'responce_user': 'Chatbot'}

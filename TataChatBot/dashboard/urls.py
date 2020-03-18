@@ -33,6 +33,8 @@ urlpatterns = [
 
     path('node_index/', views.node_index, name='node_index'),
     path('node_create/', views.node_create, name='node_create'),
+    path('node_delete/', views.node_delete, name='node_delete'),
+    path('node_edit/', views.node_edit, name='node_edit'),
 
     path('faq_rank/', views.faq_rank_update, name='faq_rank_update'),
 

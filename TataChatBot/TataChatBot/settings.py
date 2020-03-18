@@ -46,9 +46,11 @@ INSTALLED_APPS = [
     'faq_component',
     'ml_component',
     # 'users',
+    'extend_user',
 
 ]
-# AUTH_USER_MODEL = 'users.CustomUser'
+# AUTH_USER_MODEL = 'users.MyUser'
+AUTH_PROFILE_MODULE= 'extend_user.Profile'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (

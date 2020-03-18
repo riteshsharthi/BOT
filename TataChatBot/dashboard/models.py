@@ -79,6 +79,7 @@ class FAQ(models.Model):
     link = models.CharField(max_length=500, default="")
     nodes = models.CharField(max_length=500, default="")
     user_type = models.CharField(max_length=20, default="")
+    approve = models.BooleanField(default=False)
     create_by =models.ForeignKey(User, null=True, blank=True, on_delete=models.SET_NULL)
     use_count=models.IntegerField(default=0)
     create_dt = models.DateTimeField(auto_now_add=True)

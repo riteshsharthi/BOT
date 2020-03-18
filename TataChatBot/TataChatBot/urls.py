@@ -17,7 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 # from .api import router
 from . import views
-
+from django.conf import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
@@ -26,4 +28,7 @@ urlpatterns = [
     # path('api/auth/', include('djoser.urls.authtoken'),
     path('', include('chatroom.urls')),
     path('dashboard/', include('dashboard.urls')),
-]
+    path('extend_user/', include('extend_user.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += staticfiles_urlpatterns()

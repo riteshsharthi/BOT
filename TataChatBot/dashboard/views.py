@@ -21,7 +21,7 @@ def Entity_Details(request):
     dict_contaxt['entity_detail'] = entity_detail
     return render(request, 'dashboard/entity.html', dict_contaxt )
 
-
+@login_required(login_url='/accounts/login/')
 def Entity_Create(request):
     dict_con = {}
     entity_detail = Entity.objects.all()
@@ -38,8 +38,10 @@ def Entity_Create(request):
         a.save()
     entity_detail = Entity.objects.all()
     dict_con['entity_detail'] = entity_detail
-    return render(request, 'dashboard/entity.html', dict_con)
+    # return render(request, 'dashboard/entity.html', dict_con)
+    return HttpResponseRedirect("/dashboard/entity/")
 
+@login_required(login_url='/accounts/login/')
 def Entity_delete(request, id):
     dict_con = {}
 
@@ -50,15 +52,18 @@ def Entity_delete(request, id):
         dict_con['a'] = a
     entity_detail = Entity.objects.all()
     dict_con['entity_detail'] = entity_detail
-    return render(request, 'dashboard/entity.html', dict_con)
+    # return render(request, 'dashboard/entity.html', dict_con)
+    return HttpResponseRedirect("/dashboard/entity/")
 
+@login_required(login_url='/accounts/login/')
 def Entity_edit(request,id):
     dict_con = {}
     entity_edit1 = Entity.objects.get(id=id)
     dict_con['entity_edit1'] = entity_edit1
-    return render(request, 'dashboard/entity.html', dict_con)
+    # return render(request, 'dashboard/entity.html', dict_con)
+    return HttpResponseRedirect("/dashboard/entity/")
 
-
+@login_required(login_url='/accounts/login/')
 def Entity_edit1(request):
     dict_con = {}
     if request.method == 'POST':
@@ -76,8 +81,8 @@ def Entity_edit1(request):
         # .update_many(Entity_Type=EntityType, Entity_Name=EntityName,  Entity_Regex=EntityRegex)
     entity_detail = Entity.objects.all()
     dict_con['entity_detail'] = entity_detail
-    return render(request, 'dashboard/entity.html', dict_con)
-
+    # return render(request, 'dashboard/entity.html', dict_con)
+    return HttpResponseRedirect("/dashboard/entity/")
 
 
 
@@ -91,6 +96,7 @@ def IntentToTask_Details(request):
     return render(request, 'dashboard/intent.html', dict_contaxt )
 
 
+@login_required(login_url='/accounts/login/')
 def IntentToTask_Create(request):
     dict_con = {}
     intenttotask_detail = IntentToTask.objects.all()
@@ -109,9 +115,10 @@ def IntentToTask_Create(request):
         a.save()
     intenttotask_detail = IntentToTask.objects.all()
     dict_con['intenttotask_detail'] = intenttotask_detail
-    return render(request, 'dashboard/intent.html', dict_con)
+    # return render(request, 'dashboard/intent.html', dict_con)
+    return HttpResponseRedirect("/dashboard/intenttotask/")
 
-
+@login_required(login_url='/accounts/login/')
 def IntentToTask_delete(request, id):
     dict_con = {}
     if len(Entity.objects.all()) == 1:
@@ -123,9 +130,10 @@ def IntentToTask_delete(request, id):
     dict_con['a'] = a
     intenttotask_detail = IntentToTask.objects.all()
     dict_con['intenttotask_detail'] = intenttotask_detail
-    return render(request, 'dashboard/intent.html', dict_con)
+    # return render(request, 'dashboard/intent.html', dict_con)
+    return HttpResponseRedirect("/dashboard/intenttotask/")
 
-
+@login_required(login_url='/accounts/login/')
 def IntentToTask_edit(request,id):
     dict_con = {}
     # entity_detail = Entity.objects.all()
@@ -134,9 +142,10 @@ def IntentToTask_edit(request,id):
     dict_con['intenttotask_edit1'] = intenttotask_edit1
     # print(request)
 
-    return render(request, 'dashboard/intent.html', dict_con)
+    # return render(request, 'dashboard/intent.html', dict_con)
+    return HttpResponseRedirect("/dashboard/intenttotask/")
 
-
+@login_required(login_url='/accounts/login/')
 def IntentToTask_edit1(request):
     dict_con = {}
     intenttotask_detail = IntentToTask.objects.all()
@@ -157,7 +166,9 @@ def IntentToTask_edit1(request):
         Intent_edit.post_action=post_action
         Intent_edit.save()
 
-    return render(request, 'dashboard/intent.html', dict_con)
+    # return render(request, 'dashboard/intent.html', dict_con)
+    return  HttpResponseRedirect("/dashboard/intenttotask/")
+
 
 ############################### TaskToEntity #########################################
 
@@ -174,6 +185,7 @@ def TaskToEntity_Details(request):
     return render(request, 'dashboard/task.html', dict_con )
 
 
+@login_required(login_url='/accounts/login/')
 def TaskToEntity_Create(request):
     dict_con = {}
     entity_detail = Entity.objects.all()
@@ -247,10 +259,9 @@ def TaskToEntity_edit(request,id):
 
     return HttpResponseRedirect("/dashboard/tasktoentity/")
 
-
+@login_required(login_url='/accounts/login/')
 def TaskToEntity_edit1(request):
     dict_con = {}
-
     entity_detail = Entity.objects.all()
     tasktoentity_detail = TaskToEntity.objects.all()
     intenttotask_detail = IntentToTask.objects.all()
@@ -309,7 +320,7 @@ def result_map(request):
     dict_con['intenttotask_detail'] = intenttotask_detail
     return render(request, 'dashboard/resultmap.html', dict_con)
 
-
+@login_required(login_url='/accounts/login/')
 def result_map_create(request):
     dict_con = {}
     ResultMap_all = ResultMap.objects.all()
@@ -338,17 +349,19 @@ def result_map_create(request):
     dict_con['ResultMap_all'] = ResultMap_all
     dict_con['tasktoentity_detail'] = tasktoentity_detail
 
-    return render(request, 'dashboard/resultmap.html', dict_con)
+    # return render(request, 'dashboard/resultmap.html', dict_con)
+    return HttpResponseRedirect("/dashboard/resultmap/")
 
-
+@login_required(login_url='/accounts/login/')
 def result_map_update(request, id):
     dict_con = {}
     ResultMap_edit = ResultMap.objects.get(id=id)
     dict_con['ResultMap_edit'] = ResultMap_edit
 
     return render(request, 'dashboard/resultmap.html', dict_con)
+    # return HttpResponseRedirect("/dashboard/resultmap/")
 
-
+@login_required(login_url='/accounts/login/')
 def result_map_update1(request):
     dict_con = {}
     if request.method == 'POST':
@@ -366,9 +379,10 @@ def result_map_update1(request):
     intenttotask_detail = IntentToTask.objects.all()
     dict_con['entity_detail'] = entity_detail
     dict_con['intenttotask_detail'] = intenttotask_detail
-    return render(request, 'dashboard/resultmap.html', dict_con)
+    # return render(request, 'dashboard/resultmap.html', dict_con)
+    return HttpResponseRedirect("/dashboard/resultmap/")
 
-
+@login_required(login_url='/accounts/login/')
 def result_map_delete(request,id):
     dict_con = {}
     try:
@@ -380,7 +394,8 @@ def result_map_delete(request,id):
     ResultMap_all = ResultMap.objects.all()
     dict_con['ResultMap_all'] = ResultMap_all
 
-    return render(request, 'dashboard/resultmap.html', dict_con)
+    # return render(request, 'dashboard/resultmap.html', dict_con)
+    return HttpResponseRedirect("/dashboard/resultmap/")
 
 ########## #this for ResultMap data Table  and form ####################
 path = '/var/www/html/media'
@@ -389,19 +404,19 @@ from django.core import serializers
 @login_required(login_url='/accounts/login/')
 def faq_data(request):
     dict_con = {}
-    faq_detail = FAQ.objects.all()
-    # faq_detail = FAQ.objects.filter(create_by=request.user)
-    dict_con['faq_detail'] = faq_detail
+    faq_detail = FAQ.objects.all()[::-1]
     dict_con['username'] = request.user
     parental_node_data_detail = NodesModule.objects.all()
     post_list = serializers.serialize('json', parental_node_data_detail)
-    # post_list = sorted(post_list, key=lambda x: x['pk'])
     dict_con['parental_node_data_detail'] = parental_node_data_detail
     dict_con['parental_node_data_detail_json'] = post_list
-    # print(post_list)
+    paginator = Paginator(faq_detail, 4 )  # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    dict_con['faq_detail'] = page_obj
     return render(request, 'dashboard/faq.html',dict_con)
 
-
+@login_required(login_url='/accounts/login/')
 def faq_rank_update(request):
     dict_con = {}
     if request.method == "POST" and request.is_ajax():
@@ -508,7 +523,7 @@ def faq_Create(request):
 def faq_delete(request, id):
     dict_con = {}
     if len(FAQ.objects.all()) == 1:
-        dict_con['last_one_data_error'] = "Sorry you can't Delete last Record. Becouse one data is mandatory "
+        dict_con['last_one_data_error'] = "Sorry you can't Delete last Record. Becouse one data is mandatory"
     else:
         a = FAQ.objects.filter(id=id).delete()
         dict_con['a'] = a
@@ -604,9 +619,6 @@ def faq_edit(request):
     return  HttpResponseRedirect("/dashboard/faq/")
 
 
-# with open("/home/ritesh/hierarchy_query.json") as datafile:
-#     Json_data = json.load(datafile)
-# print("base dir @#@#@ :",file_json)
 
 @login_required(login_url='/accounts/login/')
 def xlsxfile_upload(request):
@@ -615,26 +627,21 @@ def xlsxfile_upload(request):
     try:
         if request.method == 'POST':
             xlsxfile = request.FILES['xlsxfile']
-            # workbook object is created
-            # df = pd.read_json(base_dir+"/faq_component/hierarchy_query.json", lines=True)
-            # print(df)
-            # with open(file_json+"hierarchy_query.json") as datafile:
+            # with open(os.path.join(file_json,"hierarchy _query.json")) as datafile:
             #     Json_data = json.load(datafile)
-            with open(os.path.join(file_json,"hierarchy _query.json")) as datafile:
-                Json_data = json.load(datafile)
                 # Json_data =list(Json_data)
-            if not Json_data:
-                Json_data = []
+            # if not Json_data:
+            Json_data = []
             dfs = pd.read_excel(xlsxfile)
-            all_data_dict_xlsx=dfs.to_dict('index')
+            all_data_dict_xlsx = dfs.to_dict('index')
             old_data_length = len(Json_data)
             # print(dfs.to_dict('index')[0]["question"])
             # import ipdb; ipdb.set_trace()
-            for k , v in all_data_dict_xlsx.items():
+            for k, v in all_data_dict_xlsx.items():
                 if v["question"] and v["answer"] :
                     question=v["question"]
                     answer=v["answer"]
-                    link=v["link"]
+                    link=str([v["link"]])
                     faq_detail = FAQ.objects.all()
                     if len(faq_detail) == 0:
                         idss = 1
@@ -643,17 +650,12 @@ def xlsxfile_upload(request):
 
                     case_data = {}
                     print(Json_data)
-                    for ind, val in enumerate(Json_data):
-                        # print(i["pk"],"==",idss)
-                        # if int(val["pk"]) == int(idss):
-                        #        print("-----", Json_data)
-                               # del Json_data[ind]
-                        if not Json_data:
+                    if not Json_data:
                             Json_data = []
 
-                    for k1 ,v1 in v.items():
+                    for k1, v1 in v.items():
                         if k1 not in ("question","answer","link"):
-                                case_data[k1]=v1
+                            case_data[k1]=v1
 
 
                     # case_data["pk"]=idss
@@ -661,14 +663,12 @@ def xlsxfile_upload(request):
                     a = FAQ.objects.create(id=idss, question=question, answer=answer, link=link, nodes=str(case_data))
                     a.save()
                     # if len(old_data_length) < len(Json_data):
-                    with open(os.path.join(file_json, "hierarchy _query.json"), "w") as f:
-                            json.dump(Json_data, f, indent=4)
+                    # with open(os.path.join(file_json, "hierarchy_query.json"), "w") as f:
+                    #         json.dump(Json_data, f, indent=4)
                     dict_con['msg'] = "Data is successfully uploaded .."
                 else:
                     dict_con['msg'] = "question and answer can't be empty.. !"
                     render(request, 'dashboard/faq.html', dict_con)
-
-
 
     except Exception as e:
         print("Exception is in FAQ XLSX Uploading : ", str(e))
@@ -688,9 +688,9 @@ def node_index(request):
     dict_con['faq_detail'] = faq_detail
     return render(request, 'dashboard/faq.html', dict_con)
 
+@login_required(login_url='/accounts/login/')
 def node_create(request):
     dict_con = {}
-
     try:
         nodes_module_data_detail = NodesModule.objects.all()
         # parental_node_data_detail = ParentalNode.objects.all()
@@ -701,28 +701,16 @@ def node_create(request):
             node_level = request.POST['node_level']
             if request.POST['parental_node_id']:
                 parental_node_id = request.POST['parental_node_id']
-            # parental_node_value = request.POST['parental_node_value']
-            # parental_node_level = request.POST['parental_node_level']
 
             if len(nodes_module_data_detail) == 0:
                 idss = 1
+
             else:
                 idss = max(i.id for i in nodes_module_data_detail) + 1
 
-            # if len(parental_node_data_detail) == 0:
-            #     pidss = 1
-            # else:
-            #     pidss = max(i.id for i in parental_node_data_detail) + 1
 
-            # if parental_node_id != "0":
-            #     parental_node_obj = NodesModule.objects.get(id=parental_node_id)
-            #
-            # else:
-            #     parental_node_obj = None
-
-            # b = ParentalNode.objects.create(id=pidss, node_name=node_name, node_value=node_value, node_level=node_level)
-            # b.save()
-            a = NodesModule.objects.create(id=idss, node_name=node_name, node_value=node_value, node_level=node_level,  parental_node_id=parental_node_id)
+            a = NodesModule.objects.create(id=idss, node_name=node_name, node_value=node_value, node_level=node_level,
+                                           parental_node_id=parental_node_id)
             a.save()
     except Exception as e:
         print("Exception in Node creating :",str(e))
@@ -732,6 +720,63 @@ def node_create(request):
     dict_con['faq_detail'] = faq_detail
     # return render(request, 'dashboard/faq.html', dict_con)
     return HttpResponseRedirect("/dashboard/faq/")
+
+
+@login_required(login_url='/accounts/login/')
+def node_delete(request):
+    dict_con = {}
+    if request.method == "POST" and request.is_ajax():
+        id = int(request.POST.get('id'))
+        try:
+            childNodes = NodesModule.objects.filter(parental_node_id=id)
+            if len(childNodes) == 0:
+                NodesModule.objects.get(id=id).delete()
+                dict_con['msg'] = "The node is successfully delete !"
+            else:
+                dict_con['msg'] = "You can't delete this node because it has child nodes ! "
+        except Exception as e:
+            print("Exception in node delete", e)
+            dict_con['msg'] = "You can't delete this node because it not exist ! "
+    # faq_detail = FAQ.objects.all()
+    # dict_con['faq_detail'] = faq_detail
+    # dict_con['username'] = request.user
+    parental_node_data_detail = NodesModule.objects.all()
+    post_list = serializers.serialize('json', parental_node_data_detail)
+    dict_con['parental_node_data_detail'] = post_list
+    # dict_con['parental_node_data_detail_json'] = post_list
+    return JsonResponse(dict_con)
+
+@login_required(login_url='/accounts/login/')
+def node_edit(request):
+    dict_con = {}
+    if request.method == "POST" :
+        id = int(request.POST['id'])
+        node_name = request.POST['node_name']
+        node_value = request.POST['node_value']
+        try:
+            Node = NodesModule.objects.get(id=id)
+            if Node:
+                Node.node_name = node_name
+                Node.node_value = node_value
+                Node.save()
+                dict_con['msg'] = "The node is successfully Edit !"
+
+        except Exception as e:
+            print("Exception in node Edit",e)
+            dict_con['msg'] = "You can't Edit this node because it not exist ! "
+    faq_detail = FAQ.objects.all()
+    dict_con['username'] = request.user
+    parental_node_data_detail = NodesModule.objects.all()
+    post_list = serializers.serialize('json', parental_node_data_detail)
+    dict_con['parental_node_data_detail'] = post_list
+    dict_con['parental_node_data_detail_json'] = post_list
+    paginator = Paginator(faq_detail, 4)  # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    dict_con['faq_detail'] = page_obj
+    return render(request, 'dashboard/faq.html', dict_con)
+
+
 
 ###################################################  recommunded_data  ########################################################
 
@@ -746,7 +791,7 @@ def recommunded_data_view(request):
     dict_con['intenttotask_detail'] = intenttotask_detail
     return render(request, 'dashboard/recommunded_data.html', dict_con)
 
-
+@login_required(login_url='/accounts/login/')
 def recommunded_data_create(request):
     # import ipdb
     # ipdb.set_trace()
@@ -778,34 +823,30 @@ def recommunded_data_create(request):
     # return render(request, 'dashboard/recommunded_data.html', dict_con
     return HttpResponseRedirect("/dashboard/recommundedview/")
 
-
+@login_required(login_url='/accounts/login/')
 def recommunded_data_edit(request, id):
     dict_con = {}
     recommunded_data_edit = recommunded_data.objects.get(id=id)
     dict_con['recommunded_data_edit'] = recommunded_data_edit
-    recommunded_data_detail = recommunded_data.objects.all()
-    dict_con['recommunded_data_detail'] = recommunded_data_detail
-    entity_detail = Entity.objects.all()
-    dict_con['entity_detail'] = entity_detail
 
+    entity_detail = Entity.objects.all()
     recommunded_data_detail = recommunded_data.objects.all()
-    dict_con['recommunded_data_detail'] = recommunded_data_detail
     TaskToEntity_detail = TaskToEntity.objects.all()
-    dict_con['TaskToEntity_detail'] = TaskToEntity_detail
     intenttotask_detail = IntentToTask.objects.all()
+    dict_con['TaskToEntity_detail'] = TaskToEntity_detail
     dict_con['intenttotask_detail'] = intenttotask_detail
+    dict_con['entity_detail'] = entity_detail
+    dict_con['recommunded_data_detail'] = recommunded_data_detail
     # return render(request, 'dashboard/recommunded_data.html', dict_con)
     return HttpResponseRedirect("/dashboard/recommundedview/")
 
 
+@login_required(login_url='/accounts/login/')
 def recommunded_data_delete(request, id):
     dict_con = {}
     recommunded_data.objects.get(id=id).delete()
     recommunded_data_detail = recommunded_data.objects.all()
     dict_con['recommunded_data_detail'] = recommunded_data_detail
-
-    recommunded_data_detail = recommunded_data.objects.all()
-    dict_con['recommunded_data_detail'] = recommunded_data_detail
     TaskToEntity_detail = TaskToEntity.objects.all()
     dict_con['TaskToEntity_detail'] = TaskToEntity_detail
     intenttotask_detail = IntentToTask.objects.all()
@@ -813,6 +854,7 @@ def recommunded_data_delete(request, id):
     # return render(request, 'dashboard/recommunded_data.html', dict_con)
     return HttpResponseRedirect("/dashboard/recommundedview/")
 
+@login_required(login_url='/accounts/login/')
 def recommunded_data_edit1(request):
     dict_con = {}
     if request.method == 'POST':
@@ -825,11 +867,9 @@ def recommunded_data_edit1(request):
         utterance = request.POST['utterance']
         recommunded_data.objects.get(id=eid).update(entity_id=entity_id, title=title.strip(), task_id=task_id,
                                                     task=task.strip(), link=link.strip(), utterance=utterance.strip())
-    recommunded_data_detail = recommunded_data.objects.all()
-    dict_con['recommunded_data_detail'] = recommunded_data_detail
+
     entity_detail = Entity.objects.all()
     dict_con['entity_detail'] = entity_detail
-
     recommunded_data_detail = recommunded_data.objects.all()
     dict_con['recommunded_data_detail'] = recommunded_data_detail
     TaskToEntity_detail = TaskToEntity.objects.all()
