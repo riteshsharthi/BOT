@@ -25,7 +25,7 @@ SECRET_KEY = 'j9lta08qg6af=!brbo$26@89#g_j*j@3#7k=_qe*qervynmlo1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -45,8 +45,12 @@ INSTALLED_APPS = [
     'aiml_component',
     'faq_component',
     'ml_component',
+    # 'users',
+    'extend_user',
 
 ]
+# AUTH_USER_MODEL = 'users.MyUser'
+AUTH_PROFILE_MODULE= 'extend_user.Profile'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (

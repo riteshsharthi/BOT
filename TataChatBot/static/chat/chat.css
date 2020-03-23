@@ -1,16 +1,32 @@
+
 body {
   display: flex;
 
   padding-left: 188px;
   min-height: 100vh;
-  background: #27ae60;
+  background: #f0f0f1;
   font-family: "proxima-nova", "Source Sans Pro", sans-serif;
   font-size: 1em;
   letter-spacing: 0.1px;
-  color: #32465a;
+  color: #100e0e;
   text-rendering: optimizeLegibility;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   -webkit-font-smoothing: antialiased;
+
+}
+.modal-dialog {
+  height: 100% !important;
+  padding-top:10%;
+}
+
+.modal-content {
+  height: 100% !important;
+  overflow:visible;
+}
+
+.modal-body {
+  height: 100%;
+  overflow: auto;
 }
 table {
     border-collapse: collapse;

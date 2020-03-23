@@ -6,7 +6,8 @@
 
 <script src="{% static 'polls/jquery.min.js' %}"></script>
 <link rel='stylesheet prefetch' href="{% static 'polls/reset.min.css' %}">
-<!--<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>-->
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">-->
 
 <link rel="stylesheet" href="{% static 'polls/font-awesome.min.css' %}">
 <!--<link href="{% static 'voice/shoelace.css' %}" rel="stylesheet" type="text/css"/>-->
@@ -24,12 +25,12 @@
 </script>
 <script>
 function myfun(planId){
-//("Hiiii");
-//alert(planId)
-identifierflag = true;
-document.getElementById("data").value =planId;
-//alert(document.getElementById("data").value);
-identifierValue = planId;
+	//("Hiiii");
+	//alert(planId)
+	identifierflag = true;
+	document.getElementById("data").value =planId;
+	//alert(document.getElementById("data").value);
+	identifierValue = planId;
 }
 function submitPlan(){
 
@@ -125,94 +126,7 @@ function displayButton(mesg) {
 };
 </script>
   <style>
-.carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
 
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
-
-  .carousel-control-prev {
-
-    width: 25%;
-
-}
-
-#frame .content .messages ul li.sent p:empty { display:none; }
-
-.carousel-control-next {
-     width: 30%;
-}
-
-  /* Make the image fully responsive */
-  .carousel-inner .img {
-      width: 100%;
-      height: 100%;
-  }
-  [type=radio] {
-  display: none;
-}
-
-#slider {
-  height: 20vw;
-  position: relative;
-  perspective: 1000px;
-  transform-style: preserve-3d;
-}
-
-#slider label {
-  margin: auto;
-  width: 60%;
-  height: 100%;
-  border-radius: 4px;
-  position: absolute;
-  left: 0; right: 0;
-  cursor: pointer;
-  transition: transform 0.4s ease;
-}
-
-#s1:checked ~ #slide4, #s2:checked ~ #slide5,
-#s3:checked ~ #slide1, #s4:checked ~ #slide2,
-#s5:checked ~ #slide3 {
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
-  transform: translate3d(-30%,0,-200px);
-}
-
-#s1:checked ~ #slide5, #s2:checked ~ #slide1,
-#s3:checked ~ #slide2, #s4:checked ~ #slide3,
-#s5:checked ~ #slide4 {
-  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
-  transform: translate3d(-15%,0,-100px);
-}
-
-#s1:checked ~ #slide1, #s2:checked ~ #slide2,
-#s3:checked ~ #slide3, #s4:checked ~ #slide4,
-#s5:checked ~ #slide5 {
-  box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
-  transform: translate3d(0,0,0);
-}
-
-#s1:checked ~ #slide2, #s2:checked ~ #slide3,
-#s3:checked ~ #slide4, #s4:checked ~ #slide5,
-#s5:checked ~ #slide1 {
-  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
-  transform: translate3d(15%,0,-100px);
-}
-
-#s1:checked ~ #slide3, #s2:checked ~ #slide4,
-#s3:checked ~ #slide5, #s4:checked ~ #slide1,
-#s5:checked ~ #slide2 {
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
-  transform: translate3d(30%,0,-200px);
-}
-
-#slide1 { background: #00BCD4 }
-#slide2 { background: #4CAF50 }
-#slide3 { background: #CDDC39 }
-#slide4 { background: #FFC107 }
-#slide5 { background: #FF5722 }
 
 .div2 {
     width: 443px;
@@ -580,11 +494,55 @@ function faqBotMessage(mesg){
 		if(message[i]["type"]=="link"){
 		seq=message[i]["faqid"];
 		rank = message[i]["question_id"];
+		//alert(links);
+		//linksarr = links.spilt(",");
+		console.log("links",message[i]["link"]);
 		if(message[i]["link"]!=''){
-			//alert(message[i]["link"]);
-			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ '<br> <a type="button" href="' + message[i]["link"] + '" target="_blank" class="btn btn-outline-primary">Reference Document</a></p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary"> You can Click Me </button> <button type="button" class="btn btn-outline-primary"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
+			links = eval(message[i]["link"]);
+			//alert(links.length);
+			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ '<br>';
+			for(k=0; k < links.length; k++){
+			ll = links[k].length - 1
+			dd1 = links[k].split(".")
+			ll = dd1.length - 1
+			dd = dd1[ll]
+
+
+			if(dd == "txt"){
+				 prag+= '<a type="button" href="' + links[k] + '" target="_blank"  class="btn btn-light btn-sm"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>  ';
+
+			}
+			if(dd == "pdf"){
+				 prag+= '<a type="button" href="' + links[k] + '" target="_blank"  class="btn btn-light btn-sm"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>  ';
+
+			}
+			if(dd == "xls" || dd == "xlxs" ){
+				 prag+= '<a type="button" href="' + links[k] + '" target="_blank"  class="btn btn-light btn-sm"><i class="fa fa-file-excel-o" aria-hidden="true"></i></a>   ';
+
+			}
+			if(dd == "jpg" || dd == "jpeg" || dd == "png"){
+				 prag+= '<a type="button" href="' + links[k] + '" target="_blank"  class="btn btn-light btn-sm"><i class="fa fa-picture-o" aria-hidden="true"></i></a>  ';
+
+			}
+			if(dd == "doc" || dd == "docx" ){
+			 	prag+= '<a type="button" href="' + links[k] + '" target="_blank"  class="btn btn-light btn-sm"><i  class="fa fa-wikipedia-w" aria-hidden="true"></i></a>  ';
+
+			}
+			if(dd == "ppt" || dd == "pptx"){
+				 prag+= '<a type="button" href="' + links[k] + '" target="_blank"  class="btn btn-light btn-sm"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>  ';
+
+				//document.getElementById('IcoB').className = "fa fa-file-powerpoint-o";
+			}
+			if(dd == "MP4" || dd == "AVI" || dd == "FLV" || dd == "MKV" || dd == "MOV" || dd =="WMV"){
+				 prag+= '<a type="button" href="' + links[k] + '" target="_blank"  class="btn btn-light btn-sm"><i  class="fa fa-youtube-play" aria-hidden="true"></i></a>  ';
+
+			}
+			}
+
+			 prag+='</p><br><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary btn-sm"> You can Click Me </button> <button type="button" class="btn btn-outline-primary btn-sm"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary btn-sm"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
+
 		}else{
-			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ ' </p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary"> You can Click Me </button> <button type="button" class="btn btn-outline-primary"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
+			prag+='<li  class="list-group-item list-group-item-success "><p class="faqpara" id="p'+seq+'">' +message[i]["value"]+ ' </p><button id="b'+seq+'" type="button" onclick="myfunc('+seq+','+rank+')" class="btn btn-outline-primary btn-sm"> You can Click Me </button> <button type="button" class="btn btn-outline-primary btn-sm"> Score : ' +message[i]["retio"]+ ' %</button>  <button type="button" class="btn btn-outline-primary btn-sm"> Rank : ' +message[i]["rank"]+ '</button></li>' ;
 		}
 	}	}
 
@@ -702,7 +660,7 @@ $(window).on('keydown', function(e) {
 <!--<script src="{% static 'voice/v3.js' %}"></script>-->
 {% else %}
 
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
 
         <!-- Modal Header -->

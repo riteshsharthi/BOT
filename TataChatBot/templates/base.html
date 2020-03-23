@@ -113,7 +113,7 @@
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-user fa-fw"></i> secondtruth <b class="caret"></b>
+                            <i class="fa fa-user fa-fw"></i>{{ user.username }} <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu dropdown-user">
                             <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
@@ -121,7 +121,7 @@
                             <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                             </li>
                             <li class="divider"></li>
-                            <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                            <li><a href="/accounts/logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                             </li>
                         </ul>
                     </li>
@@ -132,18 +132,18 @@
                     <div class="sidebar-nav navbar-collapse">
                         <ul class="nav" id="side-menu">
                             <li class="sidebar-search">
-                                <div class="input-group custom-search-form">
-                                    <input type="text" class="form-control" placeholder="Search...">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-primary" type="button">
-                                            <i class="fa fa-search"></i>
-                                        </button>
-                                </span>
-                                </div>
+<!--                                <div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100"></a></div>-->
+<!--                                <i  class="fa fa-user" style=" margin: auto; padding-left: 75px; font-size:100px"></i>-->
+                                <div class="text-center">
+                                    <img src="{{ user.get_profile.pic }}" class="avatar img-circle img-thumbnail" alt="avatar">
+<!--                                    <h6 >{{ user.username | title }}</h6>-->
+                                    <h2>{{ user.pic }}</h2>
+                                  </div>
+
                                 <!-- /input-group -->
                             </li>
                             <li>
-                                <a href="#" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                                <a href="{% url 'index' %}" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                             </li>
 <!--                            <li>-->
 <!--                                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>-->
@@ -175,9 +175,12 @@
                             <li>
                                 <a href="{% url 'faq_data' %}"><i class="fa fa-table fa-fw"></i> FAQ </a>
                             </li>
-<!--                            <li>-->
-<!--                                <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>-->
-<!--                            </li>-->
+                            <li>
+                                <a href="{% url 'chathistory' %}"><i class="fa fa-edit fa-fw"></i>Chat History</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-user fa-fw"></i>Users</a>
+                            </li>
 <!--                            <li>-->
 <!--                                <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>-->
 <!--                                <ul class="nav nav-second-level">-->
